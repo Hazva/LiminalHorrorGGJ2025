@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D8B6D7D9-22B9-44D9-A133-0475384A0CD7}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{D8B6D7D9-22B9-44D9-A133-0475384A0CD7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Fluorescent_Light" ID="{73E51E78-A916-45C1-ADD9-DE510C4F6D29}" ShortID="452319665">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fluorescent_Light" ID="{01319E16-6258-4A1B-A546-13885EA127B9}">
+							<Language>SFX</Language>
+							<AudioFile>Fluorescent_Light.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="713720455"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fluorescent_Light" ID="{01319E16-6258-4A1B-A546-13885EA127B9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

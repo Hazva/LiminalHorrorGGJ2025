@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1180002552	Fluorescent_Light			\Default Work Unit\Fluorescent_Light	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	713720455	Fluorescent_Light	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Fluorescent_Light_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fluorescent_Light		2435888
+

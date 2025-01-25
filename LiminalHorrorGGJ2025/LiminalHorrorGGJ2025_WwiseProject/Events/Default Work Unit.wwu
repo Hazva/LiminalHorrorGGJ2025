@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3CA61BC9-E4C4-4072-B1D7-338336C44413}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3CA61BC9-E4C4-4072-B1D7-338336C44413}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Fluorescent_Light" ID="{12C642DB-68E6-47DF-B684-45A4777AAA92}">
+					<ChildrenList>
+						<Action Name="" ID="{A30062D9-DD7E-4033-AE97-51830F211749}" ShortID="335746672">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fluorescent_Light" ID="{73E51E78-A916-45C1-ADD9-DE510C4F6D29}" WorkUnitID="{D8B6D7D9-22B9-44D9-A133-0475384A0CD7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
