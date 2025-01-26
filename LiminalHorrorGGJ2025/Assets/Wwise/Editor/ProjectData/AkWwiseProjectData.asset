@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 91f10b6dcc987546ab33fafb58766f78
     GuidInternal: 
-    m_lastTime: -8584636827983703040
+    m_lastTime: -8584636814598310408
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -179,7 +179,7 @@ MonoBehaviour:
     ParentPath: Events\Daniel
     guid: 16bd7a06619d98478594f16b572c065c
     GuidInternal: 
-    m_lastTime: -8584636885841293532
+    m_lastTime: -8584636814622653467
     List:
     - name: Exit_Water
       guid: c7148995323f1e4b85cbaaa0fb0335c7
@@ -447,7 +447,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c91ba63cc4e47240b1d7338336c44413
     GuidInternal: 
-    m_lastTime: -8584636833263269627
+    m_lastTime: -8584636814622556890
     List:
     - name: Dispel_Smoke
       guid: 7618f02102343c4ea0e4e6080537b7f2
@@ -497,7 +497,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3f56d51db4182f4f892d9efe6dc546ab
       Path: Events\Default Work Unit\Play_Credits
-      maxAttenuation: 30
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_Train_Station_Song
@@ -644,7 +644,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 88d13e6d1173384f9c51c7ff1dfb7fc1
     GuidInternal: 
-    m_lastTime: -8584637149451550095
+    m_lastTime: -8584636900293068571
     List:
     - name: Compass_Velocity
       guid: c865af2ddbbcc84f804c27c80edf776d
@@ -686,7 +686,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dd5c1f9a41949e4282699104354a8dea
     GuidInternal: 
-    m_lastTime: -8584636833385368084
+    m_lastTime: -8584636814594018470
     List:
     - name: Movement
       guid: 838ca93af498d7408685519859b23577

@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LightAndWaterController : MonoBehaviour
 {
     [SerializeField] private Light[] lightsToToggle; // array of lights to toggle
-    [SerializeField] private GameObject[] waterObjects; 
+    [SerializeField] private GameObject[] waterObjects;
+    public List<float> waterObjectOriginalScale = new List<float>() {};
     [SerializeField] private float toggleInterval = 0.5f; // time interval for toggling lights
     [SerializeField] private float waterScaleSpeed = 0.5f; // speed at which the water scales
     [SerializeField] private float maxWaterScale = 10f; // max vertical scale of the water
@@ -13,16 +15,32 @@ public class LightAndWaterController : MonoBehaviour
     private bool coroutineRunning = false;
     private float timer = 0f;
     private float randomInterval = 2.0f;
+    [SerializeField] private Transform teleportDestination;
+    [SerializeField] private CharacterController characterController;
+    [SerializeField] private GameObject player;
 
     [SerializeField] private float swimmingTime = 8f;
     [SerializeField] private float submersionTime = 16f;
+    [SerializeField] private float drowningTime = 35f;
+    [SerializeField] private Image targetImage;
+    [SerializeField] private float fadeDuration = 3f;
     public GameObject submergedOverlay;
+    public GameObject[] objectsToReactivate;
+    public ToggleObjectsOnEnter bottle;
 
     public static LightAndWaterController Instance;
 
     private void Awake()
     {
         Instance = this;
+        if (waterObjects != null)
+        {
+            foreach (GameObject gm in waterObjects)
+            {
+                waterObjectOriginalScale.Add(gm.transform.localScale.y);
+            }
+
+        }
     }
 
     private void Update()
@@ -67,6 +85,7 @@ public class LightAndWaterController : MonoBehaviour
             //StartCoroutine(ToggleLights());
             StartCoroutine(StartSwimming());
             StartCoroutine(StartSubmersion());
+            StartCoroutine(StartDrowning());
         }
     }
 
@@ -91,8 +110,21 @@ public class LightAndWaterController : MonoBehaviour
             AudioManager.Instance.PostEvent("Play_Submerge");
             AkSoundEngine.SetState("Submerged", "Submerged");
             submergedOverlay.SetActive(true);
+            
         }
         
+    }
+
+    IEnumerator StartDrowning()
+    {
+        Debug.Log("DROWNING STARTED");
+        yield return new WaitForSeconds(drowningTime);
+        Debug.Log("Drowning happening");
+        StartCoroutine(FadeAlpha(255f));
+        yield return new WaitForSeconds(3f);
+        StartCoroutine(FadeAlpha(0f));
+        yield return new WaitForSeconds(3f);
+        Reset();
     }
 
     private System.Collections.IEnumerator ToggleLights()
@@ -148,7 +180,6 @@ public class LightAndWaterController : MonoBehaviour
     {
         isActive = false;
 
-        // Ensure all lights are turned off when deactivated
         foreach (Light light in lightsToToggle)
         {
             if (light != null)
@@ -161,5 +192,58 @@ public class LightAndWaterController : MonoBehaviour
     public void OnEnable()
     {
         Activate();
+    }
+
+    private IEnumerator FadeAlpha(float targetAlpha)
+    {
+        Color color = targetImage.color;
+        float startAlpha = color.a;
+        float elapsedTime = 0.0f;
+
+        while (elapsedTime < fadeDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            float newAlpha = Mathf.Lerp(startAlpha, targetAlpha, elapsedTime / fadeDuration);
+            color.a = newAlpha;
+            targetImage.color = color;
+            yield return null;
+
+        }
+        color.a = targetAlpha;
+        targetImage.color = color;
+    }
+
+    public void Reset()
+    {
+        int i = 0;
+        foreach (GameObject gm in waterObjects)
+        {
+            Vector3 originalScale = gm.transform.localScale;
+            originalScale.y = waterObjectOriginalScale[i];
+            gm.transform.localScale = originalScale;
+            i++;
+        }
+        foreach (Light light in lightsToToggle)
+        {
+            if (light != null)
+            {
+                light.enabled = true;
+            }
+        }
+        foreach (GameObject gm in objectsToReactivate)
+        {
+            gm.SetActive(true);
+        }
+        bottle.hasTriggered = false;
+        submergedOverlay.SetActive(false);
+        AudioManager.Instance.stressLevel = 0;
+        AkSoundEngine.SetState("Room", "Subway");
+        characterController.enabled = false;
+        player.transform.position = teleportDestination.position;
+        characterController.enabled = true;
+        //reset audio state here too
+        Debug.Log("Reset");
+        isActive = false;
+        this.gameObject.SetActive(false);
     }
 }
