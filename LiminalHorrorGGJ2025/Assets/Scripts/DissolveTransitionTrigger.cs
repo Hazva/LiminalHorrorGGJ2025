@@ -13,33 +13,33 @@ public class DissolveTransitionTrigger : MonoBehaviour
 
     private void Start()
     {
-        transitionController.samplingIntensity = 0.0f;
-        transitionController.transitionRate = 0.0f;
+        Reset();
 
         characterController = GetComponent<CharacterController>();
     }
 
-    void Update()
+    public void TriggerTransition()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        renderTexCamera.SetActive(false);
+
+        // Manually handle CharacterController physics and teleport
+        characterController.enabled = false;
+        transform.position = teleportObject.transform.position;
+        characterController.enabled = true;
+
+        if (transitionCoroutine != null)
         {
-            renderTexCamera.SetActive(false);
-
-            // Manually handle CharacterController physics and teleport
-            characterController.enabled = false;
-            transform.position = teleportObject.transform.position;
-            characterController.enabled = true;
-
-            Debug.Log("Hit");
-
-            if (transitionCoroutine != null)
-            {
-                StopCoroutine(transitionCoroutine);
-            }
-
-            // Start the overlapping transition coroutine
-            transitionCoroutine = StartCoroutine(LerpTransition(0.5f, 1.0f, 0.3f));
+            StopCoroutine(transitionCoroutine);
         }
+
+        // Start the overlapping transition coroutine
+        transitionCoroutine = StartCoroutine(LerpTransition(0.5f, 1.0f, 0.3f));
+    }
+
+    private void Reset()
+    {
+        transitionController.samplingIntensity = 0.0f;
+        transitionController.transitionRate = 0.0f;
     }
 
     private IEnumerator LerpTransition(float durationA, float durationB, float overlap)
@@ -81,6 +81,7 @@ public class DissolveTransitionTrigger : MonoBehaviour
         transitionController.transitionRate = targetValue;
 
         renderTexCamera.SetActive(true);
+        Reset();
         transitionCoroutine = null;
     }
 }
