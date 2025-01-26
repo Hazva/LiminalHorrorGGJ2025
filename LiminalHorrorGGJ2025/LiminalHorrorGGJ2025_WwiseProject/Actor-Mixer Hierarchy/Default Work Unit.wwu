@@ -3,28 +3,1784 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{D8B6D7D9-22B9-44D9-A133-0475384A0CD7}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Fluorescent_Light" ID="{73E51E78-A916-45C1-ADD9-DE510C4F6D29}" ShortID="452319665">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="Breath_labor" ID="{5132A7F7-221D-4909-A722-56D3FB07B49A}" ShortID="25665060">
 					<ChildrenList>
-						<AudioFileSource Name="Fluorescent_Light" ID="{01319E16-6258-4A1B-A546-13885EA127B9}">
-							<Language>SFX</Language>
-							<AudioFile>Fluorescent_Light.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="713720455"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Folder Name="1" ID="{C3265C98-48C9-4566-A51B-4E19DA236CA5}" ShortID="540549688">
+							<ChildrenList>
+								<Sound Name="sfx_breath_labor_01_01" ID="{0D4DCD23-855C-408F-B3B1-72204966796E}" ShortID="513692076">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_01_01" ID="{C7EEE9D4-4331-43E9-8764-D908EA1318C5}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\1\sfx_breath_labor_01_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="256852523"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_01_01" ID="{C7EEE9D4-4331-43E9-8764-D908EA1318C5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_01_02" ID="{7C8AE376-A9FF-4745-B830-7548DDD48E18}" ShortID="689267361">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_01_02" ID="{62D7E6FA-4D29-4A95-8605-CB7D66633A50}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\1\sfx_breath_labor_01_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="7635698"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_01_02" ID="{62D7E6FA-4D29-4A95-8605-CB7D66633A50}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_01_03" ID="{D1A730EF-AA96-41C0-97B3-07FC60D464DB}" ShortID="784853590">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_01_03" ID="{14F910CE-8F04-4583-8F35-76F425D664AE}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\1\sfx_breath_labor_01_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="682644663"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_01_03" ID="{14F910CE-8F04-4583-8F35-76F425D664AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_01_04" ID="{EF6F0B6A-27C9-4EF8-81FA-B16794BC797E}" ShortID="356156658">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_01_04" ID="{1B2CB451-BCCE-4869-829C-D4ED425C9859}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\1\sfx_breath_labor_01_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="755295757"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_01_04" ID="{1B2CB451-BCCE-4869-829C-D4ED425C9859}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_01_05" ID="{6AE40AA7-67AC-459C-BDF0-F888EC41FF93}" ShortID="718683749">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_01_05" ID="{E8A145BF-C5F7-4BEA-B36B-9AD25D07FB74}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\1\sfx_breath_labor_01_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="149976759"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_01_05" ID="{E8A145BF-C5F7-4BEA-B36B-9AD25D07FB74}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_01_06" ID="{3B3711FC-C1DE-4F4D-B8D3-B30B2B8F5F94}" ShortID="633428783">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_01_06" ID="{22C0D8FF-4589-4941-B907-BB222C22C35E}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\1\sfx_breath_labor_01_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="979214779"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_01_06" ID="{22C0D8FF-4589-4941-B907-BB222C22C35E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_01_07" ID="{D3C155A8-B5C1-4BE7-A864-D67631400441}" ShortID="378615432">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_01_07" ID="{B02E1889-7AC8-4F94-A439-CB5E10BB5B73}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\1\sfx_breath_labor_01_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="389829176"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_01_07" ID="{B02E1889-7AC8-4F94-A439-CB5E10BB5B73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_01_08" ID="{19B901EC-1AE8-49D1-AD9B-A29A49898F25}" ShortID="490677560">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_01_08" ID="{812EDDF4-1F4A-4909-97B4-1070CE1A0219}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\1\sfx_breath_labor_01_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="804430369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_01_08" ID="{812EDDF4-1F4A-4909-97B4-1070CE1A0219}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_01_09" ID="{A2A7EE08-E832-45A0-8458-D610154D1B00}" ShortID="966173113">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_01_09" ID="{D8257075-9637-4B8B-B742-8E89BC231448}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\1\sfx_breath_labor_01_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="321218457"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_01_09" ID="{D8257075-9637-4B8B-B742-8E89BC231448}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="2" ID="{81A150BA-AB31-4711-A553-B80B8A3FB619}" ShortID="12223383">
+							<ChildrenList>
+								<Sound Name="sfx_breath_labor_02_01" ID="{34F7B9C6-37EC-46D7-9B2B-AADD0B8385EF}" ShortID="723928400">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_01" ID="{D27EF666-5AF7-4310-BAF0-B8F6F06F4FE2}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="151730871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_01" ID="{D27EF666-5AF7-4310-BAF0-B8F6F06F4FE2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_02" ID="{5FB5B24C-3F13-4241-BCE0-F2CED12E8E18}" ShortID="76733768">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_02" ID="{0E81583E-DA1A-44EA-909C-E79E6A723137}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="289822539"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_02" ID="{0E81583E-DA1A-44EA-909C-E79E6A723137}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_03" ID="{FD9A109B-E846-489C-93E3-80AC44508869}" ShortID="890523791">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_03" ID="{AB0CC8A5-A0E6-47F8-B5C9-995239CFF6FD}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="993365734"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_03" ID="{AB0CC8A5-A0E6-47F8-B5C9-995239CFF6FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_04" ID="{1701AF5B-AB0C-4C29-9AA1-546DE175D4E6}" ShortID="348338047">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_04" ID="{24DCBA77-AD68-4C02-91B2-AEC70836E6BA}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="795042787"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_04" ID="{24DCBA77-AD68-4C02-91B2-AEC70836E6BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_05" ID="{8FDE6EAC-1B6C-41D3-BB82-6E7AF11E241B}" ShortID="708930661">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_05" ID="{097533C4-6146-4329-A7D1-D333985C0765}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="943818929"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_05" ID="{097533C4-6146-4329-A7D1-D333985C0765}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_06" ID="{FB07ED1B-77C8-4C50-AD08-9C863BDCEFD9}" ShortID="330943977">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_06" ID="{1F38A28D-3296-40AD-810C-7CCF843AFA14}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="126000394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_06" ID="{1F38A28D-3296-40AD-810C-7CCF843AFA14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_07" ID="{E2A1204D-DE63-41B0-8292-60C5E39AEFB2}" ShortID="135162671">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_07" ID="{5938401F-E351-44F1-A7E9-802F0B797A99}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="790524786"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_07" ID="{5938401F-E351-44F1-A7E9-802F0B797A99}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_08" ID="{A30C109B-9738-4AB1-A71C-604FE27A8454}" ShortID="708015936">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_08" ID="{EBA8D9D2-3CF2-4A23-92E8-8D3927C73FCD}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696829134"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_08" ID="{EBA8D9D2-3CF2-4A23-92E8-8D3927C73FCD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_09" ID="{757751B7-8CB8-40EA-B2BC-AF72132DA475}" ShortID="144060644">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_09" ID="{803B9BDE-5E66-4599-B03C-6059F2AC547D}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="608910622"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_09" ID="{803B9BDE-5E66-4599-B03C-6059F2AC547D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_10" ID="{E89B5800-424C-470B-9CFD-C452FC6C3411}" ShortID="913941962">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_10" ID="{3A2E70F5-F2F7-475F-B3B1-B59655F4D36F}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="488022442"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_10" ID="{3A2E70F5-F2F7-475F-B3B1-B59655F4D36F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_11" ID="{7B18011E-6D8E-41A5-B49D-6BB0B72AB5AB}" ShortID="786504778">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_11" ID="{380A1B52-ACCA-402C-AF1F-2B47F5C91021}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="715103427"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_11" ID="{380A1B52-ACCA-402C-AF1F-2B47F5C91021}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_12" ID="{572A36FB-B932-4CF0-BE33-726435E26E4F}" ShortID="726685282">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_12" ID="{B801B590-50A2-4867-BF54-E7AE6D6FBE13}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="305685010"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_12" ID="{B801B590-50A2-4867-BF54-E7AE6D6FBE13}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_13" ID="{1718D5E9-113D-4663-87FE-ED5FEB654F82}" ShortID="384545673">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_13" ID="{A9A5F39D-EE70-43C5-9286-6E24B86F6FD9}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="348368844"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_13" ID="{A9A5F39D-EE70-43C5-9286-6E24B86F6FD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_02_14" ID="{E6FC87FB-F3AE-4678-8D4E-E62FE5B79241}" ShortID="318551740">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_02_14" ID="{7DC5EE9A-FA9D-4D12-915E-4F8723AD38AD}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\2\sfx_breath_labor_02_14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="764081037"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_02_14" ID="{7DC5EE9A-FA9D-4D12-915E-4F8723AD38AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="3" ID="{CA812D4A-A749-4080-B5E1-4F1A55400174}" ShortID="851742690">
+							<ChildrenList>
+								<Sound Name="sfx_breath_labor_03_01" ID="{E4435F8C-336F-4CB6-ACDB-75371A48F224}" ShortID="437793463">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_01" ID="{FD0B3015-96F9-4C44-884A-08B23AA3CB9B}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="719777408"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_01" ID="{FD0B3015-96F9-4C44-884A-08B23AA3CB9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_02" ID="{947E5BA1-FD26-4BC7-841F-58262C965295}" ShortID="797946495">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_02" ID="{265DF66B-CDF0-4546-AD9E-25E265EB9813}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="941544319"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_02" ID="{265DF66B-CDF0-4546-AD9E-25E265EB9813}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_03" ID="{A2A2B00E-9638-4686-9AD4-CB50E4B9B737}" ShortID="889674740">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_03" ID="{EBECE014-1193-4399-BBE4-09A246C4A865}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="76747830"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_03" ID="{EBECE014-1193-4399-BBE4-09A246C4A865}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_04" ID="{CBB09662-821B-47C7-8BDB-6220243466CA}" ShortID="526963581">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_04" ID="{2A6DF6EC-BBD3-4DAC-ADEC-71973A73E2A2}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="475607389"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_04" ID="{2A6DF6EC-BBD3-4DAC-ADEC-71973A73E2A2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_05" ID="{674FF4E8-EAEE-4192-BABB-58CFD146F58D}" ShortID="148978111">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_05" ID="{DB95CA1A-2BD5-45C7-8A09-6BB7E8B104A8}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162346515"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_05" ID="{DB95CA1A-2BD5-45C7-8A09-6BB7E8B104A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_06" ID="{32D6EAF4-7836-4023-849B-BDDB086DD7E2}" ShortID="378034501">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_06" ID="{9AA037FA-94D4-4129-9EA9-B2CC13E73A06}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="427922673"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_06" ID="{9AA037FA-94D4-4129-9EA9-B2CC13E73A06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_07" ID="{897E71E9-2646-4099-9F47-E9E766BC1FB1}" ShortID="434716949">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_07" ID="{65DECC3A-BF21-4B1E-B6EE-47575A79085D}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="626886505"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_07" ID="{65DECC3A-BF21-4B1E-B6EE-47575A79085D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_08" ID="{70AEF7AC-C7A5-47AC-9009-FAB699800DB7}" ShortID="994052950">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_08" ID="{F4C1BA97-A090-40CF-BD56-9529C39D3F63}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="71577902"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_08" ID="{F4C1BA97-A090-40CF-BD56-9529C39D3F63}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_09" ID="{C4A9054D-5C46-4184-95A9-C4DDA423F894}" ShortID="379807832">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_09" ID="{3F22E796-795E-41CC-AF16-1BD1E79973D6}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="910709793"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_09" ID="{3F22E796-795E-41CC-AF16-1BD1E79973D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_10" ID="{545A7521-968B-471F-9B63-6935C695E577}" ShortID="146395332">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_10" ID="{58B94622-A58D-48AC-9A48-D51A7531792C}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1072469413"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_10" ID="{58B94622-A58D-48AC-9A48-D51A7531792C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_11" ID="{69182ABF-7EA2-4402-ADD8-29172E0EC6C4}" ShortID="68198867">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_11" ID="{73B20EBD-F18D-4702-AA70-EEB773E3F0FA}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="868210457"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_11" ID="{73B20EBD-F18D-4702-AA70-EEB773E3F0FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_12" ID="{71AB4736-416F-4AED-8C89-0FD950B1F6A3}" ShortID="869695121">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_12" ID="{380C7DA0-F821-499C-AEC4-69CDD3020A44}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="909324651"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_12" ID="{380C7DA0-F821-499C-AEC4-69CDD3020A44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_13" ID="{FC9F8B70-9852-454D-9E5E-1DDB37448946}" ShortID="565683244">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_13" ID="{B416CA22-F9D1-46B4-8E6D-081B3BD536FE}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="616254054"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_13" ID="{B416CA22-F9D1-46B4-8E6D-081B3BD536FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_14" ID="{050D1B41-6B85-40CD-AB41-6869CA5FA6A9}" ShortID="240860720">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_14" ID="{2E6B1CA7-BFE2-4ED2-9680-9B2B54CD6607}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="813044910"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_14" ID="{2E6B1CA7-BFE2-4ED2-9680-9B2B54CD6607}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_15" ID="{F8232DA1-5470-4A64-A254-886D8EAA3241}" ShortID="6286712">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_15" ID="{59F41DF4-CEF3-4B99-A509-9115B6102882}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_15.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="821631660"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_15" ID="{59F41DF4-CEF3-4B99-A509-9115B6102882}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_16" ID="{567CFE26-5BD4-45F9-B1F8-B9043B6A42B4}" ShortID="725273305">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_16" ID="{8C7C626B-F54D-43B8-9B4A-7E9457D3DCDE}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="167635915"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_16" ID="{8C7C626B-F54D-43B8-9B4A-7E9457D3DCDE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_17" ID="{16E71698-A630-40AF-BE9D-0FE630019764}" ShortID="391326830">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_17" ID="{90E75966-5E2F-45E4-BE80-4B2DFCC507E5}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_17.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="289687414"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_17" ID="{90E75966-5E2F-45E4-BE80-4B2DFCC507E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_labor_03_18" ID="{9EC78636-B225-4B2B-BDE2-3A280DBFF700}" ShortID="755947987">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_labor_03_18" ID="{01DF97FA-2B73-4BFF-9706-92FD1AAA254E}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_labor\3\sfx_breath_labor_03_18.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="455195383"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_labor_03_18" ID="{01DF97FA-2B73-4BFF-9706-92FD1AAA254E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Fluorescent_Light" ID="{01319E16-6258-4A1B-A546-13885EA127B9}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
+				<Folder Name="Breath_normal" ID="{7513DD17-2638-41FD-BFD2-5F79265A26F3}" ShortID="515043356">
+					<ChildrenList>
+						<Folder Name="1" ID="{1A69232F-27D8-4012-8AFC-B2A77D262C08}" ShortID="1042449570">
+							<ChildrenList>
+								<Sound Name="sfx_breath_normal_01_01" ID="{E877A4BF-C81C-43C7-BDC5-7A2560F23E23}" ShortID="326256694">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_01_01" ID="{3ACE74E7-53F6-454E-BB11-0BD55ECF9485}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\1\sfx_breath_normal_01_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1034179108"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_01_01" ID="{3ACE74E7-53F6-454E-BB11-0BD55ECF9485}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_01_02" ID="{01D89C5E-9444-4CBE-9DD7-06D36AB64459}" ShortID="268381809">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_01_02" ID="{79017C92-4103-4EDC-A1AF-1A4E3C451BD3}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\1\sfx_breath_normal_01_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="434869044"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_01_02" ID="{79017C92-4103-4EDC-A1AF-1A4E3C451BD3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_01_03" ID="{C9628148-046E-4794-8854-974B285E8ADC}" ShortID="820871361">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_01_03" ID="{59D7DE98-C355-47A8-815E-013F3CF5E71C}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\1\sfx_breath_normal_01_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="466291669"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_01_03" ID="{59D7DE98-C355-47A8-815E-013F3CF5E71C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_01_04" ID="{DFCCBABE-030A-4A57-8491-E8733972BEF1}" ShortID="41608242">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_01_04" ID="{78858721-0612-4FFF-A073-4708358E6384}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\1\sfx_breath_normal_01_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267693221"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_01_04" ID="{78858721-0612-4FFF-A073-4708358E6384}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_01_05" ID="{57A302E9-C977-4361-8054-3B56DD4195FA}" ShortID="859569138">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_01_05" ID="{B810105B-150B-4294-A5CD-7ABAC2B6BC6E}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\1\sfx_breath_normal_01_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="439557029"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_01_05" ID="{B810105B-150B-4294-A5CD-7ABAC2B6BC6E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_01_06" ID="{64F07C18-1676-4935-869C-5FF8CBF6C448}" ShortID="25588298">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_01_06" ID="{9520E80A-F1D8-4515-B397-03C4B490B953}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\1\sfx_breath_normal_01_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="475026301"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_01_06" ID="{9520E80A-F1D8-4515-B397-03C4B490B953}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_01_07" ID="{57773893-1952-4ACA-938D-AB945928BD71}" ShortID="439808205">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_01_07" ID="{CC83170B-1711-4576-A6E9-26862FBB7037}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\1\sfx_breath_normal_01_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1012607907"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_01_07" ID="{CC83170B-1711-4576-A6E9-26862FBB7037}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="2" ID="{22F93105-D36C-4EA4-8D93-D99ECA102390}" ShortID="832560757">
+							<ChildrenList>
+								<Sound Name="sfx_breath_normal_02_01" ID="{64AD3F0F-B2B1-49B4-9832-1736E08163EE}" ShortID="656275930">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_02_01" ID="{A7628BA5-7AA4-4B92-9992-8AD34B4FB634}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\2\sfx_breath_normal_02_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="143265365"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_02_01" ID="{A7628BA5-7AA4-4B92-9992-8AD34B4FB634}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_02_02" ID="{7BFCACE7-24E2-4CA0-BFF0-57E3C4B521F2}" ShortID="550467043">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_02_02" ID="{956E072A-EA3A-4020-96D8-7FA42ED604C7}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\2\sfx_breath_normal_02_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="910167261"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_02_02" ID="{956E072A-EA3A-4020-96D8-7FA42ED604C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_02_03" ID="{D400F6E0-D0D8-472A-837B-72CF911D1679}" ShortID="666182329">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_02_03" ID="{F60EC7CE-988B-415B-95A0-479A9DF69FDA}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\2\sfx_breath_normal_02_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="144086672"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_02_03" ID="{F60EC7CE-988B-415B-95A0-479A9DF69FDA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_02_04" ID="{3EBD1513-778B-4869-9E66-EA9E3D964275}" ShortID="979956087">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_02_04" ID="{873A7162-C1EE-4749-AF76-07CCBE768E90}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\2\sfx_breath_normal_02_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1055225231"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_02_04" ID="{873A7162-C1EE-4749-AF76-07CCBE768E90}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_02_05" ID="{0FC8D37B-5104-418F-9D6E-9FB95BD20340}" ShortID="250385700">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_02_05" ID="{06F96D70-2DF8-4C90-8D14-C21D6B261BF4}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\2\sfx_breath_normal_02_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="7390397"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_02_05" ID="{06F96D70-2DF8-4C90-8D14-C21D6B261BF4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_02_06" ID="{C25893B2-FDC8-4987-9F30-25A9DEC92CEF}" ShortID="71683145">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_02_06" ID="{C53199F5-3818-4400-8DBE-436FFF71352E}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\2\sfx_breath_normal_02_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="450001608"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_02_06" ID="{C53199F5-3818-4400-8DBE-436FFF71352E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_02_07" ID="{6755F2E9-71DC-41CB-8DA7-681749AF7BBE}" ShortID="769347791">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_02_07" ID="{FBA13534-B931-4185-BE6F-22EE943360B0}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\2\sfx_breath_normal_02_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="691935857"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_02_07" ID="{FBA13534-B931-4185-BE6F-22EE943360B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="3" ID="{9D5064F9-4B27-4D54-8E2F-EC6B8FCACA4E}" ShortID="258166646">
+							<ChildrenList>
+								<Sound Name="sfx_breath_normal_03_01" ID="{ED6196E7-973A-47EA-9B7A-27537671D6DB}" ShortID="554220590">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_03_01" ID="{4843B243-665A-4DA5-8101-17A763301752}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\3\sfx_breath_normal_03_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="585688360"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_03_01" ID="{4843B243-665A-4DA5-8101-17A763301752}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_03_02" ID="{321ACCCD-C5F2-4E16-BE44-90C2D2A7D068}" ShortID="329205387">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_03_02" ID="{4EBB7CB5-F926-4FC3-AC16-FDF8396A9D70}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\3\sfx_breath_normal_03_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="40498926"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_03_02" ID="{4EBB7CB5-F926-4FC3-AC16-FDF8396A9D70}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_03_03" ID="{4A45D776-A2F9-48D0-B746-ADD5DFB193F6}" ShortID="618477607">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_03_03" ID="{B76CED25-DF62-4F13-86CF-6335EEC7EFC3}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\3\sfx_breath_normal_03_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="758044584"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_03_03" ID="{B76CED25-DF62-4F13-86CF-6335EEC7EFC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_03_04" ID="{51D359F8-C2AC-44BC-B66F-36018C2C00E9}" ShortID="69460825">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_03_04" ID="{F53076AD-71F4-4050-B3CB-D8E8D66374A5}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\3\sfx_breath_normal_03_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="586703907"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_03_04" ID="{F53076AD-71F4-4050-B3CB-D8E8D66374A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_03_05" ID="{D0CB04EA-50A5-45E4-A35A-4A153FF63CB7}" ShortID="384594227">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_03_05" ID="{7E4E7270-DA2C-4B8C-9B22-CC62DE680890}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\3\sfx_breath_normal_03_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="907949001"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_03_05" ID="{7E4E7270-DA2C-4B8C-9B22-CC62DE680890}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_03_06" ID="{F58A5558-44DB-4B49-B5B9-F8D37DDD5F75}" ShortID="685567388">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_03_06" ID="{97922245-F578-4062-A403-E8EDBF83A98C}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\3\sfx_breath_normal_03_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="588454355"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_03_06" ID="{97922245-F578-4062-A403-E8EDBF83A98C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_03_07" ID="{82B60102-501A-4C8E-8D19-4007AFA9149E}" ShortID="161013715">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_03_07" ID="{E2D51D0E-1D1A-4C35-8E96-9175BA5EB1A9}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\3\sfx_breath_normal_03_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="371095294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_03_07" ID="{E2D51D0E-1D1A-4C35-8E96-9175BA5EB1A9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_breath_normal_03_08" ID="{B1D9763E-F7AB-4EBD-B5CA-76444F0C4743}" ShortID="207068574">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_breath_normal_03_08" ID="{60A17C38-E15F-42F5-A4A8-EB31BBED807F}">
+											<Language>SFX</Language>
+											<AudioFile>Breath_normal\3\sfx_breath_normal_03_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="936252386"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_breath_normal_03_08" ID="{60A17C38-E15F-42F5-A4A8-EB31BBED807F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Breath_calm" ID="{034A84B9-CCE1-48E5-B4E4-0B1FE9E7C174}" ShortID="520664667">
+					<ChildrenList>
+						<Sound Name="sfx_breath_calm_1" ID="{B4294705-9922-44C8-A50F-9F872B478A1F}" ShortID="974171058">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_breath_calm_1" ID="{B0988420-9BA7-4A27-957A-44EB9CD85AEB}">
+									<Language>SFX</Language>
+									<AudioFile>Breath_calm\sfx_breath_calm_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="602820036"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_breath_calm_1" ID="{B0988420-9BA7-4A27-957A-44EB9CD85AEB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_breath_calm_2" ID="{96D46344-32E7-4F8B-A798-495FE9CFE586}" ShortID="106917627">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_breath_calm_2" ID="{6D7B32FC-52D4-41F7-8223-4ECD77EF2489}">
+									<Language>SFX</Language>
+									<AudioFile>Breath_calm\sfx_breath_calm_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="597064943"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_breath_calm_2" ID="{6D7B32FC-52D4-41F7-8223-4ECD77EF2489}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_breath_calm_3" ID="{C88BDE85-A515-420C-A4B2-021179A4867C}" ShortID="771010665">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_breath_calm_3" ID="{90787A4B-E7E6-48D6-A187-58BD19967AE0}">
+									<Language>SFX</Language>
+									<AudioFile>Breath_calm\sfx_breath_calm_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="643816149"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_breath_calm_3" ID="{90787A4B-E7E6-48D6-A187-58BD19967AE0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_breath_calm_4" ID="{7AE84601-79A7-4224-966F-D2FFEC268309}" ShortID="821953470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_breath_calm_4" ID="{7632CCED-3B73-495E-B799-0A3C4E544F4D}">
+									<Language>SFX</Language>
+									<AudioFile>Breath_calm\sfx_breath_calm_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="123372606"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_breath_calm_4" ID="{7632CCED-3B73-495E-B799-0A3C4E544F4D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_breath_calm_5" ID="{BF0C0887-42CD-4C73-869D-053C1AC9FA9C}" ShortID="930338375">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_breath_calm_5" ID="{54529B89-A6B8-4948-B228-C374CE03A3D6}">
+									<Language>SFX</Language>
+									<AudioFile>Breath_calm\sfx_breath_calm_5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="58125248"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_breath_calm_5" ID="{54529B89-A6B8-4948-B228-C374CE03A3D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_breath_calm_6" ID="{66A7205D-120F-4C66-AEA9-86570A16E1D4}" ShortID="642494320">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_breath_calm_6" ID="{CE85EC4A-B595-41BB-8855-DFBF15E58D59}">
+									<Language>SFX</Language>
+									<AudioFile>Breath_calm\sfx_breath_calm_6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1056895475"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_breath_calm_6" ID="{CE85EC4A-B595-41BB-8855-DFBF15E58D59}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Cloth Rustling" ID="{D68E793E-F76B-4019-ADCB-63E0AFDE9527}" ShortID="210605444">
+					<ChildrenList>
+						<Sound Name="sfx_cloth_rustling_01" ID="{37FB83D9-C03A-40C5-9B28-18747C29C611}" ShortID="1028206536">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_01" ID="{E1694081-E932-4AA6-B794-26A2FAE13A63}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="356394780"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_01" ID="{E1694081-E932-4AA6-B794-26A2FAE13A63}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cloth_rustling_02" ID="{1CCDDE18-49E2-46CF-B4BE-2304E4E85F3E}" ShortID="758704713">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_02" ID="{1C4E17F2-E2CC-43FF-844E-BAD92337DFCB}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="64952068"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_02" ID="{1C4E17F2-E2CC-43FF-844E-BAD92337DFCB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cloth_rustling_03" ID="{15DB6DD8-AC6A-4384-8B28-E4F81EFD0DEC}" ShortID="731818923">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_03" ID="{848720DB-52C9-43D7-BA7E-9DD669A435D7}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="92214653"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_03" ID="{848720DB-52C9-43D7-BA7E-9DD669A435D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cloth_rustling_04" ID="{E21462BC-CF18-4ACB-9502-96F2EEFBCCE1}" ShortID="108506232">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_04" ID="{19055323-7DA7-43D1-A72A-16783D8A14ED}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="97663718"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_04" ID="{19055323-7DA7-43D1-A72A-16783D8A14ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cloth_rustling_05" ID="{9958A995-91F5-4D4E-AEB0-CDA038532F8C}" ShortID="924254615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_05" ID="{0C591744-87FF-4A36-B776-35DC44A0289C}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1040472301"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_05" ID="{0C591744-87FF-4A36-B776-35DC44A0289C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cloth_rustling_06" ID="{EBFC74BC-3F19-45C7-A180-18DF3D0256EB}" ShortID="720944819">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_06" ID="{C0D03D27-A4A4-4207-8233-F72F4B6407BF}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="922386836"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_06" ID="{C0D03D27-A4A4-4207-8233-F72F4B6407BF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cloth_rustling_07" ID="{D6366BE0-AC32-4408-B291-105E790892C8}" ShortID="295641589">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_07" ID="{B2618187-538A-4E08-84D7-BC74B900952C}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="983653815"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_07" ID="{B2618187-538A-4E08-84D7-BC74B900952C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cloth_rustling_08" ID="{CDD3F9F4-7002-40C6-BC50-769909E6DB30}" ShortID="220248662">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_08" ID="{3F089BC8-D445-40D5-BD91-E62950550010}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="274691172"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_08" ID="{3F089BC8-D445-40D5-BD91-E62950550010}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cloth_rustling_09" ID="{779C957F-404E-42EA-9BCF-783A9E2BCF57}" ShortID="243230285">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_09" ID="{07A5D0D6-FBA2-4002-BDB3-9D68F1890CC1}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="91987129"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_09" ID="{07A5D0D6-FBA2-4002-BDB3-9D68F1890CC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cloth_rustling_10" ID="{D50DC888-7ACC-4F0D-91AC-F59525770DA4}" ShortID="611300687">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cloth_rustling_10" ID="{861784B8-D0DA-4DFC-8F9D-24AE2CAA42DA}">
+									<Language>SFX</Language>
+									<AudioFile>Cloth Rustling\sfx_cloth_rustling_10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="413074377"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cloth_rustling_10" ID="{861784B8-D0DA-4DFC-8F9D-24AE2CAA42DA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

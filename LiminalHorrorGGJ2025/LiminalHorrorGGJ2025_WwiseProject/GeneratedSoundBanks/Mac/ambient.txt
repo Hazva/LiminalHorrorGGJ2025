@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1255756422	Play_ambient_meadow			\Default Work Unit\Play_ambient_meadow	
+	1637864059	Play_ambient_tunnel			\Default Work Unit\Play_ambient_tunnel	
+	3565446547	Play_Train_Station_Song			\Default Work Unit\Play_Train_Station_Song	
+	4109800757	Play_ambient_water_still			\Default Work Unit\Play_ambient_water_still	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3206905	sfx_still_water_ambient	Y:\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_still_water_ambient_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Ambient\ambient_loop\ambient_water_still\water_still\sfx_still_water_ambient		18048096
+	67111979	Pool_50s_Song_Intro	Y:\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pool_50s_Song_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Train Station Song\Train Station Song_loop\Pool_50s_Song_Intro		11917340
+	84247084	sfx_meadow_ambience	Y:\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_meadow_ambience_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Ambient\ambient_loop\ambient_meadow\meadow\sfx_meadow_ambience		11520096
+	318066872	sfx_tunnel_ambient	Y:\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_tunnel_ambient_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Ambient\ambient_loop\ambient_tunnel\tunnel\sfx_tunnel_ambient		18048096
+

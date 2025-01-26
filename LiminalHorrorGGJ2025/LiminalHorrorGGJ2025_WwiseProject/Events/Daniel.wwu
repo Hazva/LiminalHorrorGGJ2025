@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{067ABD16-9D61-4798-8594-F16B572C065C}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Daniel" ID="{067ABD16-9D61-4798-8594-F16B572C065C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Water_Rising" ID="{CC94CC62-38ED-4D16-BE71-99AD6303533C}">
+					<ChildrenList>
+						<Action Name="" ID="{DD876A57-90A3-488F-9291-483758DDAE69}" ShortID="296416610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water_Rising" ID="{95BBBC58-7BF6-4978-B5D9-7F1D55103B6C}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fluorescent_Light" ID="{410EDC8B-F1A0-440F-83B9-964A1A1D6ADA}">
+					<ChildrenList>
+						<Action Name="" ID="{669FC420-87EE-442D-BE81-02943948EAF2}" ShortID="987328033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fluorescent_Light" ID="{73E51E78-A916-45C1-ADD9-DE510C4F6D29}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Compass_Spin" ID="{5213D023-8AE2-46B7-918C-936A225EA2F7}">
+					<ChildrenList>
+						<Action Name="" ID="{E9557CCB-3E08-447B-895B-6D71FA3D6B61}" ShortID="173015718">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Compass_Spin" ID="{24FB291A-8BBC-4392-9899-A471A54D1F54}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Door_Loop" ID="{A94F044C-FD80-4BA2-85A0-A97E4A1A88C0}">
+					<ChildrenList>
+						<Action Name="" ID="{9DA3562C-3F02-4C93-B1B8-DEE2A2EB792A}" ShortID="1011990931">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Loop" ID="{D0397723-C26E-404C-8A10-0508BDE77FDC}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Heartbeat" ID="{2E2CD4B0-7390-48EB-A01F-E5A31175B0F7}">
+					<ChildrenList>
+						<Action Name="" ID="{8BA29D32-E57C-4284-994A-0C0AAED87833}" ShortID="313212584">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heartbeat" ID="{DD23903C-D6D3-4440-9B2B-0A9E50860CEB}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Transition" ID="{29BEA7C9-AD50-40BD-8669-5D71E3C59884}">
+					<ChildrenList>
+						<Action Name="" ID="{E4AAE68D-DD6C-4F5D-96EE-3AB5A8CD9E72}" ShortID="1033387910">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Transition" ID="{C1BE3327-8949-40FC-B80A-D80DB43CDFFE}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PipeAmbience" ID="{6DAC9F89-98B0-494D-A7A6-3DA06B397D07}">
+					<ChildrenList>
+						<Action Name="" ID="{CF77954D-BD08-4D4C-A48F-22FAFE4C36F8}" ShortID="506565482">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PipeAmbience" ID="{19BDD8DA-5886-4B78-8636-89FABDA798A4}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jumpscare" ID="{F0F7C3F6-8423-4EDC-B909-53A11DFD19B6}">
+					<ChildrenList>
+						<Action Name="" ID="{00B29A2C-602B-46B8-AEC8-968D9FAD20E6}" ShortID="950808824">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jumpscare" ID="{CF5553BF-2D49-4F5A-B47E-3B7B17865111}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Creature" ID="{7C366943-6D7A-4D50-A679-554CEEE71CEE}">
+					<ChildrenList>
+						<Action Name="" ID="{D51B9E33-376D-4CD7-A5FA-F33924DDB549}" ShortID="59349950">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Creature" ID="{44DE811D-ACF7-4C82-9B3E-73E3F104F90B}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Compass_Pickup" ID="{1CC12EE8-B6EF-4EB9-B4D2-7D069070EB93}">
+					<ChildrenList>
+						<Action Name="" ID="{7AEDEFA6-06FE-4188-8167-F442F3ED5B60}" ShortID="833719461">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Compass_Pickup" ID="{27AD990E-F9E9-4ABD-B1B2-F0157D549123}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Swim" ID="{8C8581AC-010C-419B-B34F-20EC57430DD8}">
+					<ChildrenList>
+						<Action Name="" ID="{F178A90A-42AE-46CD-BA3F-15C4BAD73A55}" ShortID="696225372">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swim" ID="{8EB45051-7B60-48CB-94CB-C18F2C783447}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5628CAE6-0783-45BF-B61E-D9F4628C2D39}" ShortID="583773538">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="SeekPercent" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C23FCF45-EB5D-44FE-9DF9-43C078C9966D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swim" ID="{8EB45051-7B60-48CB-94CB-C18F2C783447}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Swim" ID="{3E6354D9-53ED-4ADF-ADDD-47FCEF1F550D}">
+					<ChildrenList>
+						<Action Name="" ID="{0815B967-3B5C-4D0E-9CD8-2F301E8386DC}" ShortID="172411019">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swim" ID="{8EB45051-7B60-48CB-94CB-C18F2C783447}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DistantSubway" ID="{89F36ED9-A55B-41F8-947D-72D83103ED66}">
+					<ChildrenList>
+						<Action Name="" ID="{604DA1D1-8524-4036-9162-2201718E2872}" ShortID="775160847">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DistantSubway" ID="{FEB4AFC4-2128-4365-9FEA-06296E8303A9}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Heartbeat" ID="{015556C4-F0A4-4783-9294-649628AE1BD6}">
+					<ChildrenList>
+						<Action Name="" ID="{0F3D4E84-A035-4181-9432-576C41C9F9EF}" ShortID="118305726">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heartbeat" ID="{DD23903C-D6D3-4440-9B2B-0A9E50860CEB}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

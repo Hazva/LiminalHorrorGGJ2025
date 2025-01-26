@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="footstep_surfaces" ID="{08720E97-5758-4EBD-987B-7E30160BCA67}">
+					<ChildrenList>
+						<State Name="None" ID="{7E8A2BD6-C855-4441-ACD0-BA7078E2343B}"/>
+						<State Name="carpet" ID="{65CDD9C2-CC2E-4419-9261-CED37C6AFDBD}"/>
+						<State Name="tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}"/>
+						<State Name="tile_wet" ID="{6F36D0DD-93E2-461F-9A17-E6D33DBF9AC3}"/>
+						<State Name="grass" ID="{D7C4334B-5422-4D5A-9573-356368D25406}"/>
+						<State Name="water" ID="{55C675DF-C6E4-4C62-800B-5024D065B5E3}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
