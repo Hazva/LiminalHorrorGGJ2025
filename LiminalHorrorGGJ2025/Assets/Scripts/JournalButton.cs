@@ -6,9 +6,13 @@ public class JournalButton : MonoBehaviour
 {
     public GameObject[] objectsToDeactivate;
     public GameObject[] objectsToActivate;
-    public void Update()
+    public GameObject playerObj;
+    public GameObject bottle;
+    public float distThreshold;
+    private bool first = true;
+    void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Vector3.Distance(playerObj.transform.position, bottle.transform.position) > distThreshold && first)
         {
             foreach (GameObject gm in objectsToActivate)
             {
@@ -18,7 +22,13 @@ public class JournalButton : MonoBehaviour
             {
                 gm.SetActive(false);
             }
+
+            first = false;
         }
-        
+    }
+
+    private void OnEnable()
+    {
+        first = true;
     }
 }

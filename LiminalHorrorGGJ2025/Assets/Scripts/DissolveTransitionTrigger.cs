@@ -7,6 +7,7 @@ public class DissolveTransitionTrigger : MonoBehaviour
     public UIEffect transitionController;
     public GameObject teleportObject;
     public GameObject renderTexCamera;
+    public GameObject badCanvas;
 
     private Coroutine transitionCoroutine;
     private CharacterController characterController;
@@ -20,6 +21,7 @@ public class DissolveTransitionTrigger : MonoBehaviour
 
     public void TriggerTransition()
     {
+        badCanvas.SetActive(false);
         renderTexCamera.SetActive(false);
 
         // Manually handle CharacterController physics and teleport
