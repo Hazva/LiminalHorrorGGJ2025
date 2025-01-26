@@ -77,6 +77,7 @@ public class DissolveTransitionTrigger : MonoBehaviour
         transitionController.samplingIntensity = targetValue;
         transitionController.transitionRate = targetValue;
 
+        renderTexCamera.SetActive(true);
         transitionCoroutine = null;
     }
 }
