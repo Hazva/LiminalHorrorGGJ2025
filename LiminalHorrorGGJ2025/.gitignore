@@ -72,5 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Wwise
-/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
+/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
 /WwiseUnityIntegration_*_Src.zip
