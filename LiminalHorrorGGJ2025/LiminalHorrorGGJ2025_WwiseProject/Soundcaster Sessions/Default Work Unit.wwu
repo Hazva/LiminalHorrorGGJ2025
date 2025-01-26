@@ -25,7 +25,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
+						<CurrentStateRef Name="Final" ID="{DBF1FBB4-4AAE-4D4A-8C12-B2836FC18F87}"/>
 						<CurrentStateRef Name="Walk" ID="{735C6A46-BF5C-4FFE-BE61-A68DFC2A4901}"/>
 						<CurrentStateRef Name="Small" ID="{DA01017E-6F2C-45E9-A6C3-4F2B954B5941}"/>
 						<CurrentStateRef Name="Tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}"/>

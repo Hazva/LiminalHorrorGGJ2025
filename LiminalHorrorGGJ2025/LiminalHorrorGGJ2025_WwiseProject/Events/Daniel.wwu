@@ -36,17 +36,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Heartbeat" ID="{2E2CD4B0-7390-48EB-A01F-E5A31175B0F7}">
-					<ChildrenList>
-						<Action Name="" ID="{8BA29D32-E57C-4284-994A-0C0AAED87833}" ShortID="313212584">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Heartbeat" ID="{DD23903C-D6D3-4440-9B2B-0A9E50860CEB}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Transition" ID="{29BEA7C9-AD50-40BD-8669-5D71E3C59884}">
 					<ChildrenList>
 						<Action Name="" ID="{E4AAE68D-DD6C-4F5D-96EE-3AB5A8CD9E72}" ShortID="1033387910">
@@ -137,21 +126,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Swim" ID="{8EB45051-7B60-48CB-94CB-C18F2C783447}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Heartbeat" ID="{015556C4-F0A4-4783-9294-649628AE1BD6}">
-					<ChildrenList>
-						<Action Name="" ID="{0F3D4E84-A035-4181-9432-576C41C9F9EF}" ShortID="118305726">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Heartbeat" ID="{DD23903C-D6D3-4440-9B2B-0A9E50860CEB}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

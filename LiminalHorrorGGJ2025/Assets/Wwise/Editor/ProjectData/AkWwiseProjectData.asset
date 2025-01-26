@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 91f10b6dcc987546ab33fafb58766f78
     GuidInternal: 
-    m_lastTime: -8584638040816771013
+    m_lastTime: -8584637317873416812
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Reverb
+      guid: f50f5750f3ac024ea6f3d439f7dbd47e
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 91f10b6dcc987546ab33fafb58766f78
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 1
+        guid: f50f5750f3ac024ea6f3d439f7dbd47e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -108,7 +125,7 @@ MonoBehaviour:
     ParentPath: Events\Daniel
     guid: 16bd7a06619d98478594f16b572c065c
     GuidInternal: 
-    m_lastTime: -8584637404061614873
+    m_lastTime: -8584637322389308476
     List:
     - name: Exit_Water
       guid: c7148995323f1e4b85cbaaa0fb0335c7
@@ -192,7 +209,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4c044fa980fda24b85a0a97e4a1a88c0
       Path: Events\Daniel\Play_Door_Loop
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: -1
       minDuration: -1
     - name: Play_Fluorescent_Light
@@ -210,23 +227,6 @@ MonoBehaviour:
         guid: 8bdc0e41a0f10f4483b9964a1a1d6ada
       Path: Events\Daniel\Play_Fluorescent_Light
       maxAttenuation: 15
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_Heartbeat
-      guid: b0d42c2e9073eb48a01fe5a31175b0f7
-      id: 3765695918
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Daniel
-        ObjectType: 12
-        guid: 16bd7a06619d98478594f16b572c065c
-      - ElementName: Play_Heartbeat
-        ObjectType: 3
-        guid: b0d42c2e9073eb48a01fe5a31175b0f7
-      Path: Events\Daniel\Play_Heartbeat
-      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_Jumpscare
@@ -297,23 +297,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Stop_Heartbeat
-      guid: c4565501a4f083479294649628ae1bd6
-      id: 3319673256
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Daniel
-        ObjectType: 12
-        guid: 16bd7a06619d98478594f16b572c065c
-      - ElementName: Stop_Heartbeat
-        ObjectType: 3
-        guid: c4565501a4f083479294649628ae1bd6
-      Path: Events\Daniel\Stop_Heartbeat
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: Stop_Swim
       guid: d954633eed53df4aaddd47fcef1f550d
       id: 127261724
@@ -392,7 +375,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 38c59e5e2c382a49bd1410c5801cf812
       Path: Events\Default Work Unit\Play_Train_Station_Song
-      maxAttenuation: 20
+      maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
   - PhysicalPath: Events\Tan.wwu
@@ -457,7 +440,7 @@ MonoBehaviour:
         guid: 4c466ce0f0d4274dbc90d7fec617367e
       Path: Events\Tan\Play_General_Footstep_Container
       maxAttenuation: 0
-      maxDuration: 1.6703125
+      maxDuration: 1.7830209
       minDuration: 0.36183333
     - name: Play_sfx_bottle_open
       guid: 9ded01d139a6724c967975c10de21eb2
@@ -940,7 +923,7 @@ MonoBehaviour:
     m_lastTime: -8584638040815680059
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000015000000180000001e0000001f00000021000000230000002400000025000000
+  ExpandedWaapiItemIds: 020000000300000004000000050000000600000015000000180000001e0000001f00000021000000230000002400000025000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

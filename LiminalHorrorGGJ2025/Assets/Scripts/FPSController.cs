@@ -26,6 +26,7 @@ public class SC_FPSController : MonoBehaviour
     // For performance
     private bool lastMoved = false;
     private bool lastRunning = false;
+    private bool lastTurned = false;
 
     void Start()
     {
@@ -101,6 +102,16 @@ public class SC_FPSController : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             renderTexCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+
+            if (lastTurned && Input.GetAxis("Mouse Y") == 0 && Input.GetAxis("Mouse X") == 0)
+            {
+                lastTurned = false;
+            }
+            else if (!lastTurned && (Input.GetAxis("Mouse Y") != 0 || Input.GetAxis("Mouse X") != 0))
+            {
+                AudioManager.Instance.PostEvent("Play_Cloth");
+                lastTurned = true;
+            }
         }
 
         if (lastMoved)

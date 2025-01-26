@@ -23,7 +23,6 @@ namespace AK
         static const AkUniqueID PLAY_DOOR_LOOP = 2463718247U;
         static const AkUniqueID PLAY_FLUORESCENT_LIGHT = 3799125421U;
         static const AkUniqueID PLAY_GENERAL_FOOTSTEP_CONTAINER = 2589019387U;
-        static const AkUniqueID PLAY_HEARTBEAT = 3765695918U;
         static const AkUniqueID PLAY_JUMPSCARE = 3840943850U;
         static const AkUniqueID PLAY_SFX_BOTTLE_OPEN = 605122265U;
         static const AkUniqueID PLAY_SFX_BOTTLE_PICK_UP = 2888013566U;
@@ -31,7 +30,6 @@ namespace AK
         static const AkUniqueID PLAY_TRAIN_STATION_SONG = 3565446547U;
         static const AkUniqueID PLAY_TRANSITION = 895718239U;
         static const AkUniqueID PLAY_WALK = 1589278981U;
-        static const AkUniqueID STOP_HEARTBEAT = 3319673256U;
         static const AkUniqueID STOP_SWIM = 127261724U;
         static const AkUniqueID STOP_WALK = 3140964691U;
     } // namespace EVENTS
@@ -111,6 +109,11 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB = 348963605U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {
