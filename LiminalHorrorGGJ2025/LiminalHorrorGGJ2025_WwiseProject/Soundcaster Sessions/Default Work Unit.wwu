@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9E8B0A72-A6D0-4480-A90D-CEDA85D18F9F}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{9E8B0A72-A6D0-4480-A90D-CEDA85D18F9F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9E8B0A72-A6D0-4480-A90D-CEDA85D18F9F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{CC2B4C1F-6E4F-4E57-9CD3-38B0A5F5C923}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Swim" ID="{8C8581AC-010C-419B-B34F-20EC57430DD8}" WorkUnitID="{067ABD16-9D61-4798-8594-F16B572C065C}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Swim" ID="{3E6354D9-53ED-4ADF-ADDD-47FCEF1F550D}" WorkUnitID="{067ABD16-9D61-4798-8594-F16B572C065C}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
