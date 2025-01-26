@@ -28,6 +28,13 @@ public class SC_FPSController : MonoBehaviour
     private bool lastRunning = false;
     private bool lastTurned = false;
 
+    public static SC_FPSController Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
