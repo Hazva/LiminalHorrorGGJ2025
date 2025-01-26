@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Daniel" ID="{067ABD16-9D61-4798-8594-F16B572C065C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Water_Rising" ID="{CC94CC62-38ED-4D16-BE71-99AD6303533C}">
-					<ChildrenList>
-						<Action Name="" ID="{DD876A57-90A3-488F-9291-483758DDAE69}" ShortID="296416610">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Water_Rising" ID="{95BBBC58-7BF6-4978-B5D9-7F1D55103B6C}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Fluorescent_Light" ID="{410EDC8B-F1A0-440F-83B9-964A1A1D6ADA}">
 					<ChildrenList>
 						<Action Name="" ID="{669FC420-87EE-442D-BE81-02943948EAF2}" ShortID="987328033">
@@ -64,17 +53,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Transition" ID="{C1BE3327-8949-40FC-B80A-D80DB43CDFFE}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_PipeAmbience" ID="{6DAC9F89-98B0-494D-A7A6-3DA06B397D07}">
-					<ChildrenList>
-						<Action Name="" ID="{CF77954D-BD08-4D4C-A48F-22FAFE4C36F8}" ShortID="506565482">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PipeAmbience" ID="{19BDD8DA-5886-4B78-8636-89FABDA798A4}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -159,17 +137,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Swim" ID="{8EB45051-7B60-48CB-94CB-C18F2C783447}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_DistantSubway" ID="{89F36ED9-A55B-41F8-947D-72D83103ED66}">
-					<ChildrenList>
-						<Action Name="" ID="{604DA1D1-8524-4036-9162-2201718E2872}" ShortID="775160847">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="DistantSubway" ID="{FEB4AFC4-2128-4365-9FEA-06296E8303A9}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
