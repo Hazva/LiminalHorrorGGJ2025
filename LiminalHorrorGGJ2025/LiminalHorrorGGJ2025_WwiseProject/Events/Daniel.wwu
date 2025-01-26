@@ -207,6 +207,22 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Noises" ID="{A8E6BBA9-A294-4688-843B-06BE1D642894}">
+					<ChildrenList>
+						<Action Name="" ID="{ADCD5BA1-7A26-494C-B8A8-A2DDA0288C41}" ShortID="629980336">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{A70C293D-E5C3-411C-BAEC-27D2DF037668}" ShortID="1011890094">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

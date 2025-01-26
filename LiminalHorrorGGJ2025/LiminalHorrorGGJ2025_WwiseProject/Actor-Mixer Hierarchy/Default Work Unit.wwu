@@ -150,6 +150,14 @@
 						</StateGroupList>
 						<CustomStateList>
 							<CustomState>
+								<StateRef Name="Intermediate_Empty" ID="{D12F71AF-8FB3-4087-8BE5-0BC9890A4932}"/>
+								<CustomState Name="" ID="{B0C9B12A-3BA9-40C1-99DA-722B974D7433}" ShortID="975737039">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
 								<CustomState Name="" ID="{DCB7F075-3B56-403F-B8EE-39E537BDC7C2}" ShortID="164374959">
 									<PropertyList>
@@ -176,6 +184,14 @@
 							<CustomState>
 								<StateRef Name="Final" ID="{DBF1FBB4-4AAE-4D4A-8C12-B2836FC18F87}"/>
 								<CustomState Name="" ID="{FE32249D-59C1-40FA-9630-611096BA40AB}" ShortID="181257756"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Intermediate_Locked" ID="{6D282797-70F7-4E5D-97AF-DAC3163CE6E1}"/>
+								<CustomState Name="" ID="{A866CC2D-E46F-4B37-AF36-C214F6B940B1}" ShortID="635569760">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
 							</CustomState>
 						</CustomStateList>
 					</StateInfo>
@@ -1943,13 +1959,25 @@
 							<Grouping>
 								<SwitchRef Name="Intermediate" ID="{971C9E32-8D04-4C1C-87C7-C2F647439C4E}"/>
 								<ItemList>
-									<ItemRef Name="Breath_Normal" ID="{AAF4A90F-FBDA-4CC2-8497-7FD279BE4D2B}"/>
+									<ItemRef Name="Breath_Labor" ID="{CBC1E980-1D0C-4230-B070-C82955032114}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
 								<SwitchRef Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
 								<ItemList>
 									<ItemRef Name="Breath_Labor" ID="{CBC1E980-1D0C-4230-B070-C82955032114}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Intermediate_Locked" ID="{6D282797-70F7-4E5D-97AF-DAC3163CE6E1}"/>
+								<ItemList>
+									<ItemRef Name="Breath_Normal" ID="{AAF4A90F-FBDA-4CC2-8497-7FD279BE4D2B}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Intermediate_Empty" ID="{D12F71AF-8FB3-4087-8BE5-0BC9890A4932}"/>
+								<ItemList>
+									<ItemRef Name="Breath_Normal" ID="{AAF4A90F-FBDA-4CC2-8497-7FD279BE4D2B}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>

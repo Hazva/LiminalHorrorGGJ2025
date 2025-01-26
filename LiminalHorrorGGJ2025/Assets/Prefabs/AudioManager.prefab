@@ -96,4 +96,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6082f39736cd45f46890b8930dcf645a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  room:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 64c16fce59fc3164dbd48e7d5cb52ea3, type: 2}
+  bIsDebug: 0
   stressLevel: 1
+  surface: 0
+  isSwimming: 0

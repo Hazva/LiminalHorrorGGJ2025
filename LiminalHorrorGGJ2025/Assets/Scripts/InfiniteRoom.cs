@@ -93,7 +93,7 @@ public class InfiniteRoom : MonoBehaviour
     public void SpawnDoor()
     {
         Vector3 spawnPos = SC_FPSController.Instance.transform.position + SC_FPSController.Instance.moveDirection.normalized * 15.0f;
-        spawnPos.y = height / 2.0f;
+        spawnPos.y = currentRoom.transform.position.y + height / 2.0f;
         Instantiate(doorPrefab, spawnPos, Quaternion.identity);
     }
 
@@ -110,6 +110,8 @@ public class InfiniteRoom : MonoBehaviour
 
     IEnumerator DispellFog()
     {
+        AudioManager.Instance.PostEvent("Dispel_Smoke");
+
         var emission1 = fogParticles[0].main;
         var emission2 = fogParticles[1].main;
         var emission3 = fogParticles[2].main;

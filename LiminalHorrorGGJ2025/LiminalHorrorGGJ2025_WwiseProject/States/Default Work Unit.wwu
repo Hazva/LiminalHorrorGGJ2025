@@ -29,6 +29,8 @@
 						<State Name="Intermediate" ID="{971C9E32-8D04-4C1C-87C7-C2F647439C4E}"/>
 						<State Name="Final" ID="{DBF1FBB4-4AAE-4D4A-8C12-B2836FC18F87}"/>
 						<State Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
+						<State Name="Intermediate_Locked" ID="{6D282797-70F7-4E5D-97AF-DAC3163CE6E1}"/>
+						<State Name="Intermediate_Empty" ID="{D12F71AF-8FB3-4087-8BE5-0BC9890A4932}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Movement" ID="{3AA98C83-98F4-40D7-8685-519859B23577}">

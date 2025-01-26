@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID DISPEL_SMOKE = 3273175184U;
         static const AkUniqueID EXIT_WATER = 387843989U;
         static const AkUniqueID PLAY_AMBIENCE = 278617630U;
         static const AkUniqueID PLAY_BREATHING = 4093367312U;
@@ -32,7 +33,9 @@ namespace AK
         static const AkUniqueID PLAY_TRAIN_STATION_SONG = 3565446547U;
         static const AkUniqueID PLAY_TRANSITION = 895718239U;
         static const AkUniqueID PLAY_WALK = 1589278981U;
+        static const AkUniqueID STOP_AMBIENCE = 2477713992U;
         static const AkUniqueID STOP_COMPASS_SPIN = 614252659U;
+        static const AkUniqueID STOP_NOISES = 2537705801U;
         static const AkUniqueID STOP_SWIM = 127261724U;
         static const AkUniqueID STOP_WALK = 3140964691U;
     } // namespace EVENTS
@@ -59,6 +62,8 @@ namespace AK
             {
                 static const AkUniqueID FINAL = 565529991U;
                 static const AkUniqueID INTERMEDIATE = 2188788306U;
+                static const AkUniqueID INTERMEDIATE_EMPTY = 2512648344U;
+                static const AkUniqueID INTERMEDIATE_LOCKED = 2759688151U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID SUBWAY = 1981184526U;
                 static const AkUniqueID SUBWAY_FLOOD = 1392138151U;

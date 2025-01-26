@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1518103445	Play_Compass_Pickup			\Daniel\Play_Compass_Pickup	
 	1589278981	Play_Walk			\Daniel\Play_Walk	
 	2463718247	Play_Door_Loop			\Daniel\Play_Door_Loop	
+	2537705801	Stop_Noises			\Daniel\Stop_Noises	
 	2589019387	Play_General_Footstep_Container			\Tan\Play_General_Footstep_Container	
 	2888013566	Play_sfx_bottle_pick_up			\Tan\Play_sfx_bottle_pick_up	
 	2891509749	Play_Creature			\Daniel\Play_Creature	
@@ -38,6 +39,8 @@ State	ID	Name	State Group			Notes
 	1392138151	Subway_Flood	Room			
 	1981184526	Subway	Room			
 	2188788306	Intermediate	Room			
+	2512648344	Intermediate_Empty	Room			
+	2759688151	Intermediate_Locked	Room			
 	748895195	None	Submerged			
 	1343665684	NonSubmerged	Submerged			
 	2530502021	Submerged	Submerged			

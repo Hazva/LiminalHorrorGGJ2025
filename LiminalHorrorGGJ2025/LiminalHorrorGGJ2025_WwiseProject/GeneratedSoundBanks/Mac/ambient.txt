@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
+	2477713992	Stop_Ambience			\Default Work Unit\Stop_Ambience	
 	2970769112	Play_Credits			\Default Work Unit\Play_Credits	
+	3273175184	Dispel_Smoke			\Default Work Unit\Dispel_Smoke	
 	3565446547	Play_Train_Station_Song			\Default Work Unit\Play_Train_Station_Song	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -12,6 +14,8 @@ State	ID	Name	State Group			Notes
 	1392138151	Subway_Flood	Room			
 	1981184526	Subway	Room			
 	2188788306	Intermediate	Room			
+	2512648344	Intermediate_Empty	Room			
+	2759688151	Intermediate_Locked	Room			
 
 Modulator Time	ID	Name			Wwise Object Path	Notes
 	59884537	Modulator Time (Custom)				
@@ -29,14 +33,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	67111979	Pool_50s_Song_Intro	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pool_50s_Song_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Train Station Song\Train Station Song_loop\Pool_50s_Song_Intro		11917340
 	69619300	sfx_still_water_ambient	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_still_water_ambient_6298FF1E.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\sfx_still_water_ambient		15015864
 	82224420	sfx_tunnel_ambient	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_tunnel_ambient_F8C1E59B.wem		\Actor-Mixer Hierarchy\Tan\Ambience\sfx_tunnel_ambient		16137424
+	186418428	sfx_SoulLoop_Voices_1_v1	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_SoulLoop_Voices_1_v1_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Smoke_Ambience\Voices\sfx_SoulLoop_Voices_1_v1		844238
+	308415336	Gas_Ambience	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Gas_Ambience_FBC78EF0.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Smoke_Ambience\Gas_Ambience		5644896
+	409768071	Gas_Dispel	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Gas_Dispel_818F3B66.wem		\Actor-Mixer Hierarchy\Daniel\Gas_Dispel		1764096
 	410465177	Pipe_1	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_1_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_1		814992
 	439335363	WhiteNoise	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\WhiteNoise_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Train Station Song\Train Station Song_loop\WhiteNoise		8759272
 	463366720	Pipe_5	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_5_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_5		578512
 	546794053	Pipe_4	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_4_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_4		783032
+	679065206	sfx_SoulLoop_Voices_3_v1	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_SoulLoop_Voices_3_v1_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Smoke_Ambience\Voices\sfx_SoulLoop_Voices_3_v1		865434
+	706700559	sfx_SoulLoop_Voices_4_v1	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_SoulLoop_Voices_4_v1_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Smoke_Ambience\Voices\sfx_SoulLoop_Voices_4_v1		919716
 	721218996	Pipe_3	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_3_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_3		552944
 	727980279	Pipe_6	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_6_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_6		530576
 	746512004	Water_Rising	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Water_Rising_FBC78EF0.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Water_Rising		9964532
 	762961166	Pipe_2	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_2_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_2		530576
 	832292429	Heartbeat	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Heartbeat_FBC78EF0.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Heartbeat		1164336
+	971105911	sfx_SoulLoop_Voices_2_v1	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_SoulLoop_Voices_2_v1_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Smoke_Ambience\Voices\sfx_SoulLoop_Voices_2_v1		867392
 	991790938	Distant_Subway	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Distant_Subway_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\DistantSubway\Distant_Subway		4287860
 

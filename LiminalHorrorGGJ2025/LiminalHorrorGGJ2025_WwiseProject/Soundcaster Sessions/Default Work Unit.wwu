@@ -29,7 +29,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Subway" ID="{A7B2C323-BF08-4B9A-A814-4CA958F77239}"/>
+						<CurrentStateRef Name="Intermediate" ID="{971C9E32-8D04-4C1C-87C7-C2F647439C4E}"/>
 						<CurrentStateRef Name="Walk" ID="{735C6A46-BF5C-4FFE-BE61-A68DFC2A4901}"/>
 						<CurrentStateRef Name="Med" ID="{6649161C-5F68-4C65-96A4-867A7BF8265A}"/>
 						<CurrentStateRef Name="Tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}"/>

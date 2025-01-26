@@ -16,7 +16,14 @@ public class LightAndWaterController : MonoBehaviour
 
     [SerializeField] private float swimmingTime = 8f;
     [SerializeField] private float submersionTime = 16f;
-    [SerializeField] private GameObject submergedOverlay;
+    public GameObject submergedOverlay;
+
+    public static LightAndWaterController Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Update()
     {
@@ -68,16 +75,24 @@ public class LightAndWaterController : MonoBehaviour
         AudioManager.Instance.stressLevel = 3;
         AkSoundEngine.SetState("Stress", "Large");
         yield return new WaitForSeconds(swimmingTime);
-        AudioManager.Instance.isSwimming = true;
-        AkSoundEngine.SetState("Surface", "Water");
+        if (isActive)
+        {
+            AudioManager.Instance.isSwimming = true;
+            AkSoundEngine.SetState("Surface", "Water");
+        }
+        
     }
 
     IEnumerator StartSubmersion()
     {
         yield return new WaitForSeconds(submersionTime);
-        AudioManager.Instance.PostEvent("Play_Submerge");
-        AkSoundEngine.SetState("Submerged", "Submerged");
-        submergedOverlay.SetActive(true);
+        if (isActive)
+        {
+            AudioManager.Instance.PostEvent("Play_Submerge");
+            AkSoundEngine.SetState("Submerged", "Submerged");
+            submergedOverlay.SetActive(true);
+        }
+        
     }
 
     private System.Collections.IEnumerator ToggleLights()
@@ -105,7 +120,7 @@ public class LightAndWaterController : MonoBehaviour
         {
             foreach (Light light in lightsToToggle)
             {
-                if (light != null)
+                if (light != null && isActive)
                 {
                     light.enabled = !light.enabled;
                 }
@@ -114,6 +129,19 @@ public class LightAndWaterController : MonoBehaviour
         }
 
         coroutineRunning = false;
+    }
+
+    public void TurnOnLights()
+    {
+        coroutineRunning = false;
+        isActive = false;
+        foreach (Light light in lightsToToggle)
+        {
+            if (light != null)
+            {
+                light.enabled = true;
+            }
+        }
     }
 
     public void Deactivate()

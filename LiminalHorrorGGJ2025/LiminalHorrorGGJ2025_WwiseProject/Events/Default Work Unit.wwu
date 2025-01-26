@@ -36,6 +36,41 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Ambience" ID="{63262E25-0586-4D70-9FCE-3A4B6A0BFA39}">
+					<ChildrenList>
+						<Action Name="" ID="{993349F8-D7E1-4767-BBB9-843428911F1E}" ShortID="386037240">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{50CE9F91-5613-4F92-A6D3-3CF465011BBC}" WorkUnitID="{9731B3CD-3F3F-4381-890F-C8E14ECF3019}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dispel_Smoke" ID="{21F01876-3402-4E3C-A0E4-E6080537B7F2}">
+					<ChildrenList>
+						<Action Name="" ID="{B7836F7D-0E63-4E80-90F0-BBFC1E16659C}" ShortID="452449881">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intermediate_Empty" ID="{D12F71AF-8FB3-4087-8BE5-0BC9890A4932}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A967392E-26D7-468A-9121-C56E1FAF7279}" ShortID="389847831">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gas_Dispel" ID="{0E8546E7-B7BF-455D-AF2E-54FF538D218F}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

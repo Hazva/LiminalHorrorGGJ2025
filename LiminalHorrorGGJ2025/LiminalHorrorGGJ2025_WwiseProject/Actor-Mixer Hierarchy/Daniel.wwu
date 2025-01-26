@@ -823,6 +823,35 @@
 						<ActiveSource Name="Water, Underwater, Dive In, Close, Bass, Hydrophone, Underwater SND114509" ID="{8F03E4D5-C7F8-4F96-A683-BDC58835A2F4}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Gas_Dispel" ID="{0E8546E7-B7BF-455D-AF2E-54FF538D218F}" ShortID="519419858">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Gas_Dispel" ID="{D4E54207-280F-4F82-AFF3-8B93DB8F9CD5}">
+							<Language>SFX</Language>
+							<AudioFile>Gas_Dispel.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="409768071"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Gas_Dispel" ID="{D4E54207-280F-4F82-AFF3-8B93DB8F9CD5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

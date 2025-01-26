@@ -142,7 +142,7 @@ MonoBehaviour:
     ParentPath: Events\Daniel
     guid: 16bd7a06619d98478594f16b572c065c
     GuidInternal: 
-    m_lastTime: -8584637156302454550
+    m_lastTime: -8584636885841293532
     List:
     - name: Exit_Water
       guid: c7148995323f1e4b85cbaaa0fb0335c7
@@ -331,6 +331,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Compass_Spin
+      guid: 2bd0f16687575f458fede93fda657d5d
+      id: 614252659
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Stop_Compass_Spin
+        ObjectType: 3
+        guid: 2bd0f16687575f458fede93fda657d5d
+      Path: Events\Daniel\Stop_Compass_Spin
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Noises
+      guid: a9bbe6a894a28846843b06be1d642894
+      id: 2537705801
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Stop_Noises
+        ObjectType: 3
+        guid: a9bbe6a894a28846843b06be1d642894
+      Path: Events\Daniel\Stop_Noises
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Swim
       guid: d954633eed53df4aaddd47fcef1f550d
       id: 127261724
@@ -376,8 +410,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c91ba63cc4e47240b1d7338336c44413
     GuidInternal: 
-    m_lastTime: -8584637171950122188
+    m_lastTime: -8584636902062769804
     List:
+    - name: Dispel_Smoke
+      guid: 7618f02102343c4ea0e4e6080537b7f2
+      id: 3273175184
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c91ba63cc4e47240b1d7338336c44413
+      - ElementName: Dispel_Smoke
+        ObjectType: 3
+        guid: 7618f02102343c4ea0e4e6080537b7f2
+      Path: Events\Default Work Unit\Dispel_Smoke
+      maxAttenuation: 0
+      maxDuration: 10
+      minDuration: 10
     - name: Play_Ambience
       guid: 7402658b5715a742b8ed7c5cbf79d153
       id: 278617630
@@ -409,7 +460,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3f56d51db4182f4f892d9efe6dc546ab
       Path: Events\Default Work Unit\Play_Credits
-      maxAttenuation: 25
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
     - name: Play_Train_Station_Song
@@ -426,9 +477,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 38c59e5e2c382a49bd1410c5801cf812
       Path: Events\Default Work Unit\Play_Train_Station_Song
-      maxAttenuation: 25
+      maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Ambience
+      guid: 252e26638605704d9fce3a4b6a0bfa39
+      id: 2477713992
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c91ba63cc4e47240b1d7338336c44413
+      - ElementName: Stop_Ambience
+        ObjectType: 3
+        guid: 252e26638605704d9fce3a4b6a0bfa39
+      Path: Events\Default Work Unit\Stop_Ambience
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Tan.wwu
     PathAndIcons:
     - ElementName: Events
@@ -539,8 +607,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 88d13e6d1173384f9c51c7ff1dfb7fc1
     GuidInternal: 
-    m_lastTime: -8584637421674262033
+    m_lastTime: -8584637149451550095
     List:
+    - name: Compass_Velocity
+      guid: c865af2ddbbcc84f804c27c80edf776d
+      id: 249397943
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88d13e6d1173384f9c51c7ff1dfb7fc1
+      - ElementName: Compass_Velocity
+        ObjectType: 13
+        guid: c865af2ddbbcc84f804c27c80edf776d
+      Path: Game Parameters\Default Work Unit\Compass_Velocity
     - name: Wetness
       guid: 147daea9a4b32349a9a1413d6de604be
       id: 3286765786
@@ -567,7 +649,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dd5c1f9a41949e4282699104354a8dea
     GuidInternal: 
-    m_lastTime: -8584637175582331959
+    m_lastTime: -8584636902645840920
     List:
     - name: Movement
       guid: 838ca93af498d7408685519859b23577
@@ -682,6 +764,38 @@ MonoBehaviour:
         - ElementName: Intermediate
           ObjectType: 8
           guid: 329e1c97048d1c4c87c7c2f647439c4e
+      - name: Intermediate_Empty
+        guid: af712fd1b38f87408be50bc9890a4932
+        id: 2512648344
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Room
+          ObjectType: 9
+          guid: 22c413fc69938640a8be39e60ee1acba
+        - ElementName: Intermediate_Empty
+          ObjectType: 8
+          guid: af712fd1b38f87408be50bc9890a4932
+      - name: Intermediate_Locked
+        guid: 9727286df7705d4e97afdac3163ce6e1
+        id: 2759688151
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Room
+          ObjectType: 9
+          guid: 22c413fc69938640a8be39e60ee1acba
+        - ElementName: Intermediate_Locked
+          ObjectType: 8
+          guid: 9727286df7705d4e97afdac3163ce6e1
       - name: None
         guid: 9dcfcaa0f4fcd4428d961dcac9172d76
         id: 748895195
@@ -1039,7 +1153,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584637742319200728
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000140000001c0000001d0000001e0000001f00000020000000
+  ExpandedFileSystemItemIds: 020000000300000004000000140000001c0000001d0000001e0000001f000000200000002100000022000000230000002600000027000000
   ExpandedWaapiItemIds: 0200000003000000040000001c0000001d0000001e0000001f00000020000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

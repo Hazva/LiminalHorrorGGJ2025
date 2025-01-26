@@ -50,7 +50,17 @@ public class DissolveTransitionTrigger : MonoBehaviour
         float startTransitionRate = transitionController.transitionRate;
         float targetValue = 1.0f;
 
+        AudioManager.Instance.stressLevel = 1;
+        AkSoundEngine.SetState("Stress", "Small");
+        AudioManager.Instance.isSwimming = false;
+        AkSoundEngine.SetState("Submerged", "NonSubmerged");
         AudioManager.Instance.PostEvent("Play_Transition");
+        teleportObject.GetComponent<RoomAudio>().SetRoomState();
+        if (LightAndWaterController.Instance)
+        {
+            LightAndWaterController.Instance.submergedOverlay.SetActive(false);
+            LightAndWaterController.Instance.TurnOnLights();
+        }
 
         while (elapsedTimeA < durationA || elapsedTimeB < durationB)
         {
@@ -74,7 +84,7 @@ public class DissolveTransitionTrigger : MonoBehaviour
 
             yield return null;
         }
-        teleportObject.GetComponent<RoomAudio>().SetRoomState();
+        
 
         // Ensure both values are set to their target at the end
         transitionController.samplingIntensity = targetValue;
