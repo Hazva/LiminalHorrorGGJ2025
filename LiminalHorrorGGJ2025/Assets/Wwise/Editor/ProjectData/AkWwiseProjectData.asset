@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 91f10b6dcc987546ab33fafb58766f78
     GuidInternal: 
-    m_lastTime: -8584637164837869175
+    m_lastTime: -8584636827983703040
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: d860c0e14699464197ad155e5948dc6f
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 91f10b6dcc987546ab33fafb58766f78
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: d860c0e14699464197ad155e5948dc6f
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
     - name: Reverb
       guid: f50f5750f3ac024ea6f3d439f7dbd47e
       id: 348963605
@@ -71,6 +88,23 @@ MonoBehaviour:
         ObjectType: 1
         guid: f50f5750f3ac024ea6f3d439f7dbd47e
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
+    - name: Sfx
+      guid: 6745b4e611113a43a320087e5c218149
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 91f10b6dcc987546ab33fafb58766f78
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Sfx
+        ObjectType: 2
+        guid: 6745b4e611113a43a320087e5c218149
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sfx
     - name: SubmergableAudio
       guid: ac8849eb1b12d846a1e174c20679a719
       id: 1607929236
@@ -84,10 +118,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Sfx
+        ObjectType: 2
+        guid: 6745b4e611113a43a320087e5c218149
       - ElementName: SubmergableAudio
         ObjectType: 2
         guid: ac8849eb1b12d846a1e174c20679a719
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SubmergableAudio
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Sfx\SubmergableAudio
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -410,7 +447,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c91ba63cc4e47240b1d7338336c44413
     GuidInternal: 
-    m_lastTime: -8584636902062769804
+    m_lastTime: -8584636833263269627
     List:
     - name: Dispel_Smoke
       guid: 7618f02102343c4ea0e4e6080537b7f2
@@ -649,7 +686,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dd5c1f9a41949e4282699104354a8dea
     GuidInternal: 
-    m_lastTime: -8584636902645840920
+    m_lastTime: -8584636833385368084
     List:
     - name: Movement
       guid: 838ca93af498d7408685519859b23577
@@ -732,6 +769,22 @@ MonoBehaviour:
         guid: 22c413fc69938640a8be39e60ee1acba
       Path: States\Default Work Unit\Room
       values:
+      - name: Credits
+        guid: f3d3139365189141bde1703d05f68d62
+        id: 2201105581
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Room
+          ObjectType: 9
+          guid: 22c413fc69938640a8be39e60ee1acba
+        - ElementName: Credits
+          ObjectType: 8
+          guid: f3d3139365189141bde1703d05f68d62
       - name: Final
         guid: b4fbf1dbae4a4a4d8c12b2836fc18f87
         id: 565529991

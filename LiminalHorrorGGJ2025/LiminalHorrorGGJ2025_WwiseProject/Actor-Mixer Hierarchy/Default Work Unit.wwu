@@ -166,6 +166,10 @@
 								</CustomState>
 							</CustomState>
 							<CustomState>
+								<StateRef Name="Credits" ID="{9313D3F3-1865-4191-BDE1-703D05F68D62}"/>
+								<CustomState Name="" ID="{40AAF00B-C8B3-4FBD-BEA0-C33D716558E3}" ShortID="186711932"/>
+							</CustomState>
+							<CustomState>
 								<StateRef Name="Subway" ID="{A7B2C323-BF08-4B9A-A814-4CA958F77239}"/>
 								<CustomState Name="" ID="{793656D2-E488-4441-8118-8938BFA4BAE9}" ShortID="158716879">
 									<PropertyList>
@@ -213,7 +217,7 @@
 							<ObjectRef Name="Subway" ID="{A7B2C323-BF08-4B9A-A814-4CA958F77239}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+							<ObjectRef Name="Sfx" ID="{E6B44567-1111-433A-A320-087E5C218149}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
 						</Reference>
 						<Reference Name="SwitchGroupOrStateGroup">
 							<ObjectRef Name="Room" ID="{FC13C422-9369-4086-A8BE-39E60EE1ACBA}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>

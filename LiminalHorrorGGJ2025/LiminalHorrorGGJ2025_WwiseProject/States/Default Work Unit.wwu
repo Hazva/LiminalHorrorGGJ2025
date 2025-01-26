@@ -31,6 +31,7 @@
 						<State Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
 						<State Name="Intermediate_Locked" ID="{6D282797-70F7-4E5D-97AF-DAC3163CE6E1}"/>
 						<State Name="Intermediate_Empty" ID="{D12F71AF-8FB3-4087-8BE5-0BC9890A4932}"/>
+						<State Name="Credits" ID="{9313D3F3-1865-4191-BDE1-703D05F68D62}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Movement" ID="{3AA98C83-98F4-40D7-8685-519859B23577}">

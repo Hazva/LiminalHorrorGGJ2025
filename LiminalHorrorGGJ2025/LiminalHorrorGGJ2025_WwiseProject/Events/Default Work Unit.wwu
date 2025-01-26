@@ -34,6 +34,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{02CB9CBA-F37B-4F45-9A3C-175CC2F2406D}" ShortID="113429343">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Credits" ID="{9313D3F3-1865-4191-BDE1-703D05F68D62}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Stop_Ambience" ID="{63262E25-0586-4D70-9FCE-3A4B6A0BFA39}">

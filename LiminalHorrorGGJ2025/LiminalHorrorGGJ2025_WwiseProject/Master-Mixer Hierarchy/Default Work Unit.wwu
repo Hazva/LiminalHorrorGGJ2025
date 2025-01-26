@@ -10,6 +10,75 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
+						<Bus Name="Sfx" ID="{E6B44567-1111-433A-A320-087E5C218149}">
+							<ChildrenList>
+								<Bus Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}">
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Submerged" ID="{386A89DE-B4D4-40BF-A48C-737BB4C5EF25}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Submerged" ID="{5E36E060-A7A8-4BF2-B1D7-C0A9D0C251DD}"/>
+												<CustomState Name="" ID="{633E39E7-B379-4E7D-B947-22B6AB2F52AA}" ShortID="780002204">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NonSubmerged" ID="{80B0EA5F-63BD-4DDB-8CCA-CDCF0CE522A9}"/>
+												<CustomState Name="" ID="{3E2CFDA6-0126-4179-A956-5B468E41FDA4}" ShortID="428219053"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Room" ID="{FC13C422-9369-4086-A8BE-39E60EE1ACBA}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Intermediate_Empty" ID="{D12F71AF-8FB3-4087-8BE5-0BC9890A4932}"/>
+										<CustomState Name="" ID="{B3DCEDB0-DDCD-4997-A83B-3B4B12F11AAE}" ShortID="745845181"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
+										<CustomState Name="" ID="{5E62718C-3F91-4C03-ADA2-DFB266C45B4C}" ShortID="1046012305"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Credits" ID="{9313D3F3-1865-4191-BDE1-703D05F68D62}"/>
+										<CustomState Name="" ID="{EE6E527A-6650-4935-A230-8D2D15D55118}" ShortID="288888923">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Subway" ID="{A7B2C323-BF08-4B9A-A814-4CA958F77239}"/>
+										<CustomState Name="" ID="{25F73D48-38C0-4E67-9B30-F69CA621712D}" ShortID="453238781"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intermediate" ID="{971C9E32-8D04-4C1C-87C7-C2F647439C4E}"/>
+										<CustomState Name="" ID="{B4A8D436-DFCC-4D55-9DAE-0B6C4BD04DD2}" ShortID="683303541"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Final" ID="{DBF1FBB4-4AAE-4D4A-8C12-B2836FC18F87}"/>
+										<CustomState Name="" ID="{E9191834-14DA-4ADF-9406-BA91DC1C707A}" ShortID="837810457"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Intermediate_Locked" ID="{6D282797-70F7-4E5D-97AF-DAC3163CE6E1}"/>
+										<CustomState Name="" ID="{50620F14-FA09-4817-A9FF-27EC4AB6D748}" ShortID="597156666"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Music" ID="{E1C060D8-9946-4146-97AD-155E5948DC6F}"/>
 						<AuxBus Name="Reverb" ID="{50570FF5-ACF3-4E02-A6F3-D439F7DBD47E}">
 							<ObjectLists>
 								<ObjectList Name="Effects">
@@ -36,29 +105,6 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
-						<Bus Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}">
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="Submerged" ID="{386A89DE-B4D4-40BF-A48C-737BB4C5EF25}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Submerged" ID="{5E36E060-A7A8-4BF2-B1D7-C0A9D0C251DD}"/>
-										<CustomState Name="" ID="{633E39E7-B379-4E7D-B947-22B6AB2F52AA}" ShortID="780002204">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16" Value="50"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="NonSubmerged" ID="{80B0EA5F-63BD-4DDB-8CCA-CDCF0CE522A9}"/>
-										<CustomState Name="" ID="{3E2CFDA6-0126-4179-A956-5B468E41FDA4}" ShortID="428219053"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
