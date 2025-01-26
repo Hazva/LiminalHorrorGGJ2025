@@ -12,8 +12,15 @@ public class GameManager : MonoBehaviour
     public GameObject compassImage;
 
     private const int INFINITE_ROOM_LEVEL_INDEX = 0;
+    public static GameManager Instance { get; private set; }
 
-    public int currLevel = 0;
+    private int currLevel = 0;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,26 +28,23 @@ public class GameManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void NextLevel()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (currLevel == INFINITE_ROOM_LEVEL_INDEX)
         {
-            if (currLevel == INFINITE_ROOM_LEVEL_INDEX)
-            {
-                infiniteRoomManager.enabled = true;
-                fogObject.SetActive(true);
-            }
-            else
-            {
-                infiniteRoomManager.enabled = false;
-                fogObject.SetActive(false); 
-                compassImage.SetActive(false);
-            }
-
-            transitionTrigger.TriggerTransition();
-            currLevel = (currLevel + 1) % teleportPoints.Length;
-            transitionTrigger.teleportObject = teleportPoints[currLevel];
+            infiniteRoomManager.enabled = true;
+            fogObject.SetActive(true);
         }
+        else
+        {
+            infiniteRoomManager.enabled = false;
+            fogObject.SetActive(false);
+            compassImage.SetActive(false);
+        }
+
+        transitionTrigger.TriggerTransition();
+        currLevel = (currLevel + 1) % teleportPoints.Length;
+        transitionTrigger.teleportObject = teleportPoints[currLevel];
     }
 
     public void StartInfiniteRoomPuzzle()
