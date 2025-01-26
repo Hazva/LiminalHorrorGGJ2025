@@ -1,12 +1,40 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1255756422	Play_ambient_meadow			\Default Work Unit\Play_ambient_meadow	
-	1637864059	Play_ambient_tunnel			\Default Work Unit\Play_ambient_tunnel	
+	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
 	3565446547	Play_Train_Station_Song			\Default Work Unit\Play_Train_Station_Song	
-	4109800757	Play_ambient_water_still			\Default Work Unit\Play_ambient_water_still	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2077253480	Room			\Default Work Unit\Room	
+
+State	ID	Name	State Group			Notes
+	565529991	Final	Room			
+	748895195	None	Room			
+	1392138151	Subway_Flood	Room			
+	1981184526	Subway	Room			
+	2188788306	Intermediate	Room			
+
+Modulator Time	ID	Name			Wwise Object Path	Notes
+	59884537	Modulator Time (Custom)				
+	84836466	Modulator Time (Custom)				
+	369942392	Modulator Time (Custom)				
+	429778787	Modulator Time (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	76308689	RoomVerb (Custom)	Wwise RoomVerb			
+	865397064	Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	927883286	Parametric EQ (Custom)	Wwise Parametric EQ			
+	1015026083	RoomVerb (Custom)	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	3206905	sfx_still_water_ambient	Y:\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\sfx_still_water_ambient_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Ambient\ambient_loop\ambient_water_still\water_still\sfx_still_water_ambient		18048096
-	67111979	Pool_50s_Song_Intro	Y:\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Pool_50s_Song_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Train Station Song\Train Station Song_loop\Pool_50s_Song_Intro		11917340
-	84247084	sfx_meadow_ambience	Y:\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\sfx_meadow_ambience_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Ambient\ambient_loop\ambient_meadow\meadow\sfx_meadow_ambience		11520096
-	318066872	sfx_tunnel_ambient	Y:\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\sfx_tunnel_ambient_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Ambient\ambient_loop\ambient_tunnel\tunnel\sfx_tunnel_ambient		18048096
+	67111979	Pool_50s_Song_Intro	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Pool_50s_Song_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Train Station Song\Train Station Song_loop\Pool_50s_Song_Intro		11917340
+	69619300	sfx_still_water_ambient	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\sfx_still_water_ambient_F3D1FAA4.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\sfx_still_water_ambient		15015864
+	82224420	sfx_tunnel_ambient	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\sfx_tunnel_ambient_9D8B467B.wem		\Actor-Mixer Hierarchy\Tan\Ambience\sfx_tunnel_ambient		16137424
+	410465177	Pipe_1	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Pipe_1_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_1		814992
+	439335363	WhiteNoise	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\WhiteNoise_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Train Station Song\Train Station Song_loop\WhiteNoise		8759272
+	463366720	Pipe_5	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Pipe_5_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_5		578512
+	546794053	Pipe_4	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Pipe_4_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_4		783032
+	721218996	Pipe_3	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Pipe_3_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_3		552944
+	727980279	Pipe_6	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Pipe_6_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_6		530576
+	746512004	Water_Rising	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Water_Rising_FBC78EF0.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Water_Rising		9964532
+	762961166	Pipe_2	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Pipe_2_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_2		530576
+	991790938	Distant_Subway	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Distant_Subway_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\DistantSubway\Distant_Subway		4287860
 

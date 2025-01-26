@@ -5,6 +5,8 @@ using UnityEngine;
 public class WarpBack : MonoBehaviour
 {
     [SerializeField] private Transform teleportDestination;
+    [SerializeField] private CharacterController characterController;
+
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
@@ -12,7 +14,10 @@ public class WarpBack : MonoBehaviour
         {
             Vector3 newPosition = new Vector3(teleportDestination.position.x, teleportDestination.position.y, other.transform.position.z);
             Debug.Log("Teleporting");
+            characterController.enabled = false;
             other.transform.position = newPosition;
+            characterController.enabled = true;
+
         }
     }
 }

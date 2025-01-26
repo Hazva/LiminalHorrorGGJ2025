@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Daniel" ID="{067ABD16-9D61-4798-8594-F16B572C065C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Water_Rising" ID="{CC94CC62-38ED-4D16-BE71-99AD6303533C}">
-					<ChildrenList>
-						<Action Name="" ID="{DD876A57-90A3-488F-9291-483758DDAE69}" ShortID="296416610">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Water_Rising" ID="{95BBBC58-7BF6-4978-B5D9-7F1D55103B6C}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Fluorescent_Light" ID="{410EDC8B-F1A0-440F-83B9-964A1A1D6ADA}">
 					<ChildrenList>
 						<Action Name="" ID="{669FC420-87EE-442D-BE81-02943948EAF2}" ShortID="987328033">
@@ -64,17 +53,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Transition" ID="{C1BE3327-8949-40FC-B80A-D80DB43CDFFE}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_PipeAmbience" ID="{6DAC9F89-98B0-494D-A7A6-3DA06B397D07}">
-					<ChildrenList>
-						<Action Name="" ID="{CF77954D-BD08-4D4C-A48F-22FAFE4C36F8}" ShortID="506565482">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="PipeAmbience" ID="{19BDD8DA-5886-4B78-8636-89FABDA798A4}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -164,17 +142,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_DistantSubway" ID="{89F36ED9-A55B-41F8-947D-72D83103ED66}">
-					<ChildrenList>
-						<Action Name="" ID="{604DA1D1-8524-4036-9162-2201718E2872}" ShortID="775160847">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="DistantSubway" ID="{FEB4AFC4-2128-4365-9FEA-06296E8303A9}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Stop_Heartbeat" ID="{015556C4-F0A4-4783-9294-649628AE1BD6}">
 					<ChildrenList>
 						<Action Name="" ID="{0F3D4E84-A035-4181-9432-576C41C9F9EF}" ShortID="118305726">
@@ -185,6 +152,57 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Heartbeat" ID="{DD23903C-D6D3-4440-9B2B-0A9E50860CEB}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Exit_Water" ID="{958914C7-3F32-4B1E-85CB-AAA0FB0335C7}">
+					<ChildrenList>
+						<Action Name="" ID="{D1EFFB38-73E3-4BC4-9595-341BDB2913C1}" ShortID="197090186">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wetness" ID="{A9AE7D14-B3A4-4923-A9A1-413D6DE604BE}" WorkUnitID="{6D3ED188-7311-4F38-9C51-C7FF1DFB7FC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2573F8FC-3DAA-4FC5-91A8-2FCB1F42C7A0}" ShortID="661672560">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wetness" ID="{A9AE7D14-B3A4-4923-A9A1-413D6DE604BE}" WorkUnitID="{6D3ED188-7311-4F38-9C51-C7FF1DFB7FC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Walk" ID="{A0587BA2-9C41-44D7-9BF6-D2BFEC9880D7}">
+					<ChildrenList>
+						<Action Name="" ID="{4D3F6DC5-8157-43EC-9BE7-F8253759BC62}" ShortID="38632101">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{4A98B216-87B8-482D-B520-761308A3292C}" WorkUnitID="{76709BC8-2F74-4140-A63B-45CFB6B478D0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Walk" ID="{3BA12385-ACA6-43E5-85A0-4DB01573DDAA}">
+					<ChildrenList>
+						<Action Name="" ID="{E97C3DB8-89D1-4110-A596-0B3AB6E0D823}" ShortID="214767656">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{4A98B216-87B8-482D-B520-761308A3292C}" WorkUnitID="{76709BC8-2F74-4140-A63B-45CFB6B478D0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

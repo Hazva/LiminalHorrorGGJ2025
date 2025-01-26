@@ -3,45 +3,23 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{3CA61BC9-E4C4-4072-B1D7-338336C44413}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_ambient_meadow" ID="{F6EA1ACA-5140-476F-A393-22F66482A36B}">
-					<ChildrenList>
-						<Action Name="" ID="{3DC399A6-6D36-453C-9FBD-3C8BF94BC775}" ShortID="738771230">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ambient_meadow" ID="{37A5B626-3AD1-4E0A-A53A-CE21D729BDE9}" WorkUnitID="{6EF3E3A9-4291-42A9-95E7-F34410294069}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_ambient_tunnel" ID="{5BDA6373-2097-480A-859B-289421B8BF01}">
-					<ChildrenList>
-						<Action Name="" ID="{CEFE04D4-14FC-4ADE-96C9-600BCD0DF491}" ShortID="431546911">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ambient_tunnel" ID="{F9F613A5-6756-4FAC-B654-D91E252E2E51}" WorkUnitID="{6EF3E3A9-4291-42A9-95E7-F34410294069}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_ambient_water_still" ID="{8D6BD6DC-308F-49A8-980F-BF7E742FE0BB}">
-					<ChildrenList>
-						<Action Name="" ID="{05C67E27-FE22-4814-8F13-D61AB86AC6E4}" ShortID="118392506">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ambient_water_still" ID="{EBD0D9BC-FC04-42AA-A543-20576B48AB02}" WorkUnitID="{6EF3E3A9-4291-42A9-95E7-F34410294069}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Train_Station_Song" ID="{5E9EC538-382C-492A-BD14-10C5801CF812}">
 					<ChildrenList>
 						<Action Name="" ID="{90CED02E-01A8-469C-A1B0-CC8B57AA29E4}" ShortID="164791293">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Train Station Song" ID="{2EEA1A98-F643-4425-AD3A-FBEB288FB20D}" WorkUnitID="{6EF3E3A9-4291-42A9-95E7-F34410294069}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambience" ID="{8B650274-1557-42A7-B8ED-7C5CBF79D153}">
+					<ChildrenList>
+						<Action Name="" ID="{BF49CE78-B655-48E7-A71C-AAE1465CC73B}" ShortID="800320948">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{50CE9F91-5613-4F92-A6D3-3CF465011BBC}" WorkUnitID="{9731B3CD-3F3F-4381-890F-C8E14ECF3019}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
