@@ -20,7 +20,7 @@ public class InfiniteRoom : MonoBehaviour
     public bool bGenerateRooms = false;
     [SerializeField] private float doorDistance = 80.0f;
 
-    private float timer = 10f;
+    private float timer = 5f;
     public GameObject compassPrefab;
     public float spawnDistance;
     public CharacterController charController;
@@ -178,6 +178,7 @@ public class InfiniteRoom : MonoBehaviour
             }
 
             lastSpawnedPrefab = Instantiate(compassPrefab, spawnPosition, Quaternion.identity);
+            lastSpawnedPrefab.SetActive(true);
 
             if (respawnCoroutine != null)
             {
@@ -189,9 +190,9 @@ public class InfiniteRoom : MonoBehaviour
 
     private IEnumerator RespawnAfterInactivity()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(20f);
 
-        if (lastSpawnedPrefab != null)
+        if (lastSpawnedPrefab != null && !puzzleStarted && !ItemPickUp.Instance.isImageTriggered)
         {
             Destroy(lastSpawnedPrefab);
             lastSpawnedPrefab = null;
