@@ -97,7 +97,11 @@ public class CompassPuzzle : MonoBehaviour
 
     private IEnumerator SnapToSolvedRotation()
     {
-        target = InfiniteRoom.Instance.SpawnDoor();
+        if (target == null)
+        {
+            target = InfiniteRoom.Instance.SpawnDoor();
+        }
+        
         float solvedAngle = Mathf.Atan2(lastDirection.x, lastDirection.y) * Mathf.Rad2Deg;
         solvedAngle = (solvedAngle + 360f) % 360f; 
         Quaternion startRotation = compassImage.GetComponent<RectTransform>().localRotation;

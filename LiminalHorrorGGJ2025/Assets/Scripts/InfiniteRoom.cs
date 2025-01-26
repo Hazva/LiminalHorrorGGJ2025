@@ -18,7 +18,7 @@ public class InfiniteRoom : MonoBehaviour
     private List<GameObject> rooms = new();
     private List<bool> roomsInRange = new();
     public bool bGenerateRooms = false;
-    [SerializeField] private float doorDistance = 40.0f;
+    [SerializeField] private float doorDistance = 80.0f;
 
     private float timer = 0.0f;
 
@@ -110,13 +110,17 @@ public class InfiniteRoom : MonoBehaviour
 
     public void StopGeneration()
     {
-        bGenerateRooms = false;
-        StartCoroutine(DispellFog());
-        Quaternion rot = Quaternion.Euler(0, 90, 0);
-        Instantiate(wallPrefab, currentRoom.transform.position + new Vector3(-2 * width, height/2.0f, 0), rot);
-        Instantiate(wallPrefab, currentRoom.transform.position + new Vector3(2 * width, height / 2.0f, 0), rot);
-        Instantiate(wallPrefab, currentRoom.transform.position + new Vector3(0, height / 2.0f, -2 * width), Quaternion.identity);
-        Instantiate(wallPrefab, currentRoom.transform.position + new Vector3(0, height / 2.0f, 2 * width), Quaternion.identity);
+        if (bGenerateRooms)
+        {
+            bGenerateRooms = false;
+            StartCoroutine(DispellFog());
+            Quaternion rot = Quaternion.Euler(0, 90, 0);
+            Instantiate(wallPrefab, currentRoom.transform.position + new Vector3(-2 * width, height / 2.0f, 0), rot);
+            Instantiate(wallPrefab, currentRoom.transform.position + new Vector3(2 * width, height / 2.0f, 0), rot);
+            Instantiate(wallPrefab, currentRoom.transform.position + new Vector3(0, height / 2.0f, -2 * width), Quaternion.identity);
+            Instantiate(wallPrefab, currentRoom.transform.position + new Vector3(0, height / 2.0f, 2 * width), Quaternion.identity);
+        }
+        
     }
 
     IEnumerator DispellFog()
