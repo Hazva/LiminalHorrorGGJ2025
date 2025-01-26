@@ -21,29 +21,10 @@
 														<Custom>
 															<Effect Name="RoomVerb (Custom)" ID="{0CB18C30-7F20-44FF-9328-62C822C5DE34}" ShortID="742243031" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 																<PropertyList>
-																	<Property Name="DecayTime" Type="Real32" Value="1.6"/>
+																	<Property Name="DecayTime" Type="Real32" Value="2"/>
 																	<Property Name="DryLevel" Type="Real32" Value="-4"/>
 																	<Property Name="HFDamping" Type="Real32" Value="4.6"/>
-																	<Property Name="ReverbLevel" Type="Real32" Value="-11"/>
-																</PropertyList>
-															</Effect>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</EffectSlot>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<EffectSlot Name="" ID="{779BE0CC-4D94-41E3-A56F-9C0C0DAED223}" ShortID="225122265">
-												<ReferenceList>
-													<Reference Name="Effect">
-														<Custom>
-															<Effect Name="Delay (Custom)" ID="{9AF6D36E-41E0-4069-9E0E-D8D80EDE8720}" ShortID="815870935" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
-																<PropertyList>
-																	<Property Name="DelayTime" Type="Real32" Value="1"/>
-																	<Property Name="Feedback" Type="Real32" Value="23"/>
-																	<Property Name="WetDryMix" Type="Real32" Value="17"/>
+																	<Property Name="ReverbLevel" Type="Real32" Value="-10"/>
 																</PropertyList>
 															</Effect>
 														</Custom>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{84D6C01B-5D07-AEA7-4492-92D5E826B856}">
+		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{1FC098D7-8649-2DDD-3266-4A85F7E5BD4C}">
 			<ShortName>ambient</ShortName>
 			<Path>ambient.bnk</Path>
 			<Media>
@@ -19,11 +19,11 @@
 				</File>
 				<File Id="69619300" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_still_water_ambient.wav</ShortName>
-					<CachePath>SFX/sfx_still_water_ambient_F3D1FAA4.wem</CachePath>
+					<CachePath>SFX/sfx_still_water_ambient_6298FF1E.wem</CachePath>
 				</File>
 				<File Id="82224420" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_tunnel_ambient.wav</ShortName>
-					<CachePath>SFX/sfx_tunnel_ambient_9D8B467B.wem</CachePath>
+					<CachePath>SFX/sfx_tunnel_ambient_F8C1E59B.wem</CachePath>
 				</File>
 				<File Id="410465177" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pipe_1.wav</ShortName>
@@ -141,13 +141,12 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F1523C5D-9EC4-A87B-FBAC-1C29C18544DF}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DB8543CC-BBE0-887A-1DFC-BE2B818F5F88}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<Custom>
 					<Plugin Id="742243031" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="815870935" Name="Delay (Custom)" LibName="Wwise Delay" LibId="6946819"/>
 				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
@@ -162,7 +161,6 @@
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="742243031"/>
-							<PluginRef Id="815870935"/>
 						</Custom>
 					</PluginRefs>
 				</AuxBus>
@@ -208,7 +206,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{28ABA4F9-33D6-F7B5-5CEC-3B8EDF6062DA}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{64C0A1D5-9C4A-D0A6-C307-4115109D9B8C}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
@@ -398,7 +396,7 @@
 				</File>
 				<File Id="323068360" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Loop.wav</ShortName>
-					<CachePath>SFX/Door_Loop_1095B38C.wem</CachePath>
+					<CachePath>SFX/Door_Loop_BA2EE254.wem</CachePath>
 				</File>
 				<File Id="325392808" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Transition.wav</ShortName>
@@ -1318,5 +1316,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{515E577A-9F05-9373-7398-15753B45D953}</FileHash>
+	<FileHash>{442B4B12-C901-B41C-39A9-1283204C5172}</FileHash>
 </SoundBanksInfo>

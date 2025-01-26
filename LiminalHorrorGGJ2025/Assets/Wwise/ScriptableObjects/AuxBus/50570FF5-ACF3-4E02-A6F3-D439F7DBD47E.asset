@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbe5cfe569cc7da48b809544d31f3c5b, type: 3}
   m_Name: 50570FF5-ACF3-4E02-A6F3-D439F7DBD47E
   m_EditorClassIdentifier: 
-  objectName: New_Auxiliary_Bus
-  id: 373392551
+  objectName: Reverb
+  id: 348963605
   guid: 50570FF5-ACF3-4E02-A6F3-D439F7DBD47E

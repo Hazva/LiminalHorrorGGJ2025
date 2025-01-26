@@ -33,7 +33,6 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	742243031	RoomVerb (Custom)	Wwise RoomVerb			
-	815870935	Delay (Custom)	Wwise Delay			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
