@@ -11712,6 +11712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813904582}
   - component: {fileID: 1813904583}
+  - component: {fileID: 1813904584}
   m_Layer: 0
   m_Name: InfiniteRoomManager
   m_TagString: Untagged
@@ -11758,9 +11759,30 @@ MonoBehaviour:
   - {fileID: 1202061973}
   - {fileID: 1253868682}
   currentRoom: {fileID: 0}
-  compassPuzzle: {fileID: 0}
+  compassPuzzle: {fileID: 1813904584}
   bGenerateRooms: 1
   doorDistance: 40
+  compassPrefab: {fileID: 919132149155446097, guid: 337511ff0c2cd754ba7e2a267ca07241, type: 3}
+  spawnDistance: 40
+  charController: {fileID: 76173289}
+  playerObj: {fileID: 76173287}
+--- !u!114 &1813904584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813904581}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f8af27baac38347ba54942abd75dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  compassImage: {fileID: 1956058239}
+  target: {fileID: 0}
+  puzzleSolved: 0
+  playerObj: {fileID: 76173287}
+  directionHoldTime: 0
 --- !u!1 &1857574322
 GameObject:
   m_ObjectHideFlags: 0
@@ -11829,6 +11851,7 @@ MonoBehaviour:
   compassImage: {fileID: 1956058239}
   target: {fileID: 0}
   puzzleSolved: 0
+  playerObj: {fileID: 0}
   directionHoldTime: 0
 --- !u!1 &1891370461
 GameObject:

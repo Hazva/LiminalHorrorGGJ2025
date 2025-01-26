@@ -20,7 +20,15 @@ public class InfiniteRoom : MonoBehaviour
     public bool bGenerateRooms = false;
     [SerializeField] private float doorDistance = 80.0f;
 
-    private float timer = 0.0f;
+    private float timer = 10f;
+    public GameObject compassPrefab;
+    public float spawnDistance;
+    public CharacterController charController;
+    public GameObject playerObj;
+
+    private bool puzzleStarted = false;
+    private GameObject lastSpawnedPrefab = null;
+    private Coroutine respawnCoroutine = null;
 
     private void Awake()
     {
@@ -30,6 +38,15 @@ public class InfiniteRoom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (IsPlayerMoving() && timer > 0 && !puzzleStarted)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0)
+            {
+                SpawnPrefabInFront();
+            }
+        }
+
         if (bGenerateRooms)
         {
             /*
@@ -83,9 +100,10 @@ public class InfiniteRoom : MonoBehaviour
         }
     }
 
-    private void StartPuzzle()
+    public void StartPuzzle()
     {
         compassPuzzle.enabled = true;
+        puzzleStarted = true;
     }
 
     bool RoomExists(Vector3 pos)
@@ -139,5 +157,45 @@ public class InfiniteRoom : MonoBehaviour
         yield return new WaitForSeconds(5.0f);
 
         fog.SetActive(false);
+    }
+    private bool IsPlayerMoving()
+    {
+        return charController.velocity.magnitude > 0.1f;
+    }
+
+    private void SpawnPrefabInFront()
+    {
+        if (compassPrefab != null)
+        {
+            Vector3 forwardGroundAligned = playerObj.transform.forward;
+            forwardGroundAligned.y = 0;
+            forwardGroundAligned.Normalize();
+            Vector3 spawnPosition = playerObj.transform.position + forwardGroundAligned * spawnDistance;
+
+            if (lastSpawnedPrefab != null)
+            {
+                Destroy(lastSpawnedPrefab);
+            }
+
+            lastSpawnedPrefab = Instantiate(compassPrefab, spawnPosition, Quaternion.identity);
+
+            if (respawnCoroutine != null)
+            {
+                StopCoroutine(respawnCoroutine);
+            }
+            respawnCoroutine = StartCoroutine(RespawnAfterInactivity());
+        }
+    }
+
+    private IEnumerator RespawnAfterInactivity()
+    {
+        yield return new WaitForSeconds(10f);
+
+        if (lastSpawnedPrefab != null)
+        {
+            Destroy(lastSpawnedPrefab);
+            lastSpawnedPrefab = null;
+            SpawnPrefabInFront();
+        }
     }
 }

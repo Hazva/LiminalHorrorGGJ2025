@@ -6,6 +6,7 @@ public class CompassPuzzle : MonoBehaviour
     public GameObject compassImage;
     public GameObject target;
     public bool puzzleSolved = false;
+    public GameObject playerObj;
     private bool snapped = true;
 
     private Vector3 initialVelocity;
@@ -76,10 +77,10 @@ public class CompassPuzzle : MonoBehaviour
         {
             if (target != null)
             {
-                Vector3 directionToTarget = target.transform.position - gameObject.transform.position;
+                Vector3 directionToTarget = target.transform.position - playerObj.transform.position;
                 directionToTarget.Normalize();
 
-                float angleToTarget = Vector3.SignedAngle(gameObject.transform.forward, directionToTarget, Vector3.up);
+                float angleToTarget = Vector3.SignedAngle(playerObj.transform.forward, directionToTarget, Vector3.up);
                 Debug.Log(angleToTarget);
 
                 angleToTarget = (angleToTarget + 360f) % 360f; 
