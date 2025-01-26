@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject fogObject;
     public GameObject compassImage;
     public PaperProximity paperProx;
+    public GameObject creditsObject;
 
     private const int INFINITE_ROOM_LEVEL_INDEX = 0;
     private const int WHITE_ROOM_LEVEL_INDEX = 1;
@@ -64,6 +65,16 @@ public class GameManager : MonoBehaviour
         transitionTrigger.TriggerTransition();
         currLevel = (currLevel + 1) % teleportPoints.Length;
         transitionTrigger.teleportObject = teleportPoints[currLevel];
+        if (currLevel == 0)
+        {
+            StartCoroutine(CreditsDelay());
+        }
+    }
+
+    IEnumerator CreditsDelay()
+    {
+        yield return new WaitForSeconds(5.0f);
+        creditsObject.SetActive(true);
     }
 
     public void StartInfiniteRoomPuzzle()
