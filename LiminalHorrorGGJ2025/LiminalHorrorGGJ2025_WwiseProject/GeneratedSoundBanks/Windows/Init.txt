@@ -1,3 +1,14 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1265478494	footstep_surfaces			\Default Work Unit\footstep_surfaces	
+
+State	ID	Name	State Group			Notes
+	748895195	None	footstep_surfaces			
+	2412606308	carpet	footstep_surfaces			
+	2637588553	tile	footstep_surfaces			
+	2654748154	water	footstep_surfaces			
+	3922274248	tile_wet	footstep_surfaces			
+	4248645337	grass	footstep_surfaces			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
