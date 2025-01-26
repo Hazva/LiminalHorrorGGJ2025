@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{EB1DB424-4A1D-4BB7-8904-F955731CCB99}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Tan" ID="{EB1DB424-4A1D-4BB7-8904-F955731CCB99}" PersistMode="Standalone"/>
+		<WorkUnit Name="Tan" ID="{EB1DB424-4A1D-4BB7-8904-F955731CCB99}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_General_Footstep_Container" ID="{E06C464C-D4F0-4D27-BC90-D7FEC617367E}">
+					<ChildrenList>
+						<Action Name="" ID="{EB44D3E6-110E-4A7B-B9E6-047EE1A1F7C2}" ShortID="991191444">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="General Footstep Container" ID="{57D43EA2-AFC6-46AA-B4F9-DE3BC353F46A}" WorkUnitID="{9731B3CD-3F3F-4381-890F-C8E14ECF3019}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_bottle_open" ID="{D101ED9D-A639-4C72-9679-75C10DE21EB2}">
+					<ChildrenList>
+						<Action Name="" ID="{147E3ED1-84B5-43C8-B8B5-FBC522B63485}" ShortID="478781029">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_bottle_open" ID="{C4ADC47F-EE2F-457C-895A-24FE1186D1FD}" WorkUnitID="{9731B3CD-3F3F-4381-890F-C8E14ECF3019}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_bottle_pick_up" ID="{2B332B1E-A20C-4F7D-9380-8CCB99D5475A}">
+					<ChildrenList>
+						<Action Name="" ID="{FD181E5F-DA82-4841-BEDF-DD7163F72CA5}" ShortID="220946908">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_bottle_pick_up" ID="{72E44562-8FF3-4C5F-923B-7590A2018884}" WorkUnitID="{9731B3CD-3F3F-4381-890F-C8E14ECF3019}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
