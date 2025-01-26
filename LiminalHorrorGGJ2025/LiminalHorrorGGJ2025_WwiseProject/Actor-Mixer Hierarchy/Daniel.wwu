@@ -92,6 +92,45 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{7D0AB3F0-F922-4DF5-B408-83C6CDE0CA07}" ShortID="425202812">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Compass_Velocity" ID="{2DAF65C8-BCDB-4FC8-804C-27C80EDF776D}" WorkUnitID="{6D3ED188-7311-4F38-9C51-C7FF1DFB7FC1}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{44900207-2043-4ECD-A50D-398D93EB668E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-2683</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>500</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Compass_Spin" ID="{9784D1B6-7CAB-40A5-8BA7-354A4E2BAD65}" Platform="Linked"/>
 					</ActiveSourceList>

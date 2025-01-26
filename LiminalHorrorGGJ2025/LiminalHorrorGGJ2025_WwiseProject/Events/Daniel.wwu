@@ -193,6 +193,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Compass_Spin" ID="{66F1D02B-5787-455F-8FED-E93FDA657D5D}">
+					<ChildrenList>
+						<Action Name="" ID="{A73EF7C4-E50C-4219-AE61-321DA3F405AC}" ShortID="694895413">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Compass_Spin" ID="{24FB291A-8BBC-4392-9899-A471A54D1F54}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

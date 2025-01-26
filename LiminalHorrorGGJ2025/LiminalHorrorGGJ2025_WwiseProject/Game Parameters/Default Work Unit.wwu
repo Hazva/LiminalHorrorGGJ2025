@@ -8,6 +8,12 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Compass_Velocity" ID="{2DAF65C8-BCDB-4FC8-804C-27C80EDF776D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="400"/>
+						<Property Name="Max" Type="Real64" Value="500"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

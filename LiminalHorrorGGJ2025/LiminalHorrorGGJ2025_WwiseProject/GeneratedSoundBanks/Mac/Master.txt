@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	165772206	Play_Swim			\Daniel\Play_Swim	
 	387843989	Exit_Water			\Daniel\Exit_Water	
 	605122265	Play_sfx_bottle_open			\Tan\Play_sfx_bottle_open	
+	614252659	Stop_Compass_Spin			\Daniel\Stop_Compass_Spin	
 	895718239	Play_Transition			\Daniel\Play_Transition	
 	1046130049	Play_Compass_Spin			\Daniel\Play_Compass_Spin	
 	1518103445	Play_Compass_Pickup			\Daniel\Play_Compass_Pickup	
@@ -46,6 +47,7 @@ State	ID	Name	State Group			Notes
 	4284352190	Large	Stress			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	249397943	Compass_Velocity			\Default Work Unit\Compass_Velocity	
 	3286765786	Wetness			\Default Work Unit\Wetness	
 
 Effect plug-ins	ID	Name	Type				Notes

@@ -20,12 +20,14 @@ public class CompassPuzzle : MonoBehaviour
     {
         initialVelocity = new Vector3(Random.Range(400f, 500f), Random.Range(400f, 500f), Random.Range(400f, 500f));
         currentVelocity = initialVelocity;
+        AudioManager.Instance.PostEvent("Play_Compass_Spin");
     }
 
     void Update()
     {
         if (!puzzleSolved)
         {
+            AkSoundEngine.SetRTPCValue("Compass_Velocity", currentVelocity.magnitude);
             compassImage.GetComponent<RectTransform>().Rotate(currentVelocity * Time.deltaTime);
 
             // Get player input direction
@@ -89,6 +91,7 @@ public class CompassPuzzle : MonoBehaviour
 
     private IEnumerator SnapToSolvedRotation()
     {
+        
         float solvedAngle = Mathf.Atan2(lastDirection.x, lastDirection.y) * Mathf.Rad2Deg;
         solvedAngle = (solvedAngle + 360f) % 360f; 
         Quaternion startRotation = compassImage.GetComponent<RectTransform>().localRotation;
@@ -103,6 +106,8 @@ public class CompassPuzzle : MonoBehaviour
             elapsed += Time.deltaTime;
             yield return null;
         }
+        AudioManager.Instance.PostEvent("Stop_Compass_Spin");
+        AudioManager.Instance.PostEvent("Play_Compass_Pickup");
         snapped = true;
     }
 }

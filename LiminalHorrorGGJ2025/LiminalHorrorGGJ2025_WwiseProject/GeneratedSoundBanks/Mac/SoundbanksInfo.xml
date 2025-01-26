@@ -146,7 +146,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A3EF057F-19A2-439C-C8C6-6AE29EE07A0F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7D1D8437-46C9-5F93-0D06-16C2AEB95518}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -172,6 +172,7 @@
 				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
+				<GameParameter Id="249397943" Name="Compass_Velocity"/>
 				<GameParameter Id="3286765786" Name="Wetness"/>
 			</GameParameters>
 			<StateGroups>
@@ -219,7 +220,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{67939640-4961-8AA4-F0E0-A5508A60B662}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{9C25CE68-BA63-A29D-D259-833C5931D71F}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
@@ -1272,10 +1273,12 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1589278981" Name="Play_Walk" DurationType="Infinite"/>
+				<Event Id="614252659" Name="Stop_Compass_Spin" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="127261724" Name="Stop_Swim" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3140964691" Name="Stop_Walk" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="249397943" Name="Compass_Velocity"/>
 				<GameParameter Id="3286765786" Name="Wetness"/>
 			</GameParameters>
 			<StateGroups>
@@ -1317,5 +1320,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2505D5FC-617F-3504-C44D-537DBB1368FA}</FileHash>
+	<FileHash>{ED0C4777-70C3-9075-56C5-FB444D6E1E92}</FileHash>
 </SoundBanksInfo>

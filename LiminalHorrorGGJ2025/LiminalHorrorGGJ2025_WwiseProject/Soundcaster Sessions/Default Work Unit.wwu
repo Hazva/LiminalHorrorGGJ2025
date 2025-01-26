@@ -23,6 +23,10 @@
 							<GameParameterRef Name="Wetness" ID="{A9AE7D14-B3A4-4923-A9A1-413D6DE604BE}"/>
 							<Value>0</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Compass_Velocity" ID="{2DAF65C8-BCDB-4FC8-804C-27C80EDF776D}"/>
+							<Value>500</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Subway" ID="{A7B2C323-BF08-4B9A-A814-4CA958F77239}"/>
