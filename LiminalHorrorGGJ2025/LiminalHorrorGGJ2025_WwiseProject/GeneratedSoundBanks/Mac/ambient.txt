@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
+	2970769112	Play_Credits			\Default Work Unit\Play_Credits	
 	3565446547	Play_Train_Station_Song			\Default Work Unit\Play_Train_Station_Song	
 
 State Group	ID	Name			Wwise Object Path	Notes

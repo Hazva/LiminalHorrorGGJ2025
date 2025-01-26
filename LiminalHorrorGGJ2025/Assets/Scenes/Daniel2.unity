@@ -348,6 +348,7 @@ MonoBehaviour:
   renderTexCamera: {fileID: 1891370462}
   lookSpeed: 2
   lookXLimit: 45
+  moveDirection: {x: 0, y: 0, z: 0}
   canMove: 1
 --- !u!143 &76173289
 CharacterController:
@@ -2909,6 +2910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teleportDestination: {fileID: 408890380}
   characterController: {fileID: 76173289}
+  monsterSpawner: {fileID: 0}
 --- !u!65 &1557049601
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3800,7 +3802,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -4268,6 +4270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teleportDestination: {fileID: 408890380}
   characterController: {fileID: 76173289}
+  monsterSpawner: {fileID: 0}
 --- !u!4 &2037344853 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5740652653813911329, guid: 764099e6ba58b0140912ea420758c63c, type: 3}

@@ -9,6 +9,7 @@ public class InfiniteRoom : MonoBehaviour
     [SerializeField] private float height;
     [SerializeField] private GameObject roomPrefab;
     [SerializeField] private GameObject wallPrefab;
+    [SerializeField] private GameObject doorPrefab;
     [SerializeField] private GameObject fog;
     [SerializeField] private ParticleSystem[] fogParticles;
     public GameObject currentRoom = null;
@@ -29,6 +30,7 @@ public class InfiniteRoom : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.K))
             {
+                SpawnDoor();
                 StopGeneration();
                 return;
             }
@@ -86,6 +88,11 @@ public class InfiniteRoom : MonoBehaviour
             }
         }
         return false;
+    }
+
+    public void SpawnDoor()
+    {
+        Instantiate(doorPrefab, SC_FPSController.Instance.transform.position + SC_FPSController.Instance.moveDirection.normalized * 15.0f, Quaternion.identity);
     }
 
     public void StopGeneration()

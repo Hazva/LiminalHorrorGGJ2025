@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{1FC098D7-8649-2DDD-3266-4A85F7E5BD4C}">
+		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{4EBDAC2A-B81E-BDFD-F4A9-6AA5C237BAB3}">
 			<ShortName>ambient</ShortName>
 			<Path>ambient.bnk</Path>
 			<Media>
@@ -115,6 +115,11 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="2970769112" Name="Play_Credits" MaxAttenuation="25" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="67111979"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3565446547" Name="Play_Train_Station_Song" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
@@ -1316,5 +1321,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{442B4B12-C901-B41C-39A9-1283204C5172}</FileHash>
+	<FileHash>{A8725212-3F2A-7309-816D-39B23530C45D}</FileHash>
 </SoundBanksInfo>

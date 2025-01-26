@@ -342,7 +342,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c91ba63cc4e47240b1d7338336c44413
     GuidInternal: 
-    m_lastTime: -8584637395036465967
+    m_lastTime: -8584637229417141068
     List:
     - name: Play_Ambience
       guid: 7402658b5715a742b8ed7c5cbf79d153
@@ -359,6 +359,23 @@ MonoBehaviour:
         guid: 7402658b5715a742b8ed7c5cbf79d153
       Path: Events\Default Work Unit\Play_Ambience
       maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Credits
+      guid: 3f56d51db4182f4f892d9efe6dc546ab
+      id: 2970769112
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c91ba63cc4e47240b1d7338336c44413
+      - ElementName: Play_Credits
+        ObjectType: 3
+        guid: 3f56d51db4182f4f892d9efe6dc546ab
+      Path: Events\Default Work Unit\Play_Credits
+      maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
     - name: Play_Train_Station_Song

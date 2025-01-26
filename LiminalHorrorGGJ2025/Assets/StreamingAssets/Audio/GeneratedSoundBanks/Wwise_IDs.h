@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID PLAY_COMPASS_PICKUP = 1518103445U;
         static const AkUniqueID PLAY_COMPASS_SPIN = 1046130049U;
         static const AkUniqueID PLAY_CREATURE = 2891509749U;
+        static const AkUniqueID PLAY_CREDITS = 2970769112U;
         static const AkUniqueID PLAY_DOOR_LOOP = 2463718247U;
         static const AkUniqueID PLAY_FLUORESCENT_LIGHT = 3799125421U;
         static const AkUniqueID PLAY_GENERAL_FOOTSTEP_CONTAINER = 2589019387U;

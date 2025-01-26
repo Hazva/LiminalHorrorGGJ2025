@@ -176,6 +176,7 @@ MonoBehaviour:
   renderTexCamera: {fileID: 1839618315}
   lookSpeed: 2
   lookXLimit: 45
+  moveDirection: {x: 0, y: 0, z: 0}
   canMove: 1
 --- !u!143 &43359191
 CharacterController:
@@ -1797,7 +1798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5c9d6e3b73c2df448223cbdb969ad8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 43359188}
 --- !u!114 &1724319486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1891,7 +1891,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
