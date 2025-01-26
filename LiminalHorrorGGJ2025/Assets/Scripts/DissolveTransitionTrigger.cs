@@ -38,7 +38,7 @@ public class DissolveTransitionTrigger : MonoBehaviour
             }
 
             // Start the overlapping transition coroutine
-            transitionCoroutine = StartCoroutine(LerpTransition(1.0f, 2.0f, 0.8f));
+            transitionCoroutine = StartCoroutine(LerpTransition(0.5f, 1.0f, 0.3f));
         }
     }
 
