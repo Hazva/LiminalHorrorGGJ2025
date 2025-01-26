@@ -27,6 +27,7 @@
 						<State Name="Subway" ID="{A7B2C323-BF08-4B9A-A814-4CA958F77239}"/>
 						<State Name="Intermediate" ID="{971C9E32-8D04-4C1C-87C7-C2F647439C4E}"/>
 						<State Name="Final" ID="{DBF1FBB4-4AAE-4D4A-8C12-B2836FC18F87}"/>
+						<State Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

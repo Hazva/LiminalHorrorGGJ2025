@@ -13,27 +13,22 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_AMBIENT_MEADOW = 1255756422U;
-        static const AkUniqueID PLAY_AMBIENT_TUNNEL = 1637864059U;
-        static const AkUniqueID PLAY_AMBIENT_WATER_STILL = 4109800757U;
+        static const AkUniqueID PLAY_AMBIENCE = 278617630U;
         static const AkUniqueID PLAY_BREATHING = 4093367312U;
         static const AkUniqueID PLAY_CLOTH = 128342314U;
         static const AkUniqueID PLAY_COMPASS_PICKUP = 1518103445U;
         static const AkUniqueID PLAY_COMPASS_SPIN = 1046130049U;
         static const AkUniqueID PLAY_CREATURE = 2891509749U;
-        static const AkUniqueID PLAY_DISTANTSUBWAY = 742699890U;
         static const AkUniqueID PLAY_DOOR_LOOP = 2463718247U;
         static const AkUniqueID PLAY_FLUORESCENT_LIGHT = 3799125421U;
         static const AkUniqueID PLAY_GENERAL_FOOTSTEP_CONTAINER = 2589019387U;
         static const AkUniqueID PLAY_HEARTBEAT = 3765695918U;
         static const AkUniqueID PLAY_JUMPSCARE = 3840943850U;
-        static const AkUniqueID PLAY_PIPEAMBIENCE = 2778640434U;
         static const AkUniqueID PLAY_SFX_BOTTLE_OPEN = 605122265U;
         static const AkUniqueID PLAY_SFX_BOTTLE_PICK_UP = 2888013566U;
         static const AkUniqueID PLAY_SWIM = 165772206U;
         static const AkUniqueID PLAY_TRAIN_STATION_SONG = 3565446547U;
         static const AkUniqueID PLAY_TRANSITION = 895718239U;
-        static const AkUniqueID PLAY_WATER_RISING = 95136952U;
         static const AkUniqueID STOP_HEARTBEAT = 3319673256U;
         static const AkUniqueID STOP_SWIM = 127261724U;
     } // namespace EVENTS
@@ -65,6 +60,7 @@ namespace AK
                 static const AkUniqueID INTERMEDIATE = 2188788306U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID SUBWAY = 1981184526U;
+                static const AkUniqueID SUBWAY_FLOOD = 1392138151U;
             } // namespace STATE
         } // namespace ROOM
 
