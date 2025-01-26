@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     private const int INFINITE_ROOM_LEVEL_INDEX = 0;
     public static GameManager Instance { get; private set; }
 
-    private int currLevel = 0;
+    public int currLevel = 0;
 
     private void Awake()
     {
