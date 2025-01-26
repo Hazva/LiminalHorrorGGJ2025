@@ -21,6 +21,7 @@ public class CompassPuzzle : MonoBehaviour
         initialVelocity = new Vector3(Random.Range(400f, 500f), Random.Range(400f, 500f), Random.Range(400f, 500f));
         currentVelocity = initialVelocity;
         AudioManager.Instance.PostEvent("Play_Compass_Spin");
+        compassImage.SetActive(true);
     }
 
     void Update()

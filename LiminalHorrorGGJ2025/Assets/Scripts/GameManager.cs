@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public DissolveTransitionTrigger transitionTrigger;
     public InfiniteRoom infiniteRoomManager;
     public GameObject fogObject;
+    public GameObject compassImage;
 
     private const int INFINITE_ROOM_LEVEL_INDEX = 0;
 
@@ -33,6 +34,7 @@ public class GameManager : MonoBehaviour
             {
                 infiniteRoomManager.enabled = false;
                 fogObject.SetActive(false); 
+                compassImage.SetActive(false);
             }
 
             transitionTrigger.TriggerTransition();

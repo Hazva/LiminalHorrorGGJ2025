@@ -13,10 +13,13 @@ public class InfiniteRoom : MonoBehaviour
     [SerializeField] private GameObject fog;
     [SerializeField] private ParticleSystem[] fogParticles;
     public GameObject currentRoom = null;
+    public CompassPuzzle compassPuzzle;
 
     private List<GameObject> rooms = new();
     private List<bool> roomsInRange = new();
     public bool bGenerateRooms = false;
+
+    private float timer = 0.0f;
 
     private void Awake()
     {
@@ -75,6 +78,11 @@ public class InfiniteRoom : MonoBehaviour
 
             //Debug.Log("Rooms spawned: " + rooms.Count);
         }
+    }
+
+    private void StartPuzzle()
+    {
+        compassPuzzle.enabled = true;
     }
 
     bool RoomExists(Vector3 pos)
