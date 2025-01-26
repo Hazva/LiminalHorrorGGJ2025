@@ -19,7 +19,9 @@ Modulator Time	ID	Name			Wwise Object Path	Notes
 	429778787	Modulator Time (Custom)				
 
 Effect plug-ins	ID	Name	Type				Notes
+	76308689	RoomVerb (Custom)	Wwise RoomVerb			
 	865397064	Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	927883286	Parametric EQ (Custom)	Wwise Parametric EQ			
 	1015026083	RoomVerb (Custom)	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

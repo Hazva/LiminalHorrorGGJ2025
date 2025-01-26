@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{2125E08E-E674-CB42-E1C3-A2637A92D4BB}">
+		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{D863AD1F-0C55-EB84-0C1D-7AD31A9BACC9}">
 			<ShortName>ambient</ShortName>
 			<Path>ambient.bnk</Path>
 			<Media>
@@ -64,7 +64,9 @@
 			</Media>
 			<Plugins>
 				<Custom>
+					<Plugin Id="76308689" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="865397064" Name="Guitar Distortion (Custom)" LibName="Wwise Guitar Distortion" LibId="8257539"/>
+					<Plugin Id="927883286" Name="Parametric EQ (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
 					<Plugin Id="1015026083" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</Custom>
 			</Plugins>
@@ -85,6 +87,7 @@
 							</MediaRefs>
 							<PluginRefs>
 								<Custom>
+									<PluginRef Id="927883286"/>
 									<PluginRef Id="1015026083"/>
 								</Custom>
 							</PluginRefs>
@@ -103,13 +106,14 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3565446547" Name="Play_Train_Station_Song" DurationType="Infinite">
+				<Event Id="3565446547" Name="Play_Train_Station_Song" MaxAttenuation="25" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="67111979"/>
 						<MediaRef Id="439335363"/>
 					</MediaRefs>
 					<PluginRefs>
 						<Custom>
+							<PluginRef Id="76308689"/>
 							<PluginRef Id="865397064"/>
 						</Custom>
 					</PluginRefs>
@@ -127,7 +131,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0CCD1DF0-31D4-D2DA-2C70-D6F2B83D673E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1FC0AF18-22AB-AF4A-0808-8A06095FDB12}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -180,7 +184,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{98E3965C-3727-3351-29AD-0672C232EB5E}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{C597D14A-E656-7C94-52EA-92B7AD1A74E1}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
@@ -1099,7 +1103,7 @@
 						<MediaRef Id="323068360"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3799125421" Name="Play_Fluorescent_Light" DurationType="Infinite">
+				<Event Id="3799125421" Name="Play_Fluorescent_Light" MaxAttenuation="15" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="713720455"/>
 					</MediaRefs>
@@ -1289,5 +1293,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F45A5380-C77E-33B2-0589-BF0F50A58F12}</FileHash>
+	<FileHash>{21F47455-EE70-912B-C006-9AA86C9C5D3E}</FileHash>
 </SoundBanksInfo>

@@ -209,7 +209,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8bdc0e41a0f10f4483b9964a1a1d6ada
       Path: Events\Daniel\Play_Fluorescent_Light
-      maxAttenuation: 0
+      maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
     - name: Play_Heartbeat
@@ -392,7 +392,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 38c59e5e2c382a49bd1410c5801cf812
       Path: Events\Default Work Unit\Play_Train_Station_Song
-      maxAttenuation: 0
+      maxAttenuation: 20
       maxDuration: -1
       minDuration: -1
   - PhysicalPath: Events\Tan.wwu
@@ -940,7 +940,7 @@ MonoBehaviour:
     m_lastTime: -8584638040815680059
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 1e0000001f00000021000000230000002400000025000000
+  ExpandedWaapiItemIds: 050000000600000015000000180000001e0000001f00000021000000230000002400000025000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

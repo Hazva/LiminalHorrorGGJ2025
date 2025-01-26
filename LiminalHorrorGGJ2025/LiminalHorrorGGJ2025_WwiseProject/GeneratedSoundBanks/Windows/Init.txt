@@ -6,11 +6,12 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	Surface			
-	2412606308	carpet	Surface			
-	2637588553	tile	Surface			
-	2654748154	water	Surface			
+	2412606308	Carpet	Surface			
+	2637588553	Tile	Surface			
+	2654748154	Water	Surface			
+	2789056291	Shallow_Water	Surface			
 	3922274248	tile_wet	Surface			
-	4248645337	grass	Surface			
+	4248645337	Grass	Surface			
 	565529991	Final	Room			
 	748895195	None	Room			
 	1392138151	Subway_Flood	Room			

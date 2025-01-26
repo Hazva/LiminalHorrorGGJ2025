@@ -1415,6 +1415,13 @@
 									</ObjectLists>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="footstep_tile" ID="{8FD27A6B-7522-406F-A909-23250AD2CD21}" ShortID="173852375">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -1909,7 +1916,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2349,6 +2356,7 @@
 								<Sound Name="sfx_still_water_ambient" ID="{F2996D06-1AFE-4020-8F65-58EB0C816F86}" ShortID="98619813">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>8</Value>
@@ -2377,6 +2385,29 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{19ECD26F-F9E6-475C-9B1B-F29542F4C9D2}" ShortID="729653403">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Parametric EQ (Custom)" ID="{E01F56F1-3E62-4944-9475-D27B97ABA2DC}" ShortID="927883286" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<PropertyList>
+																			<Property Name="FrequencyBand2" Type="Real32" Value="986"/>
+																			<Property Name="FrequencyBand3" Type="Real32" Value="6779"/>
+																			<Property Name="GainBand2" Type="Real32" Value="24"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 									<ActiveSourceList>
 										<ActiveSource Name="sfx_still_water_ambient" ID="{EE2456AE-3EA6-44DF-BDA5-B08E1326FD2D}" Platform="Linked"/>
 									</ActiveSourceList>

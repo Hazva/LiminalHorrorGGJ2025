@@ -5,14 +5,24 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Train Station Song" ID="{2EEA1A98-F643-4425-AD3A-FBEB288FB20D}" ShortID="939379283">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Tempo" Type="Real64" Value="116"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Music" ID="{4E6E8798-580F-4352-BF32-C507DB318F27}" WorkUnitID="{A7733909-7B8E-46FF-B9E4-E744C3DCDF67}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
 						</Reference>
@@ -639,6 +649,24 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{4E8A3967-3787-4380-8F80-60AFAC2A9D9C}" ShortID="1004889473">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="RoomVerb (Custom)" ID="{E2CDC7A8-3914-4CD9-B382-E4A6B238937C}" ShortID="76308689" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<PropertyList>
+															<Property Name="DryLevel" Type="Real32" Value="-5.3"/>
+															<Property Name="ReverbLevel" Type="Real32" Value="-6"/>
+														</PropertyList>
 													</Effect>
 												</Custom>
 											</Reference>

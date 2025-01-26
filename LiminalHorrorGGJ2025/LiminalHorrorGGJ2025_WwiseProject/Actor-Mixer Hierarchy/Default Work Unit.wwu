@@ -406,6 +406,11 @@
 						<SwitchContainer Name="Breath_Labor" ID="{CBC1E980-1D0C-4230-B070-C82955032114}" ShortID="1008679158">
 							<PropertyList>
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
