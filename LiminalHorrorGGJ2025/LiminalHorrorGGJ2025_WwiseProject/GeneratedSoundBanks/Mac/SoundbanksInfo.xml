@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{008C877E-7D6E-2575-3C20-79AF764625D2}">
+		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{4C771D1C-99D1-3DE4-0C51-8519E7893249}">
 			<ShortName>ambient</ShortName>
 			<Path>ambient.bnk</Path>
 			<Media>
@@ -31,17 +31,17 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1255756422" Name="Play_ambient_meadow" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="1255756422" Name="Play_ambient_meadow" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="84247084"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1637864059" Name="Play_ambient_tunnel" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="1637864059" Name="Play_ambient_tunnel" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="318066872"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4109800757" Name="Play_ambient_water_still" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="4109800757" Name="Play_ambient_water_still" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="3206905"/>
 					</MediaRefs>
@@ -892,5 +892,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B54DA46D-80D0-BB22-7B4F-539C918E5979}</FileHash>
+	<FileHash>{ABA52705-5987-F7E2-4F98-033D24F643B1}</FileHash>
 </SoundBanksInfo>

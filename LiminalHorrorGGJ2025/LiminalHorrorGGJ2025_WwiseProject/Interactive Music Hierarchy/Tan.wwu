@@ -395,6 +395,18 @@
 													<PropertyList>
 														<Property Name="LoopCount" Type="int16" Value="0"/>
 													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{4E7C67F8-3BCA-4A20-92EA-20F0315A8A58}" ShortID="578945427">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="tunnel" ID="{FD5A0A11-58CD-49CC-9AE8-1E772D279B53}" WorkUnitID="{6EF3E3A9-4291-42A9-95E7-F34410294069}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
 												</MusicPlaylistItem>
 											</Custom>
 										</Reference>
@@ -517,6 +529,18 @@
 													<PropertyList>
 														<Property Name="LoopCount" Type="int16" Value="0"/>
 													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{FFFBB0B4-D048-4EA7-9A9B-7BBBFCFD018E}" ShortID="57449150">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="water_still" ID="{9AA0A5B6-0F64-4100-A811-634C12ABBBAD}" WorkUnitID="{6EF3E3A9-4291-42A9-95E7-F34410294069}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
 												</MusicPlaylistItem>
 											</Custom>
 										</Reference>
@@ -639,6 +663,18 @@
 													<PropertyList>
 														<Property Name="LoopCount" Type="int16" Value="0"/>
 													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{767C8917-7AD5-4390-A246-F6ABBED47F88}" ShortID="611867554">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Segment">
+																	<ObjectRef Name="meadow" ID="{1C6BC255-D754-4811-B21A-833B0A522BB2}" WorkUnitID="{6EF3E3A9-4291-42A9-95E7-F34410294069}"/>
+																</Reference>
+															</ReferenceList>
+														</MusicPlaylistItem>
+													</ChildrenList>
 												</MusicPlaylistItem>
 											</Custom>
 										</Reference>

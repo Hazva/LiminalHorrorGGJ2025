@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: f5d3721de309e3489125e37c97af4f44
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: f5d3721de309e3489125e37c97af4f44
     GuidInternal: 
-    m_lastTime: -8584637742319200728
+    m_lastTime: -8584637558940690748
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 91f10b6dcc987546ab33fafb58766f78
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 91f10b6dcc987546ab33fafb58766f78
     GuidInternal: 
-    m_lastTime: -8584637742319473622
+    m_lastTime: -8584637558943455068
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,11 +63,25 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 11f4f8751845214ea3f73c6bbf313b14
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 11f4f8751845214ea3f73c6bbf313b14
     GuidInternal: 
-    m_lastTime: -8584637742319216329
+    m_lastTime: -8584637515760843381
     List:
+    - name: ambient
+      guid: 5729caddc3ff8843acebcb178aab3e38
+      id: 77978275
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 11f4f8751845214ea3f73c6bbf313b14
+      - ElementName: ambient
+        ObjectType: 7
+        guid: 5729caddc3ff8843acebcb178aab3e38
+      Path: SoundBanks/Default Work Unit/ambient
     - name: Master
       guid: 285ca5123f1ed649b1babb140bc0577f
       id: 4056684167
@@ -81,9 +95,260 @@ MonoBehaviour:
       - ElementName: Master
         ObjectType: 7
         guid: 285ca5123f1ed649b1babb140bc0577f
-      Path: SoundBanks\Default Work Unit\Master
+      Path: SoundBanks/Default Work Unit/Master
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Daniel.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Daniel
+      ObjectType: 12
+      guid: 16bd7a06619d98478594f16b572c065c
+    ParentPath: Events/Daniel
+    guid: 16bd7a06619d98478594f16b572c065c
+    GuidInternal: 
+    m_lastTime: -8584637525122523034
+    List:
+    - name: Play_Compass_Pickup
+      guid: e82ec11cefb6b94eb4d27d069070eb93
+      id: 1518103445
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Compass_Pickup
+        ObjectType: 3
+        guid: e82ec11cefb6b94eb4d27d069070eb93
+      Path: Events/Daniel/Play_Compass_Pickup
+      maxAttenuation: 0
+      maxDuration: 1.5473015
+      minDuration: 1.5473015
+    - name: Play_Compass_Spin
+      guid: 23d01352e28ab746918c936a225ea2f7
+      id: 1046130049
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Compass_Spin
+        ObjectType: 3
+        guid: 23d01352e28ab746918c936a225ea2f7
+      Path: Events/Daniel/Play_Compass_Spin
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Creature
+      guid: 4369367c7a6d504da679554ceee71cee
+      id: 2891509749
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Creature
+        ObjectType: 3
+        guid: 4369367c7a6d504da679554ceee71cee
+      Path: Events/Daniel/Play_Creature
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_DistantSubway
+      guid: d96ef3895ba5f841947d72d83103ed66
+      id: 742699890
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_DistantSubway
+        ObjectType: 3
+        guid: d96ef3895ba5f841947d72d83103ed66
+      Path: Events/Daniel/Play_DistantSubway
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Door_Loop
+      guid: 4c044fa980fda24b85a0a97e4a1a88c0
+      id: 2463718247
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Door_Loop
+        ObjectType: 3
+        guid: 4c044fa980fda24b85a0a97e4a1a88c0
+      Path: Events/Daniel/Play_Door_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Fluorescent_Light
+      guid: 8bdc0e41a0f10f4483b9964a1a1d6ada
+      id: 3799125421
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Fluorescent_Light
+        ObjectType: 3
+        guid: 8bdc0e41a0f10f4483b9964a1a1d6ada
+      Path: Events/Daniel/Play_Fluorescent_Light
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Heartbeat
+      guid: b0d42c2e9073eb48a01fe5a31175b0f7
+      id: 3765695918
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Heartbeat
+        ObjectType: 3
+        guid: b0d42c2e9073eb48a01fe5a31175b0f7
+      Path: Events/Daniel/Play_Heartbeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Jumpscare
+      guid: f6c3f7f02384dc4eb90953a11dfd19b6
+      id: 3840943850
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Jumpscare
+        ObjectType: 3
+        guid: f6c3f7f02384dc4eb90953a11dfd19b6
+      Path: Events/Daniel/Play_Jumpscare
+      maxAttenuation: 0
+      maxDuration: 4.363646
+      minDuration: 4.363625
+    - name: Play_PipeAmbience
+      guid: 899fac6db0984d49a7a63da06b397d07
+      id: 2778640434
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_PipeAmbience
+        ObjectType: 3
+        guid: 899fac6db0984d49a7a63da06b397d07
+      Path: Events/Daniel/Play_PipeAmbience
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Swim
+      guid: ac81858c0c019b41b34f20ec57430dd8
+      id: 165772206
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Swim
+        ObjectType: 3
+        guid: ac81858c0c019b41b34f20ec57430dd8
+      Path: Events/Daniel/Play_Swim
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Transition
+      guid: c9a7be2950adbd4086695d71e3c59884
+      id: 895718239
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Transition
+        ObjectType: 3
+        guid: c9a7be2950adbd4086695d71e3c59884
+      Path: Events/Daniel/Play_Transition
+      maxAttenuation: 0
+      maxDuration: 2
+      minDuration: 2
+    - name: Play_Water_Rising
+      guid: 62cc94cced38164dbe7199ad6303533c
+      id: 95136952
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Water_Rising
+        ObjectType: 3
+        guid: 62cc94cced38164dbe7199ad6303533c
+      Path: Events/Daniel/Play_Water_Rising
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Heartbeat
+      guid: c4565501a4f083479294649628ae1bd6
+      id: 3319673256
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Stop_Heartbeat
+        ObjectType: 3
+        guid: c4565501a4f083479294649628ae1bd6
+      Path: Events/Daniel/Stop_Heartbeat
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Swim
+      guid: d954633eed53df4aaddd47fcef1f550d
+      id: 127261724
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Stop_Swim
+        ObjectType: 3
+        guid: d954633eed53df4aaddd47fcef1f550d
+      Path: Events/Daniel/Stop_Swim
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -91,14 +356,14 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c91ba63cc4e47240b1d7338336c44413
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: c91ba63cc4e47240b1d7338336c44413
     GuidInternal: 
-    m_lastTime: -8584637742320128527
+    m_lastTime: -8584637520409548787
     List:
-    - name: Fluorescent_Light
-      guid: db42c612e668df47b68445a4777aaa92
-      id: 1180002552
+    - name: Play_ambient_meadow
+      guid: ca1aeaf640516f47a39322f66482a36b
+      id: 1255756422
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,15 +371,130 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c91ba63cc4e47240b1d7338336c44413
-      - ElementName: Fluorescent_Light
+      - ElementName: Play_ambient_meadow
         ObjectType: 3
-        guid: db42c612e668df47b68445a4777aaa92
-      Path: Events\Default Work Unit\Fluorescent_Light
+        guid: ca1aeaf640516f47a39322f66482a36b
+      Path: Events/Default Work Unit/Play_ambient_meadow
       maxAttenuation: 0
-      maxDuration: 13.808345
-      minDuration: 13.808345
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_ambient_tunnel
+      guid: 7363da5b97200a48859b289421b8bf01
+      id: 1637864059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c91ba63cc4e47240b1d7338336c44413
+      - ElementName: Play_ambient_tunnel
+        ObjectType: 3
+        guid: 7363da5b97200a48859b289421b8bf01
+      Path: Events/Default Work Unit/Play_ambient_tunnel
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_ambient_water_still
+      guid: dcd66b8d8f30a849980fbf7e742fe0bb
+      id: 4109800757
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c91ba63cc4e47240b1d7338336c44413
+      - ElementName: Play_ambient_water_still
+        ObjectType: 3
+        guid: dcd66b8d8f30a849980fbf7e742fe0bb
+      Path: Events/Default Work Unit/Play_ambient_water_still
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Train_Station_Song
+      guid: 38c59e5e2c382a49bd1410c5801cf812
+      id: 3565446547
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c91ba63cc4e47240b1d7338336c44413
+      - ElementName: Play_Train_Station_Song
+        ObjectType: 3
+        guid: 38c59e5e2c382a49bd1410c5801cf812
+      Path: Events/Default Work Unit/Play_Train_Station_Song
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events/Tan.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Tan
+      ObjectType: 12
+      guid: 24b41deb1d4ab74b8904f955731ccb99
+    ParentPath: Events/Tan
+    guid: 24b41deb1d4ab74b8904f955731ccb99
+    GuidInternal: 
+    m_lastTime: -8584637525631162599
+    List:
+    - name: Play_General_Footstep_Container
+      guid: 4c466ce0f0d4274dbc90d7fec617367e
+      id: 2589019387
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Tan
+        ObjectType: 12
+        guid: 24b41deb1d4ab74b8904f955731ccb99
+      - ElementName: Play_General_Footstep_Container
+        ObjectType: 3
+        guid: 4c466ce0f0d4274dbc90d7fec617367e
+      Path: Events/Tan/Play_General_Footstep_Container
+      maxAttenuation: 0
+      maxDuration: 1.6703125
+      minDuration: 0.25954166
+    - name: Play_sfx_bottle_open
+      guid: 9ded01d139a6724c967975c10de21eb2
+      id: 605122265
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Tan
+        ObjectType: 12
+        guid: 24b41deb1d4ab74b8904f955731ccb99
+      - ElementName: Play_sfx_bottle_open
+        ObjectType: 3
+        guid: 9ded01d139a6724c967975c10de21eb2
+      Path: Events/Tan/Play_sfx_bottle_open
+      maxAttenuation: 0
+      maxDuration: 1.5974166
+      minDuration: 1.5974166
+    - name: Play_sfx_bottle_pick_up
+      guid: 1e2b332b0ca27d4f93808ccb99d5475a
+      id: 2888013566
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Tan
+        ObjectType: 12
+        guid: 24b41deb1d4ab74b8904f955731ccb99
+      - ElementName: Play_sfx_bottle_pick_up
+        ObjectType: 3
+        guid: 1e2b332b0ca27d4f93808ccb99d5475a
+      Path: Events/Tan/Play_sfx_bottle_pick_up
+      maxAttenuation: 0
+      maxDuration: 3.0409584
+      minDuration: 3.0409584
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -122,13 +502,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 88d13e6d1173384f9c51c7ff1dfb7fc1
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: 88d13e6d1173384f9c51c7ff1dfb7fc1
     GuidInternal: 
-    m_lastTime: -8584637742320128527
+    m_lastTime: -8584637558943665843
     List: []
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -136,13 +516,127 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: dd5c1f9a41949e4282699104354a8dea
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: dd5c1f9a41949e4282699104354a8dea
     GuidInternal: 
-    m_lastTime: -8584637742319216329
-    List: []
+    m_lastTime: -8584637525630915273
+    List:
+    - name: footstep_surfaces
+      guid: 970e72085857bd4e987b7e30160bca67
+      id: 1265478494
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dd5c1f9a41949e4282699104354a8dea
+      - ElementName: footstep_surfaces
+        ObjectType: 9
+        guid: 970e72085857bd4e987b7e30160bca67
+      Path: States/Default Work Unit/footstep_surfaces
+      values:
+      - name: carpet
+        guid: c2d9cd652ecc19449261ced37c6afdbd
+        id: 2412606308
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: footstep_surfaces
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: carpet
+          ObjectType: 8
+          guid: c2d9cd652ecc19449261ced37c6afdbd
+      - name: grass
+        guid: 4b33c4d722545a4d9573356368d25406
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: footstep_surfaces
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: grass
+          ObjectType: 8
+          guid: 4b33c4d722545a4d9573356368d25406
+      - name: None
+        guid: d62b8a7e55c84144acd0ba7078e2343b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: footstep_surfaces
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: None
+          ObjectType: 8
+          guid: d62b8a7e55c84144acd0ba7078e2343b
+      - name: tile
+        guid: 5e762ce84a38e64c8aa978231df62a71
+        id: 2637588553
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: footstep_surfaces
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: tile
+          ObjectType: 8
+          guid: 5e762ce84a38e64c8aa978231df62a71
+      - name: tile_wet
+        guid: ddd0366fe2931f469a17e6d33dbf9ac3
+        id: 3922274248
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: footstep_surfaces
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: tile_wet
+          ObjectType: 8
+          guid: ddd0366fe2931f469a17e6d33dbf9ac3
+      - name: water
+        guid: df75c655e4c6624c800b5024d065b5e3
+        id: 2654748154
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: footstep_surfaces
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: water
+          ObjectType: 8
+          guid: df75c655e4c6624c800b5024d065b5e3
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -150,13 +644,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 707cb90d663fe84cbde6fa21b7db2879
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: 707cb90d663fe84cbde6fa21b7db2879
     GuidInternal: 
-    m_lastTime: -8584637742319216329
+    m_lastTime: -8584637558940692592
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -164,14 +658,14 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 99b82b68b1c96c4d8be9a45836d9c71f
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: 99b82b68b1c96c4d8be9a45836d9c71f
     GuidInternal: 
-    m_lastTime: -8584637742319200728
+    m_lastTime: -8584637558940691734
     List: []
-  ExpandedFileSystemItemIds: 
+  ExpandedFileSystemItemIds: 0200000012000000170000002600000027000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 
