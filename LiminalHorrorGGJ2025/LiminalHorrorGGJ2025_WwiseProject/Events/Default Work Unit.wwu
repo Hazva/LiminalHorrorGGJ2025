@@ -47,6 +47,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Cloth" ID="{9EF7420D-1512-42E1-BAAD-318032F68C9F}">
+					<ChildrenList>
+						<Action Name="" ID="{EB7389D5-3D38-406A-83AF-5D546DD7359C}" ShortID="907631426">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cloth" ID="{FE06D1AB-3884-48C1-AB02-9CC1945A09AF}" WorkUnitID="{D8B6D7D9-22B9-44D9-A133-0475384A0CD7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Breathing" ID="{32BED32E-5E7E-4D9C-BD2F-CE717CC95486}">
+					<ChildrenList>
+						<Action Name="" ID="{432AC9CA-6790-47DE-86DB-9B8BB5C0C7A4}" ShortID="515398103">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breathing" ID="{6DA9C6AA-C22E-48E5-92CB-F999BCF9CB9F}" WorkUnitID="{D8B6D7D9-22B9-44D9-A133-0475384A0CD7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

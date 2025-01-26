@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{4C771D1C-99D1-3DE4-0C51-8519E7893249}">
+		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{135C4E90-8B4D-DF82-B3EF-12BB81FBAC50}">
 			<ShortName>ambient</ShortName>
 			<Path>ambient.bnk</Path>
 			<Media>
@@ -17,19 +17,308 @@
 					<ShortName>sfx_still_water_ambient.wav</ShortName>
 					<CachePath>SFX/sfx_still_water_ambient_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="7635698" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\1\sfx_breath_labor_01_02.wav</ShortName>
+					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="40498926" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\3\sfx_breath_normal_03_02.wav</ShortName>
+					<CachePath>SFX/Breath_normal/3/sfx_breath_normal_03_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="58125248" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_calm\sfx_breath_calm_5.wav</ShortName>
+					<CachePath>SFX/Breath_calm/sfx_breath_calm_5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="64952068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth Rustling\sfx_cloth_rustling_02.wav</ShortName>
+					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_02_818F3B66.wem</CachePath>
+				</File>
 				<File Id="67111979" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pool_50s_Song.wav</ShortName>
 					<CachePath>SFX/Pool_50s_Song_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="71577902" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_08.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="76747830" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_03.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_03_818F3B66.wem</CachePath>
 				</File>
 				<File Id="84247084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_meadow_ambience.wav</ShortName>
 					<CachePath>SFX/sfx_meadow_ambience_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="91987129" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth Rustling\sfx_cloth_rustling_09.wav</ShortName>
+					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="92214653" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth Rustling\sfx_cloth_rustling_03.wav</ShortName>
+					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="123372606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_calm\sfx_breath_calm_4.wav</ShortName>
+					<CachePath>SFX/Breath_calm/sfx_breath_calm_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="126000394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_06.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="149976759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\1\sfx_breath_labor_01_05.wav</ShortName>
+					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="151730871" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_01.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="162346515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_05.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="167635915" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_16.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="256852523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\1\sfx_breath_labor_01_01.wav</ShortName>
+					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="267693221" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\1\sfx_breath_normal_01_04.wav</ShortName>
+					<CachePath>SFX/Breath_normal/1/sfx_breath_normal_01_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="274691172" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth Rustling\sfx_cloth_rustling_08.wav</ShortName>
+					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="289687414" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_17.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="289822539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_02.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="305685010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_12.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_12_818F3B66.wem</CachePath>
+				</File>
 				<File Id="318066872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_tunnel_ambient.wav</ShortName>
 					<CachePath>SFX/sfx_tunnel_ambient_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="321218457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\1\sfx_breath_labor_01_09.wav</ShortName>
+					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="348368844" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_13.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="356394780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth Rustling\sfx_cloth_rustling_01.wav</ShortName>
+					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="371095294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\3\sfx_breath_normal_03_07.wav</ShortName>
+					<CachePath>SFX/Breath_normal/3/sfx_breath_normal_03_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="389829176" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\1\sfx_breath_labor_01_07.wav</ShortName>
+					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="413074377" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth Rustling\sfx_cloth_rustling_10.wav</ShortName>
+					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="427922673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_06.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="434869044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\1\sfx_breath_normal_01_02.wav</ShortName>
+					<CachePath>SFX/Breath_normal/1/sfx_breath_normal_01_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="439335363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WhiteNoise.wav</ShortName>
+					<CachePath>SFX/WhiteNoise_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="439557029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\1\sfx_breath_normal_01_05.wav</ShortName>
+					<CachePath>SFX/Breath_normal/1/sfx_breath_normal_01_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="455195383" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_18.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_18_818F3B66.wem</CachePath>
+				</File>
+				<File Id="466291669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\1\sfx_breath_normal_01_03.wav</ShortName>
+					<CachePath>SFX/Breath_normal/1/sfx_breath_normal_01_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="475026301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\1\sfx_breath_normal_01_06.wav</ShortName>
+					<CachePath>SFX/Breath_normal/1/sfx_breath_normal_01_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="475607389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_04.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="488022442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_10.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="585688360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\3\sfx_breath_normal_03_01.wav</ShortName>
+					<CachePath>SFX/Breath_normal/3/sfx_breath_normal_03_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="586703907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\3\sfx_breath_normal_03_04.wav</ShortName>
+					<CachePath>SFX/Breath_normal/3/sfx_breath_normal_03_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="588454355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\3\sfx_breath_normal_03_06.wav</ShortName>
+					<CachePath>SFX/Breath_normal/3/sfx_breath_normal_03_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="597064943" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_calm\sfx_breath_calm_2.wav</ShortName>
+					<CachePath>SFX/Breath_calm/sfx_breath_calm_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="602820036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_calm\sfx_breath_calm_1.wav</ShortName>
+					<CachePath>SFX/Breath_calm/sfx_breath_calm_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="608910622" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_09.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="616254054" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_13.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="626886505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_07.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="643816149" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_calm\sfx_breath_calm_3.wav</ShortName>
+					<CachePath>SFX/Breath_calm/sfx_breath_calm_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="682644663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\1\sfx_breath_labor_01_03.wav</ShortName>
+					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="696829134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_08.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="715103427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_11.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="719777408" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_01.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="755295757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\1\sfx_breath_labor_01_04.wav</ShortName>
+					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="758044584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\3\sfx_breath_normal_03_03.wav</ShortName>
+					<CachePath>SFX/Breath_normal/3/sfx_breath_normal_03_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="764081037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_14.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="790524786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_07.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="795042787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_04.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="804430369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\1\sfx_breath_labor_01_08.wav</ShortName>
+					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="813044910" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_14.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="821631660" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_15.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="868210457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_11.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="907949001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\3\sfx_breath_normal_03_05.wav</ShortName>
+					<CachePath>SFX/Breath_normal/3/sfx_breath_normal_03_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="909324651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_12.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="910709793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_09.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="922386836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth Rustling\sfx_cloth_rustling_06.wav</ShortName>
+					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="936252386" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\3\sfx_breath_normal_03_08.wav</ShortName>
+					<CachePath>SFX/Breath_normal/3/sfx_breath_normal_03_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="941544319" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_02.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="943818929" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_05.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="979214779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\1\sfx_breath_labor_01_06.wav</ShortName>
+					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="983653815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth Rustling\sfx_cloth_rustling_07.wav</ShortName>
+					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="993365734" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\2\sfx_breath_labor_02_03.wav</ShortName>
+					<CachePath>SFX/Breath_labor/2/sfx_breath_labor_02_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1012607907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\1\sfx_breath_normal_01_07.wav</ShortName>
+					<CachePath>SFX/Breath_normal/1/sfx_breath_normal_01_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1034179108" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_normal\1\sfx_breath_normal_01_01.wav</ShortName>
+					<CachePath>SFX/Breath_normal/1/sfx_breath_normal_01_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1056895475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_calm\sfx_breath_calm_6.wav</ShortName>
+					<CachePath>SFX/Breath_calm/sfx_breath_calm_6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1072469413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Breath_labor\3\sfx_breath_labor_03_10.wav</ShortName>
+					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_10_818F3B66.wem</CachePath>
+				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="865397064" Name="Guitar Distortion (Custom)" LibName="Wwise Guitar Distortion" LibId="8257539"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="1255756422" Name="Play_ambient_meadow" DurationType="Infinite">
 					<MediaRefs>
@@ -46,14 +335,169 @@
 						<MediaRef Id="3206905"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4093367312" Name="Play_Breathing" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2077253480" Id="1981184526" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3840192365" Id="4284352190"/>
+									<MediaRefs>
+										<MediaRef Id="71577902"/>
+										<MediaRef Id="76747830"/>
+										<MediaRef Id="162346515"/>
+										<MediaRef Id="167635915"/>
+										<MediaRef Id="289687414"/>
+										<MediaRef Id="427922673"/>
+										<MediaRef Id="455195383"/>
+										<MediaRef Id="475607389"/>
+										<MediaRef Id="616254054"/>
+										<MediaRef Id="626886505"/>
+										<MediaRef Id="719777408"/>
+										<MediaRef Id="813044910"/>
+										<MediaRef Id="821631660"/>
+										<MediaRef Id="868210457"/>
+										<MediaRef Id="909324651"/>
+										<MediaRef Id="910709793"/>
+										<MediaRef Id="941544319"/>
+										<MediaRef Id="1072469413"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3840192365" Id="981339021"/>
+									<MediaRefs>
+										<MediaRef Id="126000394"/>
+										<MediaRef Id="151730871"/>
+										<MediaRef Id="289822539"/>
+										<MediaRef Id="305685010"/>
+										<MediaRef Id="348368844"/>
+										<MediaRef Id="488022442"/>
+										<MediaRef Id="608910622"/>
+										<MediaRef Id="696829134"/>
+										<MediaRef Id="715103427"/>
+										<MediaRef Id="764081037"/>
+										<MediaRef Id="790524786"/>
+										<MediaRef Id="795042787"/>
+										<MediaRef Id="943818929"/>
+										<MediaRef Id="993365734"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3840192365" Id="1846755610" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="7635698"/>
+										<MediaRef Id="149976759"/>
+										<MediaRef Id="256852523"/>
+										<MediaRef Id="321218457"/>
+										<MediaRef Id="389829176"/>
+										<MediaRef Id="682644663"/>
+										<MediaRef Id="755295757"/>
+										<MediaRef Id="804430369"/>
+										<MediaRef Id="979214779"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2077253480" Id="2188788306"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3840192365" Id="4284352190"/>
+									<MediaRefs>
+										<MediaRef Id="40498926"/>
+										<MediaRef Id="371095294"/>
+										<MediaRef Id="585688360"/>
+										<MediaRef Id="586703907"/>
+										<MediaRef Id="588454355"/>
+										<MediaRef Id="758044584"/>
+										<MediaRef Id="907949001"/>
+										<MediaRef Id="936252386"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3840192365" Id="981339021"/>
+									<MediaRefs>
+										<MediaRef Id="40498926"/>
+										<MediaRef Id="371095294"/>
+										<MediaRef Id="585688360"/>
+										<MediaRef Id="586703907"/>
+										<MediaRef Id="588454355"/>
+										<MediaRef Id="758044584"/>
+										<MediaRef Id="907949001"/>
+										<MediaRef Id="936252386"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3840192365" Id="1846755610" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="267693221"/>
+										<MediaRef Id="434869044"/>
+										<MediaRef Id="439557029"/>
+										<MediaRef Id="466291669"/>
+										<MediaRef Id="475026301"/>
+										<MediaRef Id="1012607907"/>
+										<MediaRef Id="1034179108"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2077253480" Id="565529991"/>
+							<MediaRefs>
+								<MediaRef Id="58125248"/>
+								<MediaRef Id="123372606"/>
+								<MediaRef Id="597064943"/>
+								<MediaRef Id="602820036"/>
+								<MediaRef Id="643816149"/>
+								<MediaRef Id="1056895475"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="128342314" Name="Play_Cloth" DurationType="OneShot" DurationMin="1.0942084" DurationMax="1.7830209">
+					<MediaRefs>
+						<MediaRef Id="64952068"/>
+						<MediaRef Id="91987129"/>
+						<MediaRef Id="92214653"/>
+						<MediaRef Id="274691172"/>
+						<MediaRef Id="356394780"/>
+						<MediaRef Id="413074377"/>
+						<MediaRef Id="922386836"/>
+						<MediaRef Id="983653815"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3565446547" Name="Play_Train_Station_Song" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="67111979"/>
+						<MediaRef Id="439335363"/>
 					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="865397064"/>
+						</Custom>
+					</PluginRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="2077253480" Name="Room">
+					<States>
+						<State Id="565529991" Name="Final"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1981184526" Name="Subway"/>
+						<State Id="2188788306" Name="Intermediate"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3840192365" Name="Stress">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="981339021" Name="Med"/>
+						<State Id="1846755610" Name="Small"/>
+						<State Id="4284352190" Name="Large"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B4392D07-3CA0-4BF4-1AB1-8773CD818243}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FC7E7BC5-074E-F791-2CC3-999BFEC36D43}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -65,6 +509,9 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="3286765786" Name="Wetness"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1265478494" Name="footstep_surfaces">
 					<States>
@@ -76,16 +523,28 @@
 						<State Id="4248645337" Name="grass"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="2077253480" Name="Room">
+					<States>
+						<State Id="565529991" Name="Final"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1981184526" Name="Subway"/>
+						<State Id="2188788306" Name="Intermediate"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3840192365" Name="Stress">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="981339021" Name="Med"/>
+						<State Id="1846755610" Name="Small"/>
+						<State Id="4284352190" Name="Large"/>
+					</States>
+				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{D6AED87D-812E-25A8-4010-CD2535D04CEE}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{9FCDD7E6-BF5C-DE5A-ED7C-C4083D8A6B52}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
-				<File Id="23118307" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_30.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_30_818F3B66.wem</CachePath>
-				</File>
 				<File Id="28087734" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_wet_13.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_wet_13_818F3B66.wem</CachePath>
@@ -93,10 +552,6 @@
 				<File Id="30321240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_carpet_17.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_carpet_17_818F3B66.wem</CachePath>
-				</File>
-				<File Id="39343594" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_29.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_29_818F3B66.wem</CachePath>
 				</File>
 				<File Id="79285004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_wet_11.wav</ShortName>
@@ -106,21 +561,9 @@
 					<ShortName>Swim.wav</ShortName>
 					<CachePath>SFX/Swim_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="97395108" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_15.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_15_818F3B66.wem</CachePath>
-				</File>
 				<File Id="117230613" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creature_Glitch_6.wav</ShortName>
 					<CachePath>SFX/Creature_Glitch_6_818F3B66.wem</CachePath>
-				</File>
-				<File Id="125325938" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_24.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_24_818F3B66.wem</CachePath>
-				</File>
-				<File Id="143938600" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_13.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_13_818F3B66.wem</CachePath>
 				</File>
 				<File Id="144488174" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_wet_01.wav</ShortName>
@@ -134,21 +577,9 @@
 					<ShortName>sfx_footsteps_water_10.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_water_10_818F3B66.wem</CachePath>
 				</File>
-				<File Id="155413324" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_28.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_28_818F3B66.wem</CachePath>
-				</File>
-				<File Id="164753921" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_02.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_02_818F3B66.wem</CachePath>
-				</File>
 				<File Id="167445180" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_water_09.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_water_09_818F3B66.wem</CachePath>
-				</File>
-				<File Id="170518319" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_water_13.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_water_13_818F3B66.wem</CachePath>
 				</File>
 				<File Id="176619310" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creature_Wail.wav</ShortName>
@@ -170,25 +601,9 @@
 					<ShortName>sfx_footsteps_water_08.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_water_08_818F3B66.wem</CachePath>
 				</File>
-				<File Id="211429315" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_06.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_06_818F3B66.wem</CachePath>
-				</File>
-				<File Id="218560325" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_15.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_15_818F3B66.wem</CachePath>
-				</File>
 				<File Id="233955698" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_34.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_34_818F3B66.wem</CachePath>
-				</File>
-				<File Id="237382646" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_carpet_06.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_carpet_06_818F3B66.wem</CachePath>
-				</File>
-				<File Id="269340436" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_16.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_16_818F3B66.wem</CachePath>
 				</File>
 				<File Id="277540642" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_17.wav</ShortName>
@@ -222,14 +637,6 @@
 					<ShortName>Transition.wav</ShortName>
 					<CachePath>SFX/Transition_818F3B66.wem</CachePath>
 				</File>
-				<File Id="327036357" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_carpet_16.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_carpet_16_818F3B66.wem</CachePath>
-				</File>
-				<File Id="348665386" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_10.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_10_818F3B66.wem</CachePath>
-				</File>
 				<File Id="359514131" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_wet_14.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_wet_14_818F3B66.wem</CachePath>
@@ -262,37 +669,17 @@
 					<ShortName>sfx_footsteps_grass_05.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_grass_05_818F3B66.wem</CachePath>
 				</File>
-				<File Id="405829518" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_13.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_13_818F3B66.wem</CachePath>
-				</File>
 				<File Id="410465177" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pipe_1.wav</ShortName>
 					<CachePath>SFX/Pipe_1_818F3B66.wem</CachePath>
-				</File>
-				<File Id="411406509" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_25.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_25_818F3B66.wem</CachePath>
-				</File>
-				<File Id="412821865" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_03.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_03_818F3B66.wem</CachePath>
 				</File>
 				<File Id="417397039" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_08.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_08_818F3B66.wem</CachePath>
 				</File>
-				<File Id="423086724" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_carpet_09.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_carpet_09_818F3B66.wem</CachePath>
-				</File>
 				<File Id="429763340" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Compass_Pickup.wav</ShortName>
 					<CachePath>SFX/Compass_Pickup_818F3B66.wem</CachePath>
-				</File>
-				<File Id="433334493" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_carpet_10.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_carpet_10_818F3B66.wem</CachePath>
 				</File>
 				<File Id="446051247" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_20.wav</ShortName>
@@ -326,10 +713,6 @@
 					<ShortName>sfx_footsteps_grass_18.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_grass_18_818F3B66.wem</CachePath>
 				</File>
-				<File Id="486820363" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_carpet_11.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_carpet_11_818F3B66.wem</CachePath>
-				</File>
 				<File Id="502052494" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_21.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_21_818F3B66.wem</CachePath>
@@ -353,10 +736,6 @@
 				<File Id="517556938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_water_05.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_water_05_818F3B66.wem</CachePath>
-				</File>
-				<File Id="521882985" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_09.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_09_818F3B66.wem</CachePath>
 				</File>
 				<File Id="528469039" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_carpet_04.wav</ShortName>
@@ -410,25 +789,9 @@
 					<ShortName>sfx_footsteps_tile_33.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_33_818F3B66.wem</CachePath>
 				</File>
-				<File Id="625078332" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_23.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_23_818F3B66.wem</CachePath>
-				</File>
 				<File Id="634661967" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bottle\sfx_bottle_open.wav</ShortName>
 					<CachePath>SFX/Bottle/sfx_bottle_open_818F3B66.wem</CachePath>
-				</File>
-				<File Id="643583179" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_19.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_19_818F3B66.wem</CachePath>
-				</File>
-				<File Id="647231546" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_07.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_07_818F3B66.wem</CachePath>
-				</File>
-				<File Id="649240085" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_20.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_20_818F3B66.wem</CachePath>
 				</File>
 				<File Id="650190184" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_06.wav</ShortName>
@@ -438,17 +801,9 @@
 					<ShortName>sfx_footsteps_water_12.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_water_12_818F3B66.wem</CachePath>
 				</File>
-				<File Id="680508607" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_27.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_27_818F3B66.wem</CachePath>
-				</File>
 				<File Id="688347831" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_17.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_17_818F3B66.wem</CachePath>
-				</File>
-				<File Id="688599105" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_04.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_04_818F3B66.wem</CachePath>
 				</File>
 				<File Id="710088275" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_14.wav</ShortName>
@@ -470,17 +825,9 @@
 					<ShortName>Pipe_6.wav</ShortName>
 					<CachePath>SFX/Pipe_6_818F3B66.wem</CachePath>
 				</File>
-				<File Id="729300730" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_10.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_10_818F3B66.wem</CachePath>
-				</File>
 				<File Id="737078974" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_04.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_grass_04_818F3B66.wem</CachePath>
-				</File>
-				<File Id="738425081" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_carpet_15.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_carpet_15_818F3B66.wem</CachePath>
 				</File>
 				<File Id="739884766" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_carpet_12.wav</ShortName>
@@ -514,17 +861,9 @@
 					<ShortName>Creature_Roar.wav</ShortName>
 					<CachePath>SFX/Creature_Roar_818F3B66.wem</CachePath>
 				</File>
-				<File Id="755830934" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_07.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_07_818F3B66.wem</CachePath>
-				</File>
 				<File Id="762961166" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pipe_2.wav</ShortName>
 					<CachePath>SFX/Pipe_2_818F3B66.wem</CachePath>
-				</File>
-				<File Id="799665503" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_26.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_26_818F3B66.wem</CachePath>
 				</File>
 				<File Id="800825783" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_19.wav</ShortName>
@@ -566,18 +905,6 @@
 					<ShortName>sfx_footsteps_water_07.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_water_07_818F3B66.wem</CachePath>
 				</File>
-				<File Id="906261913" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_water_14.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_water_14_818F3B66.wem</CachePath>
-				</File>
-				<File Id="935125523" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_11.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_11_818F3B66.wem</CachePath>
-				</File>
-				<File Id="961853786" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_05.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_05_818F3B66.wem</CachePath>
-				</File>
 				<File Id="986641875" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_02.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_02_818F3B66.wem</CachePath>
@@ -594,17 +921,9 @@
 					<ShortName>sfx_footsteps_carpet_02.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_carpet_02_818F3B66.wem</CachePath>
 				</File>
-				<File Id="1045998587" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_tile_wet_08.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_tile_wet_08_818F3B66.wem</CachePath>
-				</File>
 				<File Id="1046488117" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_32.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_32_818F3B66.wem</CachePath>
-				</File>
-				<File Id="1049999367" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sfx_footsteps_grass_01.wav</ShortName>
-					<CachePath>SFX/sfx_footsteps_grass_01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1052298801" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_carpet_05.wav</ShortName>
@@ -671,90 +990,56 @@
 						<MediaRef Id="713720455"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2589019387" Name="Play_General_Footstep_Container" DurationType="OneShot" DurationMin="0.25954166" DurationMax="1.6703125">
+				<Event Id="2589019387" Name="Play_General_Footstep_Container" DurationType="OneShot" DurationMin="0.36183333" DurationMax="1.6703125">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1265478494" Id="4248645337"/>
 							<MediaRefs>
-								<MediaRef Id="97395108"/>
-								<MediaRef Id="143938600"/>
-								<MediaRef Id="164753921"/>
-								<MediaRef Id="269340436"/>
 								<MediaRef Id="277540642"/>
-								<MediaRef Id="348665386"/>
 								<MediaRef Id="384858202"/>
 								<MediaRef Id="468799617"/>
 								<MediaRef Id="480386467"/>
-								<MediaRef Id="521882985"/>
-								<MediaRef Id="643583179"/>
-								<MediaRef Id="647231546"/>
-								<MediaRef Id="649240085"/>
 								<MediaRef Id="650190184"/>
 								<MediaRef Id="710429149"/>
 								<MediaRef Id="737078974"/>
 								<MediaRef Id="746840479"/>
 								<MediaRef Id="749965869"/>
 								<MediaRef Id="825164533"/>
-								<MediaRef Id="1049999367"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1265478494" Id="2637588553"/>
 							<MediaRefs>
-								<MediaRef Id="23118307"/>
-								<MediaRef Id="39343594"/>
-								<MediaRef Id="97395108"/>
-								<MediaRef Id="125325938"/>
-								<MediaRef Id="143938600"/>
-								<MediaRef Id="155413324"/>
-								<MediaRef Id="164753921"/>
-								<MediaRef Id="211429315"/>
-								<MediaRef Id="218560325"/>
+								<MediaRef Id="28087734"/>
+								<MediaRef Id="79285004"/>
+								<MediaRef Id="144488174"/>
 								<MediaRef Id="233955698"/>
-								<MediaRef Id="269340436"/>
-								<MediaRef Id="277540642"/>
 								<MediaRef Id="300254947"/>
-								<MediaRef Id="348665386"/>
+								<MediaRef Id="305205396"/>
+								<MediaRef Id="315254012"/>
+								<MediaRef Id="359514131"/>
+								<MediaRef Id="369685657"/>
+								<MediaRef Id="375936671"/>
 								<MediaRef Id="379912868"/>
-								<MediaRef Id="384858202"/>
-								<MediaRef Id="405829518"/>
-								<MediaRef Id="411406509"/>
-								<MediaRef Id="412821865"/>
 								<MediaRef Id="417397039"/>
 								<MediaRef Id="446051247"/>
-								<MediaRef Id="468799617"/>
-								<MediaRef Id="480386467"/>
+								<MediaRef Id="446831313"/>
 								<MediaRef Id="502052494"/>
-								<MediaRef Id="521882985"/>
 								<MediaRef Id="540102534"/>
 								<MediaRef Id="542457497"/>
+								<MediaRef Id="556621787"/>
 								<MediaRef Id="578035463"/>
+								<MediaRef Id="608676192"/>
 								<MediaRef Id="624021921"/>
-								<MediaRef Id="625078332"/>
-								<MediaRef Id="643583179"/>
-								<MediaRef Id="647231546"/>
-								<MediaRef Id="649240085"/>
-								<MediaRef Id="650190184"/>
-								<MediaRef Id="680508607"/>
 								<MediaRef Id="688347831"/>
-								<MediaRef Id="688599105"/>
 								<MediaRef Id="710088275"/>
-								<MediaRef Id="710429149"/>
-								<MediaRef Id="729300730"/>
-								<MediaRef Id="737078974"/>
-								<MediaRef Id="746840479"/>
-								<MediaRef Id="749965869"/>
-								<MediaRef Id="755830934"/>
-								<MediaRef Id="799665503"/>
 								<MediaRef Id="800825783"/>
 								<MediaRef Id="810985792"/>
-								<MediaRef Id="825164533"/>
-								<MediaRef Id="935125523"/>
-								<MediaRef Id="961853786"/>
+								<MediaRef Id="827136207"/>
+								<MediaRef Id="862855358"/>
 								<MediaRef Id="986641875"/>
 								<MediaRef Id="1014619648"/>
 								<MediaRef Id="1046488117"/>
-								<MediaRef Id="1049999367"/>
 								<MediaRef Id="1059018880"/>
 							</MediaRefs>
 						</SwitchContainer>
@@ -763,18 +1048,12 @@
 							<MediaRefs>
 								<MediaRef Id="30321240"/>
 								<MediaRef Id="193503505"/>
-								<MediaRef Id="237382646"/>
 								<MediaRef Id="300571543"/>
-								<MediaRef Id="327036357"/>
 								<MediaRef Id="366462207"/>
-								<MediaRef Id="423086724"/>
-								<MediaRef Id="433334493"/>
-								<MediaRef Id="486820363"/>
 								<MediaRef Id="503426362"/>
 								<MediaRef Id="528469039"/>
 								<MediaRef Id="537771703"/>
 								<MediaRef Id="544694469"/>
-								<MediaRef Id="738425081"/>
 								<MediaRef Id="739884766"/>
 								<MediaRef Id="745896545"/>
 								<MediaRef Id="834844003"/>
@@ -783,31 +1062,11 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1265478494" Id="3922274248"/>
-							<MediaRefs>
-								<MediaRef Id="28087734"/>
-								<MediaRef Id="79285004"/>
-								<MediaRef Id="144488174"/>
-								<MediaRef Id="305205396"/>
-								<MediaRef Id="315254012"/>
-								<MediaRef Id="359514131"/>
-								<MediaRef Id="369685657"/>
-								<MediaRef Id="375936671"/>
-								<MediaRef Id="446831313"/>
-								<MediaRef Id="556621787"/>
-								<MediaRef Id="608676192"/>
-								<MediaRef Id="827136207"/>
-								<MediaRef Id="862855358"/>
-								<MediaRef Id="1045998587"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1265478494" Id="2654748154" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="145006851"/>
 								<MediaRef Id="148777413"/>
 								<MediaRef Id="167445180"/>
-								<MediaRef Id="170518319"/>
 								<MediaRef Id="200966352"/>
 								<MediaRef Id="379353525"/>
 								<MediaRef Id="505167836"/>
@@ -816,7 +1075,6 @@
 								<MediaRef Id="751636905"/>
 								<MediaRef Id="868894068"/>
 								<MediaRef Id="892498892"/>
-								<MediaRef Id="906261913"/>
 								<MediaRef Id="1072221046"/>
 							</MediaRefs>
 						</SwitchContainer>
@@ -878,6 +1136,9 @@
 				<Event Id="3319673256" Name="Stop_Heartbeat" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="127261724" Name="Stop_Swim" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3286765786" Name="Wetness"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1265478494" Name="footstep_surfaces">
 					<States>
@@ -892,5 +1153,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C050B312-ADE8-CD1C-749C-2905C68F8C24}</FileHash>
+	<FileHash>{0CC923BB-D19C-48E5-4FBC-DA5F63D75069}</FileHash>
 </SoundBanksInfo>

@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID PLAY_AMBIENT_MEADOW = 1255756422U;
         static const AkUniqueID PLAY_AMBIENT_TUNNEL = 1637864059U;
         static const AkUniqueID PLAY_AMBIENT_WATER_STILL = 4109800757U;
+        static const AkUniqueID PLAY_BREATHING = 4093367312U;
+        static const AkUniqueID PLAY_CLOTH = 128342314U;
         static const AkUniqueID PLAY_COMPASS_PICKUP = 1518103445U;
         static const AkUniqueID PLAY_COMPASS_SPIN = 1046130049U;
         static const AkUniqueID PLAY_CREATURE = 2891509749U;
@@ -53,7 +55,38 @@ namespace AK
             } // namespace STATE
         } // namespace FOOTSTEP_SURFACES
 
+        namespace ROOM
+        {
+            static const AkUniqueID GROUP = 2077253480U;
+
+            namespace STATE
+            {
+                static const AkUniqueID FINAL = 565529991U;
+                static const AkUniqueID INTERMEDIATE = 2188788306U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SUBWAY = 1981184526U;
+            } // namespace STATE
+        } // namespace ROOM
+
+        namespace STRESS
+        {
+            static const AkUniqueID GROUP = 3840192365U;
+
+            namespace STATE
+            {
+                static const AkUniqueID LARGE = 4284352190U;
+                static const AkUniqueID MED = 981339021U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SMALL = 1846755610U;
+            } // namespace STATE
+        } // namespace STRESS
+
     } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID WETNESS = 3286765786U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

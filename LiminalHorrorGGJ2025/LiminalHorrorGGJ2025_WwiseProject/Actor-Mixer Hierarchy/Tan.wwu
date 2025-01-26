@@ -19,845 +19,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="footstep_tile" ID="{8FD27A6B-7522-406F-A909-23250AD2CD21}" ShortID="173852375">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="sfx_footsteps_tile_01" ID="{C16C5B9A-CCF4-4169-9DD1-7838D065D982}" ShortID="583382838">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_01" ID="{8B6FBBED-0280-4135-A049-D44C2DCC523A}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="540102534"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_01" ID="{8B6FBBED-0280-4135-A049-D44C2DCC523A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_02" ID="{CFB0E78D-9317-41DF-AA87-044A695E2130}" ShortID="497092364">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_02" ID="{F2A47539-6E64-4630-B8B3-CF89B9052ACB}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="986641875"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_02" ID="{F2A47539-6E64-4630-B8B3-CF89B9052ACB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_08" ID="{326447ED-4CB8-4ACC-BDC4-5750839C6C9D}" ShortID="303104155">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_08" ID="{382DB880-F76C-4769-865F-56CF7E965EE9}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_08.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="417397039"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_08" ID="{382DB880-F76C-4769-865F-56CF7E965EE9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_09" ID="{0B498278-190B-46DE-8DA3-782A2CBE1C1C}" ShortID="773685420">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_09" ID="{EC4C5F1A-636F-492A-988A-C15514D4221C}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_09.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="542457497"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_09" ID="{EC4C5F1A-636F-492A-988A-C15514D4221C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_12" ID="{994715AB-96CA-4166-B887-76C6506537DC}" ShortID="929057244">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_12" ID="{0EB60DFD-0843-49D2-9412-B73863948F62}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_12.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="379912868"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_12" ID="{0EB60DFD-0843-49D2-9412-B73863948F62}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_14" ID="{4AC7833B-A1B3-4E35-AF62-71D0A6B1D935}" ShortID="686496491">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_14" ID="{ED325E44-4DBA-44F8-BF0F-B085CD46DD6E}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_14.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="710088275"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_14" ID="{ED325E44-4DBA-44F8-BF0F-B085CD46DD6E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_16" ID="{A5370D40-0131-4F27-AB33-8C5CDEC86B6D}" ShortID="145226875">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_16" ID="{447BC58C-AFF4-44EE-81A1-61B3AF7FE42B}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_16.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1014619648"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_16" ID="{447BC58C-AFF4-44EE-81A1-61B3AF7FE42B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_17" ID="{59644991-3E33-4B6A-AF36-076AC40F6429}" ShortID="661680633">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_17" ID="{306CAE25-F51F-4990-A1A8-D1CAF608CBD4}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_17.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="688347831"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_17" ID="{306CAE25-F51F-4990-A1A8-D1CAF608CBD4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_18" ID="{CC11004B-F0EF-48E5-82DF-450B76BA4E2F}" ShortID="768613733">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_18" ID="{42F6CA6C-4674-4B86-AD0C-6F7B63D296BA}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_18.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="300254947"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_18" ID="{42F6CA6C-4674-4B86-AD0C-6F7B63D296BA}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_19" ID="{E8E08496-24FA-4D59-A3A1-306B8D3F901D}" ShortID="1035531705">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_19" ID="{486226DA-64D2-4883-BF44-7B7399A64816}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_19.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="800825783"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_19" ID="{486226DA-64D2-4883-BF44-7B7399A64816}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_20" ID="{8DCDA486-D611-4005-8245-3B364BC2889C}" ShortID="934008168">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_20" ID="{C2D5AA13-F40B-4301-8239-187703D16AC6}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_20.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="446051247"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_20" ID="{C2D5AA13-F40B-4301-8239-187703D16AC6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_21" ID="{B62230AD-D344-487D-98A4-F7ED4EB9F42B}" ShortID="366522180">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_21" ID="{0F6416EC-068A-4138-A8DB-A8B3D1BBB824}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_21.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="502052494"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_21" ID="{0F6416EC-068A-4138-A8DB-A8B3D1BBB824}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_22" ID="{46BEA1F2-3858-457F-82D7-A3635B48A799}" ShortID="1065852180">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_22" ID="{111E2849-2C2D-4964-8740-D67DDD2E3FBA}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_22.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="578035463"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_22" ID="{111E2849-2C2D-4964-8740-D67DDD2E3FBA}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_31" ID="{247758A8-9AA5-4E5C-A94E-1FD59515D070}" ShortID="1055650788">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_31" ID="{E53AC9D2-FAC8-497B-B412-621352972ED1}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_31.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="810985792"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_31" ID="{E53AC9D2-FAC8-497B-B412-621352972ED1}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_32" ID="{60EC1507-384E-4131-8A14-A84CB702917A}" ShortID="549727213">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_32" ID="{1A39E781-CE64-4448-A416-DD8371064E6C}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_32.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1046488117"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_32" ID="{1A39E781-CE64-4448-A416-DD8371064E6C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_33" ID="{3E7EF0C7-1E86-4A0A-89D7-1992BDCFEB12}" ShortID="880980886">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_33" ID="{719D07AF-4B52-4CCB-B072-29A5D24C8A54}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_33.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="624021921"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_33" ID="{719D07AF-4B52-4CCB-B072-29A5D24C8A54}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_34" ID="{5697B974-2763-4951-B73D-4CB3067CF9F1}" ShortID="612303111">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_34" ID="{2689CCFB-B481-4757-AB3C-981A40A11B58}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_34.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="233955698"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_34" ID="{2689CCFB-B481-4757-AB3C-981A40A11B58}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_35" ID="{88CE94A8-FEDB-4A3F-8F12-1E4440F732AB}" ShortID="982357835">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_35" ID="{43F2BC07-352B-4C6D-B6A8-B1A62EDFBBAC}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_35.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1059018880"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_35" ID="{43F2BC07-352B-4C6D-B6A8-B1A62EDFBBAC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="footstep_tile_wet" ID="{904F3213-156B-4CF1-B5AF-8DB0716B8CA1}" ShortID="570892403">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="sfx_footsteps_tile_wet_01" ID="{4F88FC26-641F-4349-9E51-31A3B7CEC491}" ShortID="209877629">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-13</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_01" ID="{16DD73CA-4154-4203-A050-84B7FFAC03E6}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="144488174"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_01" ID="{16DD73CA-4154-4203-A050-84B7FFAC03E6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_02" ID="{3F56E28F-76D9-4F5A-81A8-46A17AD8988B}" ShortID="548637994">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-9</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_02" ID="{61A99FEF-DD19-4CAB-BE5D-A7E122D05D95}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="315254012"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_02" ID="{61A99FEF-DD19-4CAB-BE5D-A7E122D05D95}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_03" ID="{C6BC1C03-F21C-414B-99DF-1834234238BD}" ShortID="518461321">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_03" ID="{491F6134-3841-4E2E-84EE-3A58593004E9}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="369685657"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_03" ID="{491F6134-3841-4E2E-84EE-3A58593004E9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_04" ID="{EF1F8171-E31E-4C93-B914-14B3C4A05EEF}" ShortID="719479519">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-14</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_04" ID="{FBB80C10-9511-403A-BE26-7D4DC496C9CD}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_04.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="827136207"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_04" ID="{FBB80C10-9511-403A-BE26-7D4DC496C9CD}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_05" ID="{34B0CDC7-4F5F-4142-BFEF-E675A021FB51}" ShortID="74392124">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_05" ID="{0D612841-B7CE-4C3F-8464-FF41F42E8578}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_05.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="556621787"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_05" ID="{0D612841-B7CE-4C3F-8464-FF41F42E8578}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_06" ID="{E638F8EB-AB22-43D8-B450-A5A7868341AD}" ShortID="518048483">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_06" ID="{2987A29A-3EFA-4510-8FAC-84C84D6B7B09}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_06.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="305205396"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_06" ID="{2987A29A-3EFA-4510-8FAC-84C84D6B7B09}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_07" ID="{25B5D39B-08A0-4BD1-8848-100211D4E9E7}" ShortID="347148008">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_07" ID="{F37B12B5-2052-400E-8E99-CE5BBA7316D8}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_07.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="862855358"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_07" ID="{F37B12B5-2052-400E-8E99-CE5BBA7316D8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_09" ID="{0FBB17B1-6C16-42A0-84E7-79FB521E86D8}" ShortID="849961088">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_09" ID="{5F9105AD-DA80-4E7E-9379-40BBD11FDFE8}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_09.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="375936671"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_09" ID="{5F9105AD-DA80-4E7E-9379-40BBD11FDFE8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_10" ID="{87ACE381-6CA2-43CE-BEF7-A4104244F0BA}" ShortID="813775477">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_10" ID="{19F5E7DF-41B2-499F-B23B-E1EB26E215F4}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_10.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="446831313"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_10" ID="{19F5E7DF-41B2-499F-B23B-E1EB26E215F4}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_11" ID="{5759F955-177C-479D-8766-4265C73E3422}" ShortID="1015210960">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_11" ID="{71533B2E-807E-4B5F-A21D-C82A404E92E3}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_11.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="79285004"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_11" ID="{71533B2E-807E-4B5F-A21D-C82A404E92E3}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_12" ID="{74DF21D0-9F41-41F2-9206-CB0BF6472FE9}" ShortID="126736793">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_12" ID="{0A3CE129-46FB-47F5-B72A-663A6899208B}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_12.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="608676192"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_12" ID="{0A3CE129-46FB-47F5-B72A-663A6899208B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_13" ID="{1416A254-8D68-49D3-BD52-AAA9B733D18A}" ShortID="1017668953">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_13" ID="{372F006B-7707-4D82-A2B7-2B5AE67C9B53}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_13.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="28087734"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_13" ID="{372F006B-7707-4D82-A2B7-2B5AE67C9B53}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="sfx_footsteps_tile_wet_14" ID="{095D1E91-558C-4ECA-83ED-DE0650D17748}" ShortID="127486470">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-6</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="sfx_footsteps_tile_wet_14" ID="{AC4CF51D-BAAE-4E61-800F-73F28DD0C075}">
-											<Language>SFX</Language>
-											<AudioFile>sfx_footsteps_tile_wet_14.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="359514131"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="sfx_footsteps_tile_wet_14" ID="{AC4CF51D-BAAE-4E61-800F-73F28DD0C075}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="footstep_grass" ID="{7D5C434C-720F-45CE-B0B1-F0D62C036547}" ShortID="656455534">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1808,12 +969,938 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<BlendContainer Name="Footstep_TileContainer" ID="{E86EEADA-2D3A-4EC0-9D5C-37ED25380C3C}" ShortID="277299229">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="footstep_tile_wet" ID="{904F3213-156B-4CF1-B5AF-8DB0716B8CA1}" ShortID="570892403">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="sfx_footsteps_tile_wet_01" ID="{4F88FC26-641F-4349-9E51-31A3B7CEC491}" ShortID="209877629">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_01" ID="{16DD73CA-4154-4203-A050-84B7FFAC03E6}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="144488174"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_01" ID="{16DD73CA-4154-4203-A050-84B7FFAC03E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_02" ID="{3F56E28F-76D9-4F5A-81A8-46A17AD8988B}" ShortID="548637994">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_02" ID="{61A99FEF-DD19-4CAB-BE5D-A7E122D05D95}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="315254012"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_02" ID="{61A99FEF-DD19-4CAB-BE5D-A7E122D05D95}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_03" ID="{C6BC1C03-F21C-414B-99DF-1834234238BD}" ShortID="518461321">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_03" ID="{491F6134-3841-4E2E-84EE-3A58593004E9}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="369685657"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_03" ID="{491F6134-3841-4E2E-84EE-3A58593004E9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_04" ID="{EF1F8171-E31E-4C93-B914-14B3C4A05EEF}" ShortID="719479519">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-14</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_04" ID="{FBB80C10-9511-403A-BE26-7D4DC496C9CD}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="827136207"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_04" ID="{FBB80C10-9511-403A-BE26-7D4DC496C9CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_05" ID="{34B0CDC7-4F5F-4142-BFEF-E675A021FB51}" ShortID="74392124">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_05" ID="{0D612841-B7CE-4C3F-8464-FF41F42E8578}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="556621787"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_05" ID="{0D612841-B7CE-4C3F-8464-FF41F42E8578}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_06" ID="{E638F8EB-AB22-43D8-B450-A5A7868341AD}" ShortID="518048483">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_06" ID="{2987A29A-3EFA-4510-8FAC-84C84D6B7B09}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="305205396"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_06" ID="{2987A29A-3EFA-4510-8FAC-84C84D6B7B09}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_07" ID="{25B5D39B-08A0-4BD1-8848-100211D4E9E7}" ShortID="347148008">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_07" ID="{F37B12B5-2052-400E-8E99-CE5BBA7316D8}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="862855358"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_07" ID="{F37B12B5-2052-400E-8E99-CE5BBA7316D8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_09" ID="{0FBB17B1-6C16-42A0-84E7-79FB521E86D8}" ShortID="849961088">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_09" ID="{5F9105AD-DA80-4E7E-9379-40BBD11FDFE8}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="375936671"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_09" ID="{5F9105AD-DA80-4E7E-9379-40BBD11FDFE8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_10" ID="{87ACE381-6CA2-43CE-BEF7-A4104244F0BA}" ShortID="813775477">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_10" ID="{19F5E7DF-41B2-499F-B23B-E1EB26E215F4}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="446831313"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_10" ID="{19F5E7DF-41B2-499F-B23B-E1EB26E215F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_11" ID="{5759F955-177C-479D-8766-4265C73E3422}" ShortID="1015210960">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_11" ID="{71533B2E-807E-4B5F-A21D-C82A404E92E3}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="79285004"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_11" ID="{71533B2E-807E-4B5F-A21D-C82A404E92E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_12" ID="{74DF21D0-9F41-41F2-9206-CB0BF6472FE9}" ShortID="126736793">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_12" ID="{0A3CE129-46FB-47F5-B72A-663A6899208B}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="608676192"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_12" ID="{0A3CE129-46FB-47F5-B72A-663A6899208B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_13" ID="{1416A254-8D68-49D3-BD52-AAA9B733D18A}" ShortID="1017668953">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_13" ID="{372F006B-7707-4D82-A2B7-2B5AE67C9B53}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="28087734"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_13" ID="{372F006B-7707-4D82-A2B7-2B5AE67C9B53}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_wet_14" ID="{095D1E91-558C-4ECA-83ED-DE0650D17748}" ShortID="127486470">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_wet_14" ID="{AC4CF51D-BAAE-4E61-800F-73F28DD0C075}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_wet_14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="359514131"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_wet_14" ID="{AC4CF51D-BAAE-4E61-800F-73F28DD0C075}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{829343B3-647D-4401-91F8-FF3062D4204B}" ShortID="812070724">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Wetness" ID="{A9AE7D14-B3A4-4923-A9A1-413D6DE604BE}" WorkUnitID="{6D3ED188-7311-4F38-9C51-C7FF1DFB7FC1}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{7816552C-405F-4578-816F-F68F11786FDA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="footstep_tile" ID="{8FD27A6B-7522-406F-A909-23250AD2CD21}" ShortID="173852375">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="sfx_footsteps_tile_01" ID="{C16C5B9A-CCF4-4169-9DD1-7838D065D982}" ShortID="583382838">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_01" ID="{8B6FBBED-0280-4135-A049-D44C2DCC523A}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="540102534"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_01" ID="{8B6FBBED-0280-4135-A049-D44C2DCC523A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_02" ID="{CFB0E78D-9317-41DF-AA87-044A695E2130}" ShortID="497092364">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_02" ID="{F2A47539-6E64-4630-B8B3-CF89B9052ACB}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="986641875"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_02" ID="{F2A47539-6E64-4630-B8B3-CF89B9052ACB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_08" ID="{326447ED-4CB8-4ACC-BDC4-5750839C6C9D}" ShortID="303104155">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_08" ID="{382DB880-F76C-4769-865F-56CF7E965EE9}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="417397039"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_08" ID="{382DB880-F76C-4769-865F-56CF7E965EE9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_09" ID="{0B498278-190B-46DE-8DA3-782A2CBE1C1C}" ShortID="773685420">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_09" ID="{EC4C5F1A-636F-492A-988A-C15514D4221C}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="542457497"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_09" ID="{EC4C5F1A-636F-492A-988A-C15514D4221C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_12" ID="{994715AB-96CA-4166-B887-76C6506537DC}" ShortID="929057244">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_12" ID="{0EB60DFD-0843-49D2-9412-B73863948F62}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="379912868"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_12" ID="{0EB60DFD-0843-49D2-9412-B73863948F62}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_14" ID="{4AC7833B-A1B3-4E35-AF62-71D0A6B1D935}" ShortID="686496491">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_14" ID="{ED325E44-4DBA-44F8-BF0F-B085CD46DD6E}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="710088275"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_14" ID="{ED325E44-4DBA-44F8-BF0F-B085CD46DD6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_16" ID="{A5370D40-0131-4F27-AB33-8C5CDEC86B6D}" ShortID="145226875">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_16" ID="{447BC58C-AFF4-44EE-81A1-61B3AF7FE42B}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_16.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1014619648"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_16" ID="{447BC58C-AFF4-44EE-81A1-61B3AF7FE42B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_17" ID="{59644991-3E33-4B6A-AF36-076AC40F6429}" ShortID="661680633">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_17" ID="{306CAE25-F51F-4990-A1A8-D1CAF608CBD4}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_17.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="688347831"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_17" ID="{306CAE25-F51F-4990-A1A8-D1CAF608CBD4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_18" ID="{CC11004B-F0EF-48E5-82DF-450B76BA4E2F}" ShortID="768613733">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_18" ID="{42F6CA6C-4674-4B86-AD0C-6F7B63D296BA}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_18.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="300254947"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_18" ID="{42F6CA6C-4674-4B86-AD0C-6F7B63D296BA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_19" ID="{E8E08496-24FA-4D59-A3A1-306B8D3F901D}" ShortID="1035531705">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_19" ID="{486226DA-64D2-4883-BF44-7B7399A64816}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_19.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="800825783"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_19" ID="{486226DA-64D2-4883-BF44-7B7399A64816}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_20" ID="{8DCDA486-D611-4005-8245-3B364BC2889C}" ShortID="934008168">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_20" ID="{C2D5AA13-F40B-4301-8239-187703D16AC6}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_20.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="446051247"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_20" ID="{C2D5AA13-F40B-4301-8239-187703D16AC6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_21" ID="{B62230AD-D344-487D-98A4-F7ED4EB9F42B}" ShortID="366522180">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_21" ID="{0F6416EC-068A-4138-A8DB-A8B3D1BBB824}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_21.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="502052494"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_21" ID="{0F6416EC-068A-4138-A8DB-A8B3D1BBB824}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_22" ID="{46BEA1F2-3858-457F-82D7-A3635B48A799}" ShortID="1065852180">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_22" ID="{111E2849-2C2D-4964-8740-D67DDD2E3FBA}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_22.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="578035463"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_22" ID="{111E2849-2C2D-4964-8740-D67DDD2E3FBA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_31" ID="{247758A8-9AA5-4E5C-A94E-1FD59515D070}" ShortID="1055650788">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_31" ID="{E53AC9D2-FAC8-497B-B412-621352972ED1}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_31.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="810985792"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_31" ID="{E53AC9D2-FAC8-497B-B412-621352972ED1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_32" ID="{60EC1507-384E-4131-8A14-A84CB702917A}" ShortID="549727213">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_32" ID="{1A39E781-CE64-4448-A416-DD8371064E6C}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_32.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1046488117"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_32" ID="{1A39E781-CE64-4448-A416-DD8371064E6C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_33" ID="{3E7EF0C7-1E86-4A0A-89D7-1992BDCFEB12}" ShortID="880980886">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_33" ID="{719D07AF-4B52-4CCB-B072-29A5D24C8A54}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_33.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="624021921"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_33" ID="{719D07AF-4B52-4CCB-B072-29A5D24C8A54}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_34" ID="{5697B974-2763-4951-B73D-4CB3067CF9F1}" ShortID="612303111">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_34" ID="{2689CCFB-B481-4757-AB3C-981A40A11B58}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_34.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="233955698"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_34" ID="{2689CCFB-B481-4757-AB3C-981A40A11B58}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sfx_footsteps_tile_35" ID="{88CE94A8-FEDB-4A3F-8F12-1E4440F732AB}" ShortID="982357835">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sfx_footsteps_tile_35" ID="{43F2BC07-352B-4C6D-B6A8-B1A62EDFBBAC}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_footsteps_tile_35.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1059018880"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="sfx_footsteps_tile_35" ID="{43F2BC07-352B-4C6D-B6A8-B1A62EDFBBAC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{EA53AB10-C018-4070-A404-DB33FA9E912B}" ShortID="396587996">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Wetness" ID="{A9AE7D14-B3A4-4923-A9A1-413D6DE604BE}" WorkUnitID="{6D3ED188-7311-4F38-9C51-C7FF1DFB7FC1}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{84B7FAC0-757A-41BD-968B-932E583808A7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
-							<GroupingBehavior>
-								<ItemRef Name="footstep_tile_wet" ID="{904F3213-156B-4CF1-B5AF-8DB0716B8CA1}"/>
-							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="footstep_water_waist" ID="{BB563417-F3DA-40EB-8E41-41F9C51D8611}"/>
 							</GroupingBehavior>
@@ -1821,10 +1908,10 @@
 								<ItemRef Name="footstep_grass" ID="{7D5C434C-720F-45CE-B0B1-F0D62C036547}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="footstep_tile" ID="{8FD27A6B-7522-406F-A909-23250AD2CD21}"/>
+								<ItemRef Name="footstep_carpet" ID="{F2DDEBB8-2500-43DB-9B2D-4322891FEEC5}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="footstep_carpet" ID="{F2DDEBB8-2500-43DB-9B2D-4322891FEEC5}"/>
+								<ItemRef Name="Footstep_TileContainer" ID="{E86EEADA-2D3A-4EC0-9D5C-37ED25380C3C}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 						<GroupingList>
@@ -1837,19 +1924,13 @@
 							<Grouping>
 								<SwitchRef Name="tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}"/>
 								<ItemList>
-									<ItemRef Name="footstep_tile" ID="{8FD27A6B-7522-406F-A909-23250AD2CD21}"/>
+									<ItemRef Name="Footstep_TileContainer" ID="{E86EEADA-2D3A-4EC0-9D5C-37ED25380C3C}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
 								<SwitchRef Name="carpet" ID="{65CDD9C2-CC2E-4419-9261-CED37C6AFDBD}"/>
 								<ItemList>
 									<ItemRef Name="footstep_carpet" ID="{F2DDEBB8-2500-43DB-9B2D-4322891FEEC5}"/>
-								</ItemList>
-							</Grouping>
-							<Grouping>
-								<SwitchRef Name="tile_wet" ID="{6F36D0DD-93E2-461F-9A17-E6D33DBF9AC3}"/>
-								<ItemList>
-									<ItemRef Name="footstep_tile_wet" ID="{904F3213-156B-4CF1-B5AF-8DB0716B8CA1}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>

@@ -13,6 +13,22 @@
 						<State Name="water" ID="{55C675DF-C6E4-4C62-800B-5024D065B5E3}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Stress" ID="{F1177DAD-67E5-466C-B247-9C7B483DF71C}">
+					<ChildrenList>
+						<State Name="None" ID="{79B97C6E-2C98-428B-84E2-6A8270C0EB00}"/>
+						<State Name="Small" ID="{DA01017E-6F2C-45E9-A6C3-4F2B954B5941}"/>
+						<State Name="Med" ID="{6649161C-5F68-4C65-96A4-867A7BF8265A}"/>
+						<State Name="Large" ID="{F0672705-59A9-45B2-9221-EEEAB9C72830}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Room" ID="{FC13C422-9369-4086-A8BE-39E60EE1ACBA}">
+					<ChildrenList>
+						<State Name="None" ID="{A0CACF9D-FCF4-42D4-8D96-1DCAC9172D76}"/>
+						<State Name="Subway" ID="{A7B2C323-BF08-4B9A-A814-4CA958F77239}"/>
+						<State Name="Intermediate" ID="{971C9E32-8D04-4C1C-87C7-C2F647439C4E}"/>
+						<State Name="Final" ID="{DBF1FBB4-4AAE-4D4A-8C12-B2836FC18F87}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

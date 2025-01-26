@@ -359,7 +359,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c91ba63cc4e47240b1d7338336c44413
     GuidInternal: 
-    m_lastTime: -8584637503422157774
+    m_lastTime: -8584637454694856702
     List:
     - name: Play_ambient_meadow
       guid: ca1aeaf640516f47a39322f66482a36b
@@ -505,7 +505,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 88d13e6d1173384f9c51c7ff1dfb7fc1
     GuidInternal: 
-    m_lastTime: -8584638040817832694
+    m_lastTime: -8584637454694945785
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -519,7 +519,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dd5c1f9a41949e4282699104354a8dea
     GuidInternal: 
-    m_lastTime: -8584637503400065679
+    m_lastTime: -8584637454694771006
     List:
     - name: footstep_surfaces
       guid: 970e72085857bd4e987b7e30160bca67
@@ -632,6 +632,88 @@ MonoBehaviour:
         - ElementName: water
           ObjectType: 8
           guid: df75c655e4c6624c800b5024d065b5e3
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Stress
+      guid: ad7d17f1e5676c46b2479c7b483df71c
+      id: 3840192365
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dd5c1f9a41949e4282699104354a8dea
+      - ElementName: Stress
+        ObjectType: 9
+        guid: ad7d17f1e5676c46b2479c7b483df71c
+      Path: States\Default Work Unit\Stress
+      values:
+      - name: Large
+        guid: 052767f0a959b2459221eeeab9c72830
+        id: 4284352190
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Stress
+          ObjectType: 9
+          guid: ad7d17f1e5676c46b2479c7b483df71c
+        - ElementName: Large
+          ObjectType: 8
+          guid: 052767f0a959b2459221eeeab9c72830
+      - name: Med
+        guid: 1c164966685f654c96a4867a7bf8265a
+        id: 981339021
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Stress
+          ObjectType: 9
+          guid: ad7d17f1e5676c46b2479c7b483df71c
+        - ElementName: Med
+          ObjectType: 8
+          guid: 1c164966685f654c96a4867a7bf8265a
+      - name: None
+        guid: 6e7cb979982c8b4284e26a8270c0eb00
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Stress
+          ObjectType: 9
+          guid: ad7d17f1e5676c46b2479c7b483df71c
+        - ElementName: None
+          ObjectType: 8
+          guid: 6e7cb979982c8b4284e26a8270c0eb00
+      - name: Small
+        guid: 7e0101da2c6fe945a6c34f2b954b5941
+        id: 1846755610
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Stress
+          ObjectType: 9
+          guid: ad7d17f1e5676c46b2479c7b483df71c
+        - ElementName: Small
+          ObjectType: 8
+          guid: 7e0101da2c6fe945a6c34f2b954b5941
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
