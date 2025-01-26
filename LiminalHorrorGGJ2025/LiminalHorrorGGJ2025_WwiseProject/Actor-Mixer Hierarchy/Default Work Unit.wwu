@@ -4,6 +4,24 @@
 		<WorkUnit Name="Default Work Unit" ID="{D8B6D7D9-22B9-44D9-A133-0475384A0CD7}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="Cloth" ID="{FE06D1AB-3884-48C1-AB02-9CC1945A09AF}" ShortID="1070169898">
+					<PropertyList>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -13,28 +31,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="sfx_cloth_rustling_01" ID="{37FB83D9-C03A-40C5-9B28-18747C29C611}" ShortID="1028206536">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_cloth_rustling_01" ID="{E1694081-E932-4AA6-B794-26A2FAE13A63}">
-									<Language>SFX</Language>
-									<AudioFile>Cloth Rustling\sfx_cloth_rustling_01.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="356394780"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_cloth_rustling_01" ID="{E1694081-E932-4AA6-B794-26A2FAE13A63}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="sfx_cloth_rustling_02" ID="{1CCDDE18-49E2-46CF-B4BE-2304E4E85F3E}" ShortID="758704713">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -77,28 +73,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="sfx_cloth_rustling_03" ID="{848720DB-52C9-43D7-BA7E-9DD669A435D7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="sfx_cloth_rustling_06" ID="{EBFC74BC-3F19-45C7-A180-18DF3D0256EB}" ShortID="720944819">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_cloth_rustling_06" ID="{C0D03D27-A4A4-4207-8233-F72F4B6407BF}">
-									<Language>SFX</Language>
-									<AudioFile>Cloth Rustling\sfx_cloth_rustling_06.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="922386836"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_cloth_rustling_06" ID="{C0D03D27-A4A4-4207-8233-F72F4B6407BF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="sfx_cloth_rustling_07" ID="{D6366BE0-AC32-4408-B291-105E790892C8}" ShortID="295641589">
@@ -167,29 +141,44 @@
 								<ActiveSource Name="sfx_cloth_rustling_09" ID="{07A5D0D6-FBA2-4002-BDB3-9D68F1890CC1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="sfx_cloth_rustling_10" ID="{D50DC888-7ACC-4F0D-91AC-F59525770DA4}" ShortID="611300687">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_cloth_rustling_10" ID="{861784B8-D0DA-4DFC-8F9D-24AE2CAA42DA}">
-									<Language>SFX</Language>
-									<AudioFile>Cloth Rustling\sfx_cloth_rustling_10.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="413074377"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_cloth_rustling_10" ID="{861784B8-D0DA-4DFC-8F9D-24AE2CAA42DA}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Room" ID="{FC13C422-9369-4086-A8BE-39E60EE1ACBA}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
+								<CustomState Name="" ID="{DCB7F075-3B56-403F-B8EE-39E537BDC7C2}" ShortID="164374959">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Subway" ID="{A7B2C323-BF08-4B9A-A814-4CA958F77239}"/>
+								<CustomState Name="" ID="{793656D2-E488-4441-8118-8938BFA4BAE9}" ShortID="158716879">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Intermediate" ID="{971C9E32-8D04-4C1C-87C7-C2F647439C4E}"/>
+								<CustomState Name="" ID="{18BE58F8-9A68-45C3-BC15-67F38AFF9C43}" ShortID="1001370724">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Final" ID="{DBF1FBB4-4AAE-4D4A-8C12-B2836FC18F87}"/>
+								<CustomState Name="" ID="{FE32249D-59C1-40FA-9630-611096BA40AB}" ShortID="181257756"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</RandomSequenceContainer>
 				<SwitchContainer Name="Breathing" ID="{6DA9C6AA-C22E-48E5-92CB-F999BCF9CB9F}" ShortID="782378310">
 					<PropertyList>
@@ -213,6 +202,9 @@
 						<Reference Name="SwitchGroupOrStateGroup">
 							<ObjectRef Name="Room" ID="{FC13C422-9369-4086-A8BE-39E60EE1ACBA}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{50570FF5-ACF3-4E02-A6F3-D439F7DBD47E}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Breath_Calm" ID="{956E03C1-E411-47E7-866A-9EB46F0D0E22}" ShortID="229114489">
@@ -221,7 +213,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>8</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -408,7 +400,7 @@
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1468,7 +1460,7 @@
 								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

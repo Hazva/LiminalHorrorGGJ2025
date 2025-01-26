@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    public AK.Wwise.State room;
+    public bool bIsDebug = true;
+
     public enum Surface
     {
         Tile,
@@ -20,6 +23,12 @@ public class AudioManager : MonoBehaviour
     {
         if (Instance != null)
         {
+            if (!bIsDebug)
+            {
+                Destroy(Instance.gameObject);
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
             Destroy(gameObject);
             return;
         }
@@ -32,7 +41,7 @@ public class AudioManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Movement", "Walk");
         AkSoundEngine.SetState("Surface", "Tile");
-        AkSoundEngine.SetState("Room", "Subway");
+        room.SetValue();
         AkSoundEngine.SetState("Stress", "Small");
 
         PostEvent("Play_Ambience");

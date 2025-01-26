@@ -26,8 +26,8 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	67111979	Pool_50s_Song_Intro	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pool_50s_Song_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Train Station Song\Train Station Song_loop\Pool_50s_Song_Intro		11917340
-	69619300	sfx_still_water_ambient	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_still_water_ambient_F3D1FAA4.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\sfx_still_water_ambient		15015864
-	82224420	sfx_tunnel_ambient	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_tunnel_ambient_9D8B467B.wem		\Actor-Mixer Hierarchy\Tan\Ambience\sfx_tunnel_ambient		16137424
+	69619300	sfx_still_water_ambient	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_still_water_ambient_6298FF1E.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\sfx_still_water_ambient		15015864
+	82224420	sfx_tunnel_ambient	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_tunnel_ambient_F8C1E59B.wem		\Actor-Mixer Hierarchy\Tan\Ambience\sfx_tunnel_ambient		16137424
 	410465177	Pipe_1	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_1_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_1		814992
 	439335363	WhiteNoise	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\WhiteNoise_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Train Station Song\Train Station Song_loop\WhiteNoise		8759272
 	463366720	Pipe_5	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_5_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_5		578512
@@ -36,5 +36,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	727980279	Pipe_6	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_6_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_6		530576
 	746512004	Water_Rising	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Water_Rising_FBC78EF0.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Water_Rising		9964532
 	762961166	Pipe_2	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Pipe_2_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\PipeAmbience\Pipe_2		530576
+	832292429	Heartbeat	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Heartbeat_FBC78EF0.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Heartbeat		1164336
 	991790938	Distant_Subway	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Distant_Subway_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\Ambience\Subway_Ambience\DistantSubway\Distant_Subway		4287860
 

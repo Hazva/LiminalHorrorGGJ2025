@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{D863AD1F-0C55-EB84-0C1D-7AD31A9BACC9}">
+		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{1FC098D7-8649-2DDD-3266-4A85F7E5BD4C}">
 			<ShortName>ambient</ShortName>
 			<Path>ambient.bnk</Path>
 			<Media>
@@ -19,11 +19,11 @@
 				</File>
 				<File Id="69619300" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_still_water_ambient.wav</ShortName>
-					<CachePath>SFX/sfx_still_water_ambient_F3D1FAA4.wem</CachePath>
+					<CachePath>SFX/sfx_still_water_ambient_6298FF1E.wem</CachePath>
 				</File>
 				<File Id="82224420" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_tunnel_ambient.wav</ShortName>
-					<CachePath>SFX/sfx_tunnel_ambient_9D8B467B.wem</CachePath>
+					<CachePath>SFX/sfx_tunnel_ambient_F8C1E59B.wem</CachePath>
 				</File>
 				<File Id="410465177" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pipe_1.wav</ShortName>
@@ -56,6 +56,10 @@
 				<File Id="762961166" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pipe_2.wav</ShortName>
 					<CachePath>SFX/Pipe_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="832292429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heartbeat.wav</ShortName>
+					<CachePath>SFX/Heartbeat_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="991790938" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Distant_Subway.wav</ShortName>
@@ -104,6 +108,12 @@
 								<MediaRef Id="746512004"/>
 							</MediaRefs>
 						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2077253480" Id="565529991"/>
+							<MediaRefs>
+								<MediaRef Id="832292429"/>
+							</MediaRefs>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 				<Event Id="3565446547" Name="Play_Train_Station_Song" MaxAttenuation="25" DurationType="Infinite">
@@ -131,10 +141,13 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9FCB4001-0348-9B4E-4BB1-C3EF05018ED5}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{09F46A86-DCEE-4BFA-B505-3460F94AFB66}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="742243031" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -143,6 +156,15 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="742243031"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="3286765786" Name="Wetness"/>
 			</GameParameters>
@@ -184,7 +206,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{C597D14A-E656-7C94-52EA-92B7AD1A74E1}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{64C0A1D5-9C4A-D0A6-C307-4115109D9B8C}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
@@ -374,7 +396,7 @@
 				</File>
 				<File Id="323068360" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Door_Loop.wav</ShortName>
-					<CachePath>SFX/Door_Loop_FBC78EF0.wem</CachePath>
+					<CachePath>SFX/Door_Loop_BA2EE254.wem</CachePath>
 				</File>
 				<File Id="325392808" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Transition.wav</ShortName>
@@ -744,10 +766,6 @@
 					<ShortName>sfx_footsteps_tile_wet_04.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_wet_04_818F3B66.wem</CachePath>
 				</File>
-				<File Id="832292429" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Heartbeat.wav</ShortName>
-					<CachePath>SFX/Heartbeat_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="834844003" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_carpet_18.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_carpet_18_818F3B66.wem</CachePath>
@@ -877,6 +895,9 @@
 			<Events>
 				<Event Id="387843989" Name="Exit_Water" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4093367312" Name="Play_Breathing" DurationType="Infinite">
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2077253480" Id="1981184526" Default="true"/>
@@ -1062,9 +1083,6 @@
 						<MediaRef Id="91987129"/>
 						<MediaRef Id="92214653"/>
 						<MediaRef Id="274691172"/>
-						<MediaRef Id="356394780"/>
-						<MediaRef Id="413074377"/>
-						<MediaRef Id="922386836"/>
 						<MediaRef Id="983653815"/>
 					</MediaRefs>
 				</Event>
@@ -1098,7 +1116,7 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
-				<Event Id="2463718247" Name="Play_Door_Loop" DurationType="Infinite">
+				<Event Id="2463718247" Name="Play_Door_Loop" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="323068360"/>
 					</MediaRefs>
@@ -1108,7 +1126,10 @@
 						<MediaRef Id="713720455"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2589019387" Name="Play_General_Footstep_Container" DurationType="OneShot" DurationMin="0.36183333" DurationMax="1.6703125">
+				<Event Id="2589019387" Name="Play_General_Footstep_Container" DurationType="OneShot" DurationMin="0.36183333" DurationMax="1.7830209">
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="1834394558" Id="4248645337"/>
@@ -1129,16 +1150,22 @@
 							<SwitchValue GroupType="State" GroupId="1834394558" Id="2637588553" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="28087734"/>
+								<MediaRef Id="64952068"/>
 								<MediaRef Id="79285004"/>
+								<MediaRef Id="91987129"/>
+								<MediaRef Id="92214653"/>
 								<MediaRef Id="144488174"/>
 								<MediaRef Id="233955698"/>
+								<MediaRef Id="274691172"/>
 								<MediaRef Id="300254947"/>
 								<MediaRef Id="305205396"/>
 								<MediaRef Id="315254012"/>
+								<MediaRef Id="356394780"/>
 								<MediaRef Id="359514131"/>
 								<MediaRef Id="369685657"/>
 								<MediaRef Id="375936671"/>
 								<MediaRef Id="379912868"/>
+								<MediaRef Id="413074377"/>
 								<MediaRef Id="417397039"/>
 								<MediaRef Id="446051247"/>
 								<MediaRef Id="446831313"/>
@@ -1155,6 +1182,8 @@
 								<MediaRef Id="810985792"/>
 								<MediaRef Id="827136207"/>
 								<MediaRef Id="862855358"/>
+								<MediaRef Id="922386836"/>
+								<MediaRef Id="983653815"/>
 								<MediaRef Id="986641875"/>
 								<MediaRef Id="1014619648"/>
 								<MediaRef Id="1046488117"/>
@@ -1213,11 +1242,6 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3765695918" Name="Play_Heartbeat" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="832292429"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="3840943850" Name="Play_Jumpscare" DurationType="OneShot" DurationMin="4.363625" DurationMax="4.363646">
 					<MediaRefs>
 						<MediaRef Id="294723987"/>
@@ -1247,7 +1271,6 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1589278981" Name="Play_Walk" DurationType="Infinite"/>
-				<Event Id="3319673256" Name="Stop_Heartbeat" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="127261724" Name="Stop_Swim" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3140964691" Name="Stop_Walk" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -1293,5 +1316,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1EA1CF93-DEF6-A68B-FF84-1FB6ED7B8607}</FileHash>
+	<FileHash>{AA9BE3F1-368F-1F33-AA4E-D682510DFCDF}</FileHash>
 </SoundBanksInfo>

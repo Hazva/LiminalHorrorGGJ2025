@@ -98,14 +98,18 @@
 				</Sound>
 				<Sound Name="Door_Loop" ID="{D0397723-C26E-404C-8A10-0508BDE77FDC}" ShortID="842330060">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Door" ID="{67C3EED5-1FAE-4174-8BCB-0E7D3C2650C6}" WorkUnitID="{A7733909-7B8E-46FF-B9E4-E744C3DCDF67}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
 						</Reference>
@@ -115,6 +119,10 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Door_Loop" ID="{FB34206C-56D0-436C-ADB0-3066A26ED9B9}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.179865198093046"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Door_Loop.wav</AudioFile>
 							<MediaIDList>
@@ -124,36 +132,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Door_Loop" ID="{FB34206C-56D0-436C-ADB0-3066A26ED9B9}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Heartbeat" ID="{DD23903C-D6D3-4440-9B2B-0A9E50860CEB}" ShortID="231397474">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-4</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Heartbeat" ID="{2899E105-CC7B-42F9-9789-08FBF560F87A}">
-							<Language>SFX</Language>
-							<AudioFile>Heartbeat.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="832292429"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Heartbeat" ID="{2899E105-CC7B-42F9-9789-08FBF560F87A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Swim" ID="{8EB45051-7B60-48CB-94CB-C18F2C783447}" ShortID="718187125">
