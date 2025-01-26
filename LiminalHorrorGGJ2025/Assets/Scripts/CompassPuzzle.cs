@@ -86,13 +86,18 @@ public class CompassPuzzle : MonoBehaviour
 
                 Quaternion targetRotation = Quaternion.Euler(0, 0, -angleToTarget);
                 compassImage.GetComponent<RectTransform>().localRotation = targetRotation;
+
+                if ((target.transform.position - gameObject.transform.position).magnitude < 20.0f)
+                {
+                    InfiniteRoom.Instance.StopGeneration();
+                }
             }
         }
     }
 
     private IEnumerator SnapToSolvedRotation()
     {
-        
+        target = InfiniteRoom.Instance.SpawnDoor();
         float solvedAngle = Mathf.Atan2(lastDirection.x, lastDirection.y) * Mathf.Rad2Deg;
         solvedAngle = (solvedAngle + 360f) % 360f; 
         Quaternion startRotation = compassImage.GetComponent<RectTransform>().localRotation;

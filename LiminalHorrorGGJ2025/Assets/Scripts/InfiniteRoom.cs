@@ -18,6 +18,7 @@ public class InfiniteRoom : MonoBehaviour
     private List<GameObject> rooms = new();
     private List<bool> roomsInRange = new();
     public bool bGenerateRooms = false;
+    [SerializeField] private float doorDistance = 40.0f;
 
     private float timer = 0.0f;
 
@@ -31,12 +32,14 @@ public class InfiniteRoom : MonoBehaviour
     {
         if (bGenerateRooms)
         {
+            /*
             if (Input.GetKeyDown(KeyCode.K))
             {
                 SpawnDoor();
                 StopGeneration();
                 return;
             }
+            */
 
             for (int i = 0; i < roomsInRange.Count; i++)
             {
@@ -98,11 +101,11 @@ public class InfiniteRoom : MonoBehaviour
         return false;
     }
 
-    public void SpawnDoor()
+    public GameObject SpawnDoor()
     {
-        Vector3 spawnPos = SC_FPSController.Instance.transform.position + SC_FPSController.Instance.moveDirection.normalized * 15.0f;
+        Vector3 spawnPos = SC_FPSController.Instance.transform.position + SC_FPSController.Instance.moveDirection.normalized * doorDistance;
         spawnPos.y = currentRoom.transform.position.y + height / 2.0f;
-        Instantiate(doorPrefab, spawnPos, Quaternion.identity);
+        return Instantiate(doorPrefab, spawnPos, Quaternion.identity);
     }
 
     public void StopGeneration()
