@@ -88,7 +88,7 @@ public class CompassPuzzle : MonoBehaviour
                 Quaternion targetRotation = Quaternion.Euler(0, 0, -angleToTarget);
                 compassImage.GetComponent<RectTransform>().localRotation = targetRotation;
 
-                if ((target.transform.position - gameObject.transform.position).magnitude < 20.0f)
+                if ((target.transform.position - playerObj.transform.position).magnitude < 20.0f)
                 {
                     InfiniteRoom.Instance.StopGeneration();
                 }
