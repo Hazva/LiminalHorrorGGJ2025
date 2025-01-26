@@ -10,8 +10,10 @@ public class GameManager : MonoBehaviour
     public InfiniteRoom infiniteRoomManager;
     public GameObject fogObject;
     public GameObject compassImage;
+    public PaperProximity paperProx;
 
     private const int INFINITE_ROOM_LEVEL_INDEX = 0;
+    private const int WHITE_ROOM_LEVEL_INDEX = 1;
     public static GameManager Instance { get; private set; }
 
     public int currLevel = 0;
@@ -27,6 +29,14 @@ public class GameManager : MonoBehaviour
         transitionTrigger.teleportObject = teleportPoints[currLevel];   
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            NextLevel();
+        }
+    }
+
     // Update is called once per frame
     public void NextLevel()
     {
@@ -40,6 +50,15 @@ public class GameManager : MonoBehaviour
             infiniteRoomManager.enabled = false;
             fogObject.SetActive(false);
             compassImage.SetActive(false);
+        }
+
+        if (currLevel == WHITE_ROOM_LEVEL_INDEX)
+        {
+            paperProx.enabled = true;
+        }
+        else
+        {
+            paperProx.enabled = false;
         }
 
         transitionTrigger.TriggerTransition();

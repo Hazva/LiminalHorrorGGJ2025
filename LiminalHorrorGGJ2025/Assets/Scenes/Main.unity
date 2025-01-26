@@ -131,6 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 40473807}
+  - component: {fileID: 40473808}
   m_Layer: 0
   m_Name: LevelThree
   m_TagString: Untagged
@@ -156,6 +157,27 @@ Transform:
   - {fileID: 1077621603}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &40473808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40473806}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb78902faffe814bb9f9af6acc01903, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  journalSprites:
+  - {fileID: 21300000, guid: 0cde4e2a10334104fbb4982e5683894b, type: 3}
+  - {fileID: 21300000, guid: 0cde4e2a10334104fbb4982e5683894b, type: 3}
+  - {fileID: 21300000, guid: 0cde4e2a10334104fbb4982e5683894b, type: 3}
+  - {fileID: 21300000, guid: 0cde4e2a10334104fbb4982e5683894b, type: 3}
+  door: {fileID: 1077621602}
+  player: {fileID: 76173287}
+  canvasImage: {fileID: 330785960}
+  canvasImageObj: {fileID: 330785957}
 --- !u!1 &62058206
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,10 +209,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 429324303}
+  - {fileID: 330785958}
   - {fileID: 1956058240}
   - {fileID: 820791017}
-  - {fileID: 330785958}
+  - {fileID: 429324303}
   m_Father: {fileID: 76173290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1261,6 +1283,7 @@ GameObject:
   - component: {fileID: 1077621606}
   - component: {fileID: 1077621605}
   - component: {fileID: 1077621604}
+  - component: {fileID: 1077621610}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -1361,11 +1384,11 @@ MeshCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1077621608
@@ -1418,6 +1441,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077621602}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1077621610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077621602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6762ce15f1271dd4ca3d9d1633680c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1165891070
 GameObject:
   m_ObjectHideFlags: 0
@@ -12000,6 +12035,7 @@ MonoBehaviour:
   infiniteRoomManager: {fileID: 1813904583}
   fogObject: {fileID: 1604135118}
   compassImage: {fileID: 1956058239}
+  paperProx: {fileID: 40473808}
   currLevel: 0
 --- !u!114 &1857574325
 MonoBehaviour:

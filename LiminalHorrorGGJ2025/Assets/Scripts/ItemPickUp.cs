@@ -34,7 +34,6 @@ public class ItemPickUp : MonoBehaviour
     public void TriggerImageForLevel(int level)
     {
         if (isImageTriggered) { return; }
-        canvasImageObj.SetActive(true);
         if (level != currLevel)
         {
             first = true;
@@ -76,11 +75,15 @@ public class ItemPickUp : MonoBehaviour
 
         currentFadeCoroutine = StartCoroutine(FadeImage(canvasImage, 1f, 0f, 0.5f));
         isImageTriggered = false;
-        canvasImageObj.SetActive(false);
     }
 
     private IEnumerator FadeImage(Image image, float startAlpha, float endAlpha, float duration)
     {
+        if (endAlpha >= 1f)
+        {
+            canvasImageObj.SetActive(true);
+        }
+
         float elapsedTime = 0f;
         Color color = image.color;
         color.a = startAlpha;
@@ -93,6 +96,11 @@ public class ItemPickUp : MonoBehaviour
             color.a = alpha;
             image.color = color;
             yield return null;
+        }
+
+        if (endAlpha <= 0f)
+        {
+            canvasImageObj.SetActive(false);
         }
 
         color.a = endAlpha;
