@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class InfiniteRoomTracker : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Entered");
             InfiniteRoom.Instance.currentRoom = gameObject;
         }
     }

@@ -10,36 +10,64 @@ public class GameManager : MonoBehaviour
     public InfiniteRoom infiniteRoomManager;
     public GameObject fogObject;
     public GameObject compassImage;
+    public PaperProximity paperProx;
 
     private const int INFINITE_ROOM_LEVEL_INDEX = 0;
+    private const int WHITE_ROOM_LEVEL_INDEX = 1;
+    public static GameManager Instance { get; private set; }
 
-    private int _currLevel = 0;
+    public int currLevel = 0;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        transitionTrigger.teleportObject = teleportPoints[_currLevel];   
+        transitionTrigger.teleportObject = teleportPoints[currLevel];   
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (_currLevel == INFINITE_ROOM_LEVEL_INDEX)
-            {
-                infiniteRoomManager.enabled = true;
-                fogObject.SetActive(true);
-            }
-            else
-            {
-                infiniteRoomManager.enabled = false;
-                fogObject.SetActive(false); 
-                compassImage.SetActive(false);
-            }
-
-            transitionTrigger.TriggerTransition();
-            _currLevel = (_currLevel + 1) % teleportPoints.Length;
-            transitionTrigger.teleportObject = teleportPoints[_currLevel];
+            NextLevel();
         }
+    }
+
+    // Update is called once per frame
+    public void NextLevel()
+    {
+        if (currLevel == INFINITE_ROOM_LEVEL_INDEX)
+        {
+            infiniteRoomManager.enabled = true;
+            fogObject.SetActive(true);
+        }
+        else
+        {
+            infiniteRoomManager.enabled = false;
+            fogObject.SetActive(false);
+            compassImage.SetActive(false);
+        }
+
+        if (currLevel == WHITE_ROOM_LEVEL_INDEX)
+        {
+            paperProx.enabled = true;
+        }
+        else
+        {
+            paperProx.enabled = false;
+        }
+
+        transitionTrigger.TriggerTransition();
+        currLevel = (currLevel + 1) % teleportPoints.Length;
+        transitionTrigger.teleportObject = teleportPoints[currLevel];
+    }
+
+    public void StartInfiniteRoomPuzzle()
+    {
+        infiniteRoomManager.StartPuzzle();
     }
 }
