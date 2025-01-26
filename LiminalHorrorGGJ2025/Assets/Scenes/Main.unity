@@ -188,6 +188,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 429324303}
+  - {fileID: 1956058240}
   m_Father: {fileID: 76173290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11635,6 +11636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1857574323}
   - component: {fileID: 1857574324}
+  - component: {fileID: 1857574325}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -11676,6 +11678,24 @@ MonoBehaviour:
   transitionTrigger: {fileID: 76173291}
   infiniteRoomManager: {fileID: 1813904583}
   fogObject: {fileID: 1604135118}
+  compassPuzzle: {fileID: 1857574325}
+  compassImage: {fileID: 1956058239}
+--- !u!114 &1857574325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857574322}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f8af27baac38347ba54942abd75dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  compassImage: {fileID: 1956058239}
+  target: {fileID: 0}
+  puzzleSolved: 0
+  directionHoldTime: 0
 --- !u!1 &1891370461
 GameObject:
   m_ObjectHideFlags: 0
@@ -21473,6 +21493,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1604135120}
   m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
+--- !u!1 &1956058239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956058240}
+  - component: {fileID: 1956058242}
+  - component: {fileID: 1956058241}
+  m_Layer: 5
+  m_Name: Compass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1956058240
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956058239}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0021646, y: 1.0021646, z: 1.0021646}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 62058207}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 163, y: -156}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1956058241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956058239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f62748e9d483c0f4db154b2c6082c6b0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1956058242
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956058239}
+  m_CullTransparentMesh: 1
 --- !u!1001 &3054287053638412414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21501,6 +21596,10 @@ PrefabInstance:
       propertyPath: characterController
       value: 
       objectReference: {fileID: 76173289}
+    - target: {fileID: 5196964199107734763, guid: 48b50b8fc812a0f469abde4936be7cd0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.4
+      objectReference: {fileID: 0}
     - target: {fileID: 5291868010117553462, guid: 48b50b8fc812a0f469abde4936be7cd0, type: 3}
       propertyPath: cam
       value: 
