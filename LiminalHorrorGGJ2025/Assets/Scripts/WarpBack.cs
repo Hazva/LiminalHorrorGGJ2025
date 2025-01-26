@@ -6,6 +6,7 @@ public class WarpBack : MonoBehaviour
 {
     [SerializeField] private Transform teleportDestination;
     [SerializeField] private CharacterController characterController;
+    [SerializeField] private MoveAndDeactivate monsterSpawner;
 
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
@@ -17,7 +18,7 @@ public class WarpBack : MonoBehaviour
             characterController.enabled = false;
             other.transform.position = newPosition;
             characterController.enabled = true;
-
+            monsterSpawner.isProcessing = false;
         }
     }
 }

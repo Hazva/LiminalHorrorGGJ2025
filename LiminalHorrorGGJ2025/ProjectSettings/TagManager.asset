@@ -4,10 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< Updated upstream
   - Shallow_Water
   - Tile
   - Carpet
   - Grass
+=======
+  - Water
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
