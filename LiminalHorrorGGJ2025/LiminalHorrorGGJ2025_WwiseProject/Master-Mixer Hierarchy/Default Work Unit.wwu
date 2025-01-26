@@ -36,6 +36,29 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
+						<Bus Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Submerged" ID="{386A89DE-B4D4-40BF-A48C-737BB4C5EF25}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Submerged" ID="{5E36E060-A7A8-4BF2-B1D7-C0A9D0C251DD}"/>
+										<CustomState Name="" ID="{633E39E7-B379-4E7D-B947-22B6AB2F52AA}" ShortID="780002204">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="50"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="NonSubmerged" ID="{80B0EA5F-63BD-4DDB-8CCA-CDCF0CE522A9}"/>
+										<CustomState Name="" ID="{3E2CFDA6-0126-4179-A956-5B468E41FDA4}" ShortID="428219053"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

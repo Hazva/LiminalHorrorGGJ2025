@@ -18,6 +18,7 @@ public class MoveAndDeactivate : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isProcessing)
         {
+            AudioManager.Instance.PostEvent("Play_Jumpscare");
             StartCoroutine(HandleObjectMovement());
         }
     }

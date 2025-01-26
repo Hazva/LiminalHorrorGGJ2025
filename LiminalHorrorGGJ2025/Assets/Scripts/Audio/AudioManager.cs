@@ -18,6 +18,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance;
     public int stressLevel = 1;
     public Surface surface = Surface.Tile;
+    public bool isSwimming = false;
 
     private void Awake()
     {
@@ -43,6 +44,7 @@ public class AudioManager : MonoBehaviour
         AkSoundEngine.SetState("Surface", "Tile");
         room.SetValue();
         AkSoundEngine.SetState("Stress", "Small");
+        AkSoundEngine.SetState("Submerged", "NonSubmerged");
 
         PostEvent("Play_Ambience");
         PostEvent("Play_Breathing");

@@ -38,6 +38,13 @@
 						<State Name="Sprint" ID="{7C893A23-6E37-4A65-A928-6ECBAAF5E683}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Submerged" ID="{386A89DE-B4D4-40BF-A48C-737BB4C5EF25}">
+					<ChildrenList>
+						<State Name="None" ID="{25D3B75E-28A5-44E7-BA42-382ECBFAA7CE}"/>
+						<State Name="Submerged" ID="{5E36E060-A7A8-4BF2-B1D7-C0A9D0C251DD}"/>
+						<State Name="NonSubmerged" ID="{80B0EA5F-63BD-4DDB-8CCA-CDCF0CE522A9}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

@@ -129,9 +129,10 @@ public class SC_FPSController : MonoBehaviour
 
     private void DetermineSurface()
     {
-        if (AudioManager.Instance.stressLevel == 3)
+        if (AudioManager.Instance.isSwimming)
         {
             AkSoundEngine.SetState("Surface", "Water");
+            return;
         }
 
         RaycastHit hit;
@@ -142,12 +143,12 @@ public class SC_FPSController : MonoBehaviour
                 AkSoundEngine.SetState("Surface", "Carpet");
                 AudioManager.Instance.surface = AudioManager.Surface.Carpet;
             }
-            else if (hit.collider.CompareTag("Shallow_Water") && AudioManager.Instance.surface != AudioManager.Surface.Shallow_Water)
+            else if (hit.collider.CompareTag("Water") && AudioManager.Instance.surface != AudioManager.Surface.Shallow_Water)
             {
                 AkSoundEngine.SetState("Surface", "Shallow_Water");
                 AudioManager.Instance.surface = AudioManager.Surface.Shallow_Water;
             }
-            else if (AudioManager.Instance.surface != AudioManager.Surface.Tile)
+            else if (hit.collider.CompareTag("Tile") && AudioManager.Instance.surface != AudioManager.Surface.Tile)
             {
                 AkSoundEngine.SetState("Surface", "Tile");
                 if (AudioManager.Instance.surface == AudioManager.Surface.Shallow_Water)

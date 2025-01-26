@@ -13,6 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2888013566	Play_sfx_bottle_pick_up			\Tan\Play_sfx_bottle_pick_up	
 	2891509749	Play_Creature			\Daniel\Play_Creature	
 	3140964691	Stop_Walk			\Daniel\Stop_Walk	
+	3598212264	Play_Submerge			\Daniel\Play_Submerge	
 	3799125421	Play_Fluorescent_Light			\Daniel\Play_Fluorescent_Light	
 	3840943850	Play_Jumpscare			\Daniel\Play_Jumpscare	
 	4093367312	Play_Breathing			\Tan\Play_Breathing	
@@ -20,6 +21,7 @@ Event	ID	Name			Wwise Object Path	Notes
 State Group	ID	Name			Wwise Object Path	Notes
 	1834394558	Surface			\Default Work Unit\Surface	
 	2077253480	Room			\Default Work Unit\Room	
+	2530502021	Submerged			\Default Work Unit\Submerged	
 	3840192365	Stress			\Default Work Unit\Stress	
 
 State	ID	Name	State Group			Notes
@@ -35,6 +37,9 @@ State	ID	Name	State Group			Notes
 	1392138151	Subway_Flood	Room			
 	1981184526	Subway	Room			
 	2188788306	Intermediate	Room			
+	748895195	None	Submerged			
+	1343665684	NonSubmerged	Submerged			
+	2530502021	Submerged	Submerged			
 	748895195	None	Stress			
 	981339021	Med	Stress			
 	1846755610	Small	Stress			
@@ -76,6 +81,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	188287193	Creature_Glitch_3	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Creature_Glitch_3_818F3B66.wem		\Actor-Mixer Hierarchy\Daniel\Creature\Creature_Glitch\Creature_Glitch_3		384096
 	193503505	sfx_footsteps_carpet_19	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_carpet_19_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\footstep_carpet\sfx_footsteps_carpet_19		162068
 	200966352	sfx_footsteps_water_08	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_water_08_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\footstep_water_waist\sfx_footsteps_water_08		283104
+	208150483	Submerge	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Water, Underwater, Dive In, Close, Bass, Hydrophone, Underwater SND114509_818F3B66.wem		\Actor-Mixer Hierarchy\Daniel\Submerge		496328
 	224843739	Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\footstep_shallow_water\Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10		50128
 	233955698	sfx_footsteps_tile_34	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_tile_34_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\Footstep_TileContainer\footstep_tile\sfx_footsteps_tile_34		62084
 	256852523	sfx_breath_labor_01_01	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Breath_labor\1\sfx_breath_labor_01_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\Breath_Labor\Breath_Labor_Small\sfx_breath_labor_01_01		307516
@@ -84,7 +90,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	274691172	sfx_cloth_rustling_08	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Cloth Rustling\sfx_cloth_rustling_08_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cloth\sfx_cloth_rustling_08		270256
 	277540642	sfx_footsteps_grass_17	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_grass_17_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\footstep_grass\sfx_footsteps_grass_17		128224
 	280280946	Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\footstep_shallow_water\Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13		39286
-	289687414	sfx_breath_labor_03_17	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Breath_labor\3\sfx_breath_labor_03_17_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\Breath_Labor\Breath_Labor_Big\sfx_breath_labor_03_17		184280
 	289822539	sfx_breath_labor_02_02	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Breath_labor\2\sfx_breath_labor_02_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\Breath_Labor\Breath_Labor_Med\sfx_breath_labor_02_02		228676
 	294723987	Jumpscare_2	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Jumpscare_2_818F3B66.wem		\Actor-Mixer Hierarchy\Daniel\Jumpscare\Jumpscare_2		837912
 	300254947	sfx_footsteps_tile_18	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_tile_18_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\Footstep_TileContainer\footstep_tile\sfx_footsteps_tile_18		49928
@@ -115,7 +120,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	439557029	sfx_breath_normal_01_05	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Breath_normal\1\sfx_breath_normal_01_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\Breath_Normal\Breath_Normal_Small\sfx_breath_normal_01_05		225680
 	446051247	sfx_footsteps_tile_20	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_tile_20_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\Footstep_TileContainer\footstep_tile\sfx_footsteps_tile_20		70256
 	446831313	sfx_footsteps_tile_wet_10	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_tile_wet_10_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\Footstep_TileContainer\footstep_tile_wet\sfx_footsteps_tile_wet_10		121380
-	455195383	sfx_breath_labor_03_18	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Breath_labor\3\sfx_breath_labor_03_18_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\Breath_Labor\Breath_Labor_Big\sfx_breath_labor_03_18		208308
 	458977770	Creature_Glitch_2	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Creature_Glitch_2_818F3B66.wem		\Actor-Mixer Hierarchy\Daniel\Creature\Creature_Glitch\Creature_Glitch_2		576096
 	466291669	sfx_breath_normal_01_03	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Breath_normal\1\sfx_breath_normal_01_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\Breath_Normal\Breath_Normal_Small\sfx_breath_normal_01_03		348380
 	468799617	sfx_footsteps_grass_11	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_grass_11_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\footstep_grass\sfx_footsteps_grass_11		128224
@@ -182,8 +186,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	800825783	sfx_footsteps_tile_19	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_tile_19_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\Footstep_TileContainer\footstep_tile\sfx_footsteps_tile_19		52652
 	804430369	sfx_breath_labor_01_08	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Breath_labor\1\sfx_breath_labor_01_08_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\Breath_Labor\Breath_Labor_Small\sfx_breath_labor_01_08		387356
 	810985792	sfx_footsteps_tile_31	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_tile_31_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\Footstep_TileContainer\footstep_tile\sfx_footsteps_tile_31		90612
-	813044910	sfx_breath_labor_03_14	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Breath_labor\3\sfx_breath_labor_03_14_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\Breath_Labor\Breath_Labor_Big\sfx_breath_labor_03_14		145440
-	821631660	sfx_breath_labor_03_15	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\Breath_labor\3\sfx_breath_labor_03_15_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Breathing\Breath_Labor\Breath_Labor_Big\sfx_breath_labor_03_15		165796
 	825164533	sfx_footsteps_grass_14	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_grass_14_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\footstep_grass\sfx_footsteps_grass_14		136236
 	827136207	sfx_footsteps_tile_wet_04	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_tile_wet_04_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\Footstep_TileContainer\footstep_tile_wet\sfx_footsteps_tile_wet_04		130732
 	834844003	sfx_footsteps_carpet_18	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Mac\SFX\sfx_footsteps_carpet_18_818F3B66.wem		\Actor-Mixer Hierarchy\Tan\General Footstep Container\footstep_carpet\sfx_footsteps_carpet_18		86556

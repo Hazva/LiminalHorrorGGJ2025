@@ -21,7 +21,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+							<ObjectRef Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -148,7 +148,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+							<ObjectRef Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -195,6 +195,7 @@
 				</Sound>
 				<BlendContainer Name="Creature" ID="{44DE811D-ACF7-4C82-9B3E-73E3F104F90B}" ShortID="918431721">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-4</Value>
@@ -202,18 +203,23 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Monster" ID="{F731FC14-F5F0-4813-B52F-18391B1223ED}" WorkUnitID="{A7733909-7B8E-46FF-B9E4-E744C3DCDF67}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+							<ObjectRef Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{50570FF5-ACF3-4E02-A6F3-D439F7DBD47E}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Creature_Glitch" ID="{C179F65B-2EA7-4D81-A153-55D538ED8E5A}" ShortID="501309477">
 							<PropertyList>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
 									<ModifierList>
@@ -221,7 +227,7 @@
 											<Modifier Name="" ID="{F170F57E-7317-4C3B-BF85-4754324EE7EC}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -230,7 +236,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -395,7 +401,8 @@
 											<Modifier Name="" ID="{D90C53BF-6101-4023-97A1-CBA01AE0A35D}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-0.2"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -404,7 +411,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -460,11 +467,6 @@
 								</Sound>
 								<Sound Name="Creature_Roar" ID="{D27D1EA2-560C-4AFB-BB19-256F0BF2ECBD}" ShortID="243327936">
 									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-2</Value>
-											</ValueList>
-										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>35</Value>
@@ -497,7 +499,7 @@
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-40</Value>
+												<Value>-19</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Weight" Type="Real64">
@@ -533,7 +535,7 @@
 																<Custom>
 																	<Effect Name="RoomVerb (Custom)" ID="{4294A3F5-AB45-4724-9623-5C81938A53E9}" ShortID="859409574" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 																		<PropertyList>
-																			<Property Name="DecayTime" Type="Real32" Value="3.8"/>
+																			<Property Name="DecayTime" Type="Real32" Value="3.3"/>
 																			<Property Name="DryLevel" Type="Real32" Value="-1.3"/>
 																			<Property Name="ReverbLevel" Type="Real32" Value="-7"/>
 																		</PropertyList>
@@ -554,7 +556,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>10</Value>
+												<Value>11</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -629,7 +631,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -643,6 +645,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Jumpscare_1" ID="{391DEF67-61EB-433C-8D7A-6A9B8E391442}" ShortID="146641641">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -665,6 +674,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Jumpscare_2" ID="{5BB2F520-B307-40E0-BF23-FC993A3455E9}" ShortID="503489133">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -709,6 +725,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Jumpscare_4" ID="{F26C77EB-6BE1-4A68-95ED-4FCCAB43953C}" ShortID="666056607">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -732,6 +755,35 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="Submerge" ID="{D3598397-640D-4591-864D-F57820654D1D}" ShortID="1007998572">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Water, Underwater, Dive In, Close, Bass, Hydrophone, Underwater SND114509" ID="{8F03E4D5-C7F8-4F96-A683-BDC58835A2F4}">
+							<Language>SFX</Language>
+							<AudioFile>Water, Underwater, Dive In, Close, Bass, Hydrophone, Underwater SND114509.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="208150483"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Water, Underwater, Dive In, Close, Bass, Hydrophone, Underwater SND114509" ID="{8F03E4D5-C7F8-4F96-A683-BDC58835A2F4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

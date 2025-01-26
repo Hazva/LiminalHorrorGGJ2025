@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 91f10b6dcc987546ab33fafb58766f78
     GuidInternal: 
-    m_lastTime: -8584637300596738649
+    m_lastTime: -8584637164837869175
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -71,6 +71,23 @@ MonoBehaviour:
         ObjectType: 1
         guid: f50f5750f3ac024ea6f3d439f7dbd47e
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
+    - name: SubmergableAudio
+      guid: ac8849eb1b12d846a1e174c20679a719
+      id: 1607929236
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 91f10b6dcc987546ab33fafb58766f78
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SubmergableAudio
+        ObjectType: 2
+        guid: ac8849eb1b12d846a1e174c20679a719
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SubmergableAudio
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -125,7 +142,7 @@ MonoBehaviour:
     ParentPath: Events\Daniel
     guid: 16bd7a06619d98478594f16b572c065c
     GuidInternal: 
-    m_lastTime: -8584637300619059761
+    m_lastTime: -8584637156302454550
     List:
     - name: Exit_Water
       guid: c7148995323f1e4b85cbaaa0fb0335c7
@@ -192,7 +209,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4369367c7a6d504da679554ceee71cee
       Path: Events\Daniel\Play_Creature
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: -1
       minDuration: -1
     - name: Play_Door_Loop
@@ -246,6 +263,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 4.363646
       minDuration: 4.363625
+    - name: Play_Submerge
+      guid: 3f5478e4d827d744b2eade8f17f07298
+      id: 3598212264
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Submerge
+        ObjectType: 3
+        guid: 3f5478e4d827d744b2eade8f17f07298
+      Path: Events\Daniel\Play_Submerge
+      maxAttenuation: 0
+      maxDuration: 5.1690936
+      minDuration: 5.1690936
     - name: Play_Swim
       guid: ac81858c0c019b41b34f20ec57430dd8
       id: 165772206
@@ -342,7 +376,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c91ba63cc4e47240b1d7338336c44413
     GuidInternal: 
-    m_lastTime: -8584637224318234216
+    m_lastTime: -8584637171950122188
     List:
     - name: Play_Ambience
       guid: 7402658b5715a742b8ed7c5cbf79d153
@@ -533,7 +567,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dd5c1f9a41949e4282699104354a8dea
     GuidInternal: 
-    m_lastTime: -8584637300572311163
+    m_lastTime: -8584637175582331959
     List:
     - name: Movement
       guid: 838ca93af498d7408685519859b23577
@@ -781,6 +815,72 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: Submerged
+      guid: de896a38d4b4bf40a48c737bb4c5ef25
+      id: 2530502021
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dd5c1f9a41949e4282699104354a8dea
+      - ElementName: Submerged
+        ObjectType: 9
+        guid: de896a38d4b4bf40a48c737bb4c5ef25
+      Path: States\Default Work Unit\Submerged
+      values:
+      - name: None
+        guid: 5eb7d325a528e744ba42382ecbfaa7ce
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Submerged
+          ObjectType: 9
+          guid: de896a38d4b4bf40a48c737bb4c5ef25
+        - ElementName: None
+          ObjectType: 8
+          guid: 5eb7d325a528e744ba42382ecbfaa7ce
+      - name: NonSubmerged
+        guid: 5feab080bd63db4d8ccacdcf0ce522a9
+        id: 1343665684
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Submerged
+          ObjectType: 9
+          guid: de896a38d4b4bf40a48c737bb4c5ef25
+        - ElementName: NonSubmerged
+          ObjectType: 8
+          guid: 5feab080bd63db4d8ccacdcf0ce522a9
+      - name: Submerged
+        guid: 60e0365ea8a7f24bb1d7c0a9d0c251dd
+        id: 2530502021
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Submerged
+          ObjectType: 9
+          guid: de896a38d4b4bf40a48c737bb4c5ef25
+        - ElementName: Submerged
+          ObjectType: 8
+          guid: 60e0365ea8a7f24bb1d7c0a9d0c251dd
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Surface
       guid: 970e72085857bd4e987b7e30160bca67
       id: 1834394558
@@ -939,9 +1039,9 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584637742319200728
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 1c0000001d0000001f000000
+  ExpandedFileSystemItemIds: 020000000300000004000000140000001c0000001d0000001e0000001f00000020000000
+  ExpandedWaapiItemIds: 0200000003000000040000001c0000001d0000001e0000001f00000020000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

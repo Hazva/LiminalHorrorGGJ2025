@@ -2,6 +2,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	1834394558	Surface			\Default Work Unit\Surface	
 	2077253480	Room			\Default Work Unit\Room	
 	2129636626	Movement			\Default Work Unit\Movement	
+	2530502021	Submerged			\Default Work Unit\Submerged	
 	3840192365	Stress			\Default Work Unit\Stress	
 
 State	ID	Name	State Group			Notes
@@ -20,12 +21,16 @@ State	ID	Name	State Group			Notes
 	748895195	None	Movement			
 	1296465089	Sprint	Movement			
 	2108779966	Walk	Movement			
+	748895195	None	Submerged			
+	1343665684	NonSubmerged	Submerged			
+	2530502021	Submerged	Submerged			
 	748895195	None	Stress			
 	981339021	Med	Stress			
 	1846755610	Small	Stress			
 	4284352190	Large	Stress			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	1607929236	SubmergableAudio			\Default Work Unit\Master Audio Bus\SubmergableAudio	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes

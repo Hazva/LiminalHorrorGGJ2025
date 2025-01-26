@@ -12,7 +12,7 @@
 							<ObjectRef Name="Tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+							<ObjectRef Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
 						</Reference>
 						<Reference Name="SwitchGroupOrStateGroup">
 							<ObjectRef Name="Surface" ID="{08720E97-5758-4EBD-987B-7E30160BCA67}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
@@ -619,6 +619,11 @@
 							<PropertyList>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2441,6 +2446,13 @@
 				<Folder Name="Bottle" ID="{B3F5B9F2-5DFB-455F-82EB-C5307356C1FF}" ShortID="1045374483">
 					<ChildrenList>
 						<Sound Name="sfx_bottle_open" ID="{C4ADC47F-EE2F-457C-895A-24FE1186D1FD}" ShortID="950610027">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -2466,7 +2478,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3033,9 +3045,10 @@
 						<Sound Name="Water_Rising" ID="{95BBBC58-7BF6-4978-B5D9-7F1D55103B6C}" ShortID="636417949">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-13</Value>
+										<Value>-11</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3044,7 +3057,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+									<ObjectRef Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

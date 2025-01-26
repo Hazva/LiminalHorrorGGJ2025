@@ -14,6 +14,10 @@ public class LightAndWaterController : MonoBehaviour
     private float timer = 0f;
     private float randomInterval = 2.0f;
 
+    [SerializeField] private float swimmingTime = 8f;
+    [SerializeField] private float submersionTime = 16f;
+    [SerializeField] private GameObject submergedOverlay;
+
     private void Update()
     {
         if (isActive)
@@ -51,9 +55,29 @@ public class LightAndWaterController : MonoBehaviour
     {
         if (!isActive)
         {
+            AkSoundEngine.SetState("Room", "Subway_Flood");
             isActive = true;
             //StartCoroutine(ToggleLights());
+            StartCoroutine(StartSwimming());
+            StartCoroutine(StartSubmersion());
         }
+    }
+
+    IEnumerator StartSwimming()
+    {
+        AudioManager.Instance.stressLevel = 3;
+        AkSoundEngine.SetState("Stress", "Large");
+        yield return new WaitForSeconds(swimmingTime);
+        AudioManager.Instance.isSwimming = true;
+        AkSoundEngine.SetState("Surface", "Water");
+    }
+
+    IEnumerator StartSubmersion()
+    {
+        yield return new WaitForSeconds(submersionTime);
+        AudioManager.Instance.PostEvent("Play_Submerge");
+        AkSoundEngine.SetState("Submerged", "Submerged");
+        submergedOverlay.SetActive(true);
     }
 
     private System.Collections.IEnumerator ToggleLights()

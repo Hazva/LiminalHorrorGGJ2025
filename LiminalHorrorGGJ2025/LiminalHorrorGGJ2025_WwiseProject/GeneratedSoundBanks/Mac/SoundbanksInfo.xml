@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{4EBDAC2A-B81E-BDFD-F4A9-6AA5C237BAB3}">
+		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{B95E4270-760E-C658-25CA-A6E7C54280EB}">
 			<ShortName>ambient</ShortName>
 			<Path>ambient.bnk</Path>
 			<Media>
@@ -146,7 +146,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DB8543CC-BBE0-887A-1DFC-BE2B818F5F88}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A3EF057F-19A2-439C-C8C6-6AE29EE07A0F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -159,6 +159,7 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="1607929236" Name="SubmergableAudio"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<AuxBusses>
@@ -201,6 +202,13 @@
 						<State Id="2108779966" Name="Walk"/>
 					</States>
 				</StateGroup>
+				<StateGroup Id="2530502021" Name="Submerged">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1343665684" Name="NonSubmerged"/>
+						<State Id="2530502021" Name="Submerged"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="3840192365" Name="Stress">
 					<States>
 						<State Id="748895195" Name="None"/>
@@ -211,7 +219,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{64C0A1D5-9C4A-D0A6-C307-4115109D9B8C}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{67939640-4961-8AA4-F0E0-A5508A60B662}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
@@ -331,6 +339,10 @@
 					<ShortName>sfx_footsteps_water_08.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_water_08_818F3B66.wem</CachePath>
 				</File>
+				<File Id="208150483" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water, Underwater, Dive In, Close, Bass, Hydrophone, Underwater SND114509.wav</ShortName>
+					<CachePath>SFX/Water, Underwater, Dive In, Close, Bass, Hydrophone, Underwater SND114509_818F3B66.wem</CachePath>
+				</File>
 				<File Id="224843739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10.wav</ShortName>
 					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10_818F3B66.wem</CachePath>
@@ -362,10 +374,6 @@
 				<File Id="280280946" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13.wav</ShortName>
 					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13_818F3B66.wem</CachePath>
-				</File>
-				<File Id="289687414" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Breath_labor\3\sfx_breath_labor_03_17.wav</ShortName>
-					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_17_818F3B66.wem</CachePath>
 				</File>
 				<File Id="289822539" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Breath_labor\2\sfx_breath_labor_02_02.wav</ShortName>
@@ -486,10 +494,6 @@
 				<File Id="446831313" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_wet_10.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_wet_10_818F3B66.wem</CachePath>
-				</File>
-				<File Id="455195383" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Breath_labor\3\sfx_breath_labor_03_18.wav</ShortName>
-					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_18_818F3B66.wem</CachePath>
 				</File>
 				<File Id="458977770" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creature_Glitch_2.wav</ShortName>
@@ -755,14 +759,6 @@
 					<ShortName>sfx_footsteps_tile_31.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_31_818F3B66.wem</CachePath>
 				</File>
-				<File Id="813044910" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Breath_labor\3\sfx_breath_labor_03_14.wav</ShortName>
-					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_14_818F3B66.wem</CachePath>
-				</File>
-				<File Id="821631660" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Breath_labor\3\sfx_breath_labor_03_15.wav</ShortName>
-					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_15_818F3B66.wem</CachePath>
-				</File>
 				<File Id="825164533" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_14.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_grass_14_818F3B66.wem</CachePath>
@@ -914,15 +910,11 @@
 										<MediaRef Id="76747830"/>
 										<MediaRef Id="162346515"/>
 										<MediaRef Id="167635915"/>
-										<MediaRef Id="289687414"/>
 										<MediaRef Id="427922673"/>
-										<MediaRef Id="455195383"/>
 										<MediaRef Id="475607389"/>
 										<MediaRef Id="616254054"/>
 										<MediaRef Id="626886505"/>
 										<MediaRef Id="719777408"/>
-										<MediaRef Id="813044910"/>
-										<MediaRef Id="821631660"/>
 										<MediaRef Id="868210457"/>
 										<MediaRef Id="909324651"/>
 										<MediaRef Id="910709793"/>
@@ -1018,15 +1010,11 @@
 										<MediaRef Id="76747830"/>
 										<MediaRef Id="162346515"/>
 										<MediaRef Id="167635915"/>
-										<MediaRef Id="289687414"/>
 										<MediaRef Id="427922673"/>
-										<MediaRef Id="455195383"/>
 										<MediaRef Id="475607389"/>
 										<MediaRef Id="616254054"/>
 										<MediaRef Id="626886505"/>
 										<MediaRef Id="719777408"/>
-										<MediaRef Id="813044910"/>
-										<MediaRef Id="821631660"/>
 										<MediaRef Id="868210457"/>
 										<MediaRef Id="909324651"/>
 										<MediaRef Id="910709793"/>
@@ -1101,7 +1089,7 @@
 						<MediaRef Id="374369876"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2891509749" Name="Play_Creature" DurationType="Infinite">
+				<Event Id="2891509749" Name="Play_Creature" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="117230613"/>
 						<MediaRef Id="176619310"/>
@@ -1120,6 +1108,9 @@
 							<PluginRef Id="859409574"/>
 						</Custom>
 					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2463718247" Name="Play_Door_Loop" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
@@ -1265,6 +1256,11 @@
 						<MediaRef Id="177052483"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3598212264" Name="Play_Submerge" DurationType="OneShot" DurationMin="5.1690936" DurationMax="5.1690936">
+					<MediaRefs>
+						<MediaRef Id="208150483"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="165772206" Name="Play_Swim" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="92878731"/>
@@ -1321,5 +1317,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A8725212-3F2A-7309-816D-39B23530C45D}</FileHash>
+	<FileHash>{2505D5FC-617F-3504-C44D-537DBB1368FA}</FileHash>
 </SoundBanksInfo>

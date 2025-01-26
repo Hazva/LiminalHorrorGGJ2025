@@ -147,7 +147,7 @@
 						<Action Name="" ID="{2573F8FC-3DAA-4FC5-91A8-2FCB1F42C7A0}" ShortID="661672560">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="38"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -177,6 +177,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps" ID="{4A98B216-87B8-482D-B520-761308A3292C}" WorkUnitID="{76709BC8-2F74-4140-A63B-45CFB6B478D0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Submerge" ID="{E478543F-27D8-44D7-B2EA-DE8F17F07298}">
+					<ChildrenList>
+						<Action Name="" ID="{190F846D-1965-4BD0-91E5-BBD3E2B34227}" ShortID="828163373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Submerge" ID="{D3598397-640D-4591-864D-F57820654D1D}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

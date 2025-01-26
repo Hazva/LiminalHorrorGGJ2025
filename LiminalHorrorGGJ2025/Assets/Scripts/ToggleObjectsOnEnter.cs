@@ -6,6 +6,7 @@ public class ToggleObjectsOnEnter : MonoBehaviour
 {
     public GameObject[] objectsToActivate;
     public GameObject[] objectsToDeactivate;
+    public AK.Wwise.Event sound;
     public bool hasTriggered = false;
     public void OnTriggerEnter(Collider other)
     {
@@ -19,6 +20,7 @@ public class ToggleObjectsOnEnter : MonoBehaviour
             {
                 gameObject.SetActive(false);
             }
+            sound.Post(AudioManager.Instance.gameObject);
             hasTriggered = true;
         }
     }

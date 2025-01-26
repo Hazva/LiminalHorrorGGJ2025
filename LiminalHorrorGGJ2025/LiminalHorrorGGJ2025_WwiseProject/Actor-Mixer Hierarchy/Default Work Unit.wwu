@@ -425,7 +425,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -571,6 +571,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="sfx_breath_labor_03_07" ID="{897E71E9-2646-4099-9F47-E9E766BC1FB1}" ShortID="434716949">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -593,6 +600,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="sfx_breath_labor_03_08" ID="{70AEF7AC-C7A5-47AC-9009-FAB699800DB7}" ShortID="994052950">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -615,6 +629,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="sfx_breath_labor_03_09" ID="{C4A9054D-5C46-4184-95A9-C4DDA423F894}" ShortID="379807832">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -659,6 +680,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="sfx_breath_labor_03_11" ID="{69182ABF-7EA2-4402-ADD8-29172E0EC6C4}" ShortID="68198867">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -703,6 +731,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="sfx_breath_labor_03_13" ID="{FC9F8B70-9852-454D-9E5E-1DDB37448946}" ShortID="565683244">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -724,51 +759,14 @@
 												<ActiveSource Name="sfx_breath_labor_03_13" ID="{B416CA22-F9D1-46B4-8E6D-081B3BD536FE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="sfx_breath_labor_03_14" ID="{050D1B41-6B85-40CD-AB41-6869CA5FA6A9}" ShortID="240860720">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="sfx_breath_labor_03_14" ID="{2E6B1CA7-BFE2-4ED2-9680-9B2B54CD6607}">
-													<Language>SFX</Language>
-													<AudioFile>Breath_labor\3\sfx_breath_labor_03_14.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="813044910"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="sfx_breath_labor_03_14" ID="{2E6B1CA7-BFE2-4ED2-9680-9B2B54CD6607}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="sfx_breath_labor_03_15" ID="{F8232DA1-5470-4A64-A254-886D8EAA3241}" ShortID="6286712">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="sfx_breath_labor_03_15" ID="{59F41DF4-CEF3-4B99-A509-9115B6102882}">
-													<Language>SFX</Language>
-													<AudioFile>Breath_labor\3\sfx_breath_labor_03_15.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="821631660"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="sfx_breath_labor_03_15" ID="{59F41DF4-CEF3-4B99-A509-9115B6102882}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="sfx_breath_labor_03_16" ID="{567CFE26-5BD4-45F9-B1F8-B9043B6A42B4}" ShortID="725273305">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -788,50 +786,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="sfx_breath_labor_03_16" ID="{8C7C626B-F54D-43B8-9B4A-7E9457D3DCDE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="sfx_breath_labor_03_17" ID="{16E71698-A630-40AF-BE9D-0FE630019764}" ShortID="391326830">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="sfx_breath_labor_03_17" ID="{90E75966-5E2F-45E4-BE80-4B2DFCC507E5}">
-													<Language>SFX</Language>
-													<AudioFile>Breath_labor\3\sfx_breath_labor_03_17.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="289687414"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="sfx_breath_labor_03_17" ID="{90E75966-5E2F-45E4-BE80-4B2DFCC507E5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="sfx_breath_labor_03_18" ID="{9EC78636-B225-4B2B-BDE2-3A280DBFF700}" ShortID="755947987">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="sfx_breath_labor_03_18" ID="{01DF97FA-2B73-4BFF-9706-92FD1AAA254E}">
-													<Language>SFX</Language>
-													<AudioFile>Breath_labor\3\sfx_breath_labor_03_18.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="455195383"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="sfx_breath_labor_03_18" ID="{01DF97FA-2B73-4BFF-9706-92FD1AAA254E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1910,6 +1864,27 @@
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Submerged" ID="{386A89DE-B4D4-40BF-A48C-737BB4C5EF25}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Submerged" ID="{5E36E060-A7A8-4BF2-B1D7-C0A9D0C251DD}"/>
+								<CustomState Name="" ID="{DE8ACB83-8AB1-4278-921B-528B39D4870A}" ShortID="782329387">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="NonSubmerged" ID="{80B0EA5F-63BD-4DDB-8CCA-CDCF0CE522A9}"/>
+								<CustomState Name="" ID="{A95C103C-08C0-450D-BB3D-A6053FF5D1C3}" ShortID="294026412"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>

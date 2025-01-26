@@ -53,6 +53,7 @@ public class ItemPickUp : MonoBehaviour
         if (level < 0 || level >= journalSprites.Length) return;
 
         canvasImage.sprite = journalSprites[level];
+        AudioManager.Instance.PostEvent("Play_sfx_bottle_open");
 
         if (currentFadeCoroutine != null)
         {

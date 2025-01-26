@@ -92,7 +92,9 @@ public class InfiniteRoom : MonoBehaviour
 
     public void SpawnDoor()
     {
-        Instantiate(doorPrefab, SC_FPSController.Instance.transform.position + SC_FPSController.Instance.moveDirection.normalized * 15.0f, Quaternion.identity);
+        Vector3 spawnPos = SC_FPSController.Instance.transform.position + SC_FPSController.Instance.moveDirection.normalized * 15.0f;
+        spawnPos.y = height / 2.0f;
+        Instantiate(doorPrefab, spawnPos, Quaternion.identity);
     }
 
     public void StopGeneration()

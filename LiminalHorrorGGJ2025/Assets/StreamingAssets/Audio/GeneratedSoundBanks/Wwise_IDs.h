@@ -27,6 +27,7 @@ namespace AK
         static const AkUniqueID PLAY_JUMPSCARE = 3840943850U;
         static const AkUniqueID PLAY_SFX_BOTTLE_OPEN = 605122265U;
         static const AkUniqueID PLAY_SFX_BOTTLE_PICK_UP = 2888013566U;
+        static const AkUniqueID PLAY_SUBMERGE = 3598212264U;
         static const AkUniqueID PLAY_SWIM = 165772206U;
         static const AkUniqueID PLAY_TRAIN_STATION_SONG = 3565446547U;
         static const AkUniqueID PLAY_TRANSITION = 895718239U;
@@ -76,6 +77,18 @@ namespace AK
             } // namespace STATE
         } // namespace STRESS
 
+        namespace SUBMERGED
+        {
+            static const AkUniqueID GROUP = 2530502021U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NONSUBMERGED = 1343665684U;
+                static const AkUniqueID SUBMERGED = 2530502021U;
+            } // namespace STATE
+        } // namespace SUBMERGED
+
         namespace SURFACE
         {
             static const AkUniqueID GROUP = 1834394558U;
@@ -109,6 +122,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID SUBMERGABLEAUDIO = 1607929236U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
