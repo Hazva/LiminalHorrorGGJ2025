@@ -157,6 +157,57 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Exit_Water" ID="{958914C7-3F32-4B1E-85CB-AAA0FB0335C7}">
+					<ChildrenList>
+						<Action Name="" ID="{D1EFFB38-73E3-4BC4-9595-341BDB2913C1}" ShortID="197090186">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wetness" ID="{A9AE7D14-B3A4-4923-A9A1-413D6DE604BE}" WorkUnitID="{6D3ED188-7311-4F38-9C51-C7FF1DFB7FC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2573F8FC-3DAA-4FC5-91A8-2FCB1F42C7A0}" ShortID="661672560">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wetness" ID="{A9AE7D14-B3A4-4923-A9A1-413D6DE604BE}" WorkUnitID="{6D3ED188-7311-4F38-9C51-C7FF1DFB7FC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Walk" ID="{A0587BA2-9C41-44D7-9BF6-D2BFEC9880D7}">
+					<ChildrenList>
+						<Action Name="" ID="{4D3F6DC5-8157-43EC-9BE7-F8253759BC62}" ShortID="38632101">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{4A98B216-87B8-482D-B520-761308A3292C}" WorkUnitID="{76709BC8-2F74-4140-A63B-45CFB6B478D0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Walk" ID="{3BA12385-ACA6-43E5-85A0-4DB01573DDAA}">
+					<ChildrenList>
+						<Action Name="" ID="{E97C3DB8-89D1-4110-A596-0B3AB6E0D823}" ShortID="214767656">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{4A98B216-87B8-482D-B520-761308A3292C}" WorkUnitID="{76709BC8-2F74-4140-A63B-45CFB6B478D0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

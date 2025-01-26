@@ -4,6 +4,13 @@
 		<WorkUnit Name="Daniel" ID="{76709BC8-2F74-4140-A63B-45CFB6B478D0}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicPlaylistContainer Name="Footsteps" ID="{4A98B216-87B8-482D-B520-761308A3292C}" ShortID="826535596">
+					<PropertyList>
+						<Property Name="PlaybackSpeed" Type="Real64">
+							<ValueList>
+								<Value>1.5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
@@ -60,9 +67,18 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Walk" ID="{450F6156-3302-4895-920F-5A646CFDB82C}" ShortID="47336727">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Walk" ID="{735C6A46-BF5C-4FFE-BE61-A68DFC2A4901}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Movement" ID="{3AA98C83-98F4-40D7-8685-519859B23577}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
 										</Reference>
 										<Reference Name="TransitionRoot">
 											<Custom>
@@ -100,7 +116,51 @@
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
-														<ReferenceList/>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Walk" ID="{735C6A46-BF5C-4FFE-BE61-A68DFC2A4901}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{1BDF05F6-DB3F-4C62-87A4-CFE2502B589A}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicEventCue Name="" ID="{3A9F0490-F191-4B23-B1FB-42E020B21928}" ShortID="573304181">
+																			<ReferenceList>
+																				<Reference Name="PostEventTarget">
+																					<ObjectRef Name="Play_General_Footstep_Container" ID="{E06C464C-D4F0-4D27-BC90-D7FEC617367E}" WorkUnitID="{EB1DB424-4A1D-4BB7-8904-F955731CCB99}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicEventCue>
+																	</Local>
+																</Reference>
+																<Reference>
+																	<Local>
+																		<MusicEventCue Name="" ID="{83BB9B2B-3568-4290-B7BF-D17A2F092571}" ShortID="445244502">
+																			<PropertyList>
+																				<Property Name="PlayAt" Type="Real64" Value="375"/>
+																			</PropertyList>
+																			<ReferenceList>
+																				<Reference Name="PostEventTarget">
+																					<ObjectRef Name="Play_General_Footstep_Container" ID="{E06C464C-D4F0-4D27-BC90-D7FEC617367E}" WorkUnitID="{EB1DB424-4A1D-4BB7-8904-F955731CCB99}"/>
+																				</Reference>
+																			</ReferenceList>
+																		</MusicEventCue>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Sprint" ID="{7C893A23-6E37-4A65-A928-6ECBAAF5E683}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>

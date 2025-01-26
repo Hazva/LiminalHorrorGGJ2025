@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{60112CAA-7709-0648-3536-24793C82BAAF}">
+		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{2125E08E-E674-CB42-E1C3-A2637A92D4BB}">
 			<ShortName>ambient</ShortName>
 			<Path>ambient.bnk</Path>
 			<Media>
@@ -65,6 +65,7 @@
 			<Plugins>
 				<Custom>
 					<Plugin Id="865397064" Name="Guitar Distortion (Custom)" LibName="Wwise Guitar Distortion" LibId="8257539"/>
+					<Plugin Id="1015026083" Name="RoomVerb (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -82,6 +83,11 @@
 								<MediaRef Id="762961166"/>
 								<MediaRef Id="991790938"/>
 							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="1015026083"/>
+								</Custom>
+							</PluginRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="2077253480" Id="2188788306"/>
@@ -121,7 +127,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FC7E7BC5-074E-F791-2CC3-999BFEC36D43}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1F3CAD54-524E-74E1-A60F-46E7924E10B4}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -137,14 +143,15 @@
 				<GameParameter Id="3286765786" Name="Wetness"/>
 			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="1265478494" Name="footstep_surfaces">
+				<StateGroup Id="1834394558" Name="Surface">
 					<States>
 						<State Id="748895195" Name="None"/>
-						<State Id="2412606308" Name="carpet"/>
-						<State Id="2637588553" Name="tile"/>
-						<State Id="2654748154" Name="water"/>
+						<State Id="2412606308" Name="Carpet"/>
+						<State Id="2637588553" Name="Tile"/>
+						<State Id="2654748154" Name="Water"/>
+						<State Id="2789056291" Name="Shallow_Water"/>
 						<State Id="3922274248" Name="tile_wet"/>
-						<State Id="4248645337" Name="grass"/>
+						<State Id="4248645337" Name="Grass"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="2077253480" Name="Room">
@@ -154,6 +161,13 @@
 						<State Id="1392138151" Name="Subway_Flood"/>
 						<State Id="1981184526" Name="Subway"/>
 						<State Id="2188788306" Name="Intermediate"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2129636626" Name="Movement">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1296465089" Name="Sprint"/>
+						<State Id="2108779966" Name="Walk"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="3840192365" Name="Stress">
@@ -166,7 +180,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{157216B2-66BE-C630-A134-43C97AF3EC03}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{98E3965C-3727-3351-29AD-0672C232EB5E}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
@@ -262,6 +276,10 @@
 					<ShortName>Breath_labor\3\sfx_breath_labor_03_16.wav</ShortName>
 					<CachePath>SFX/Breath_labor/3/sfx_breath_labor_03_16_818F3B66.wem</CachePath>
 				</File>
+				<File Id="176304189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 11.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 11_818F3B66.wem</CachePath>
+				</File>
 				<File Id="176619310" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creature_Wail.wav</ShortName>
 					<CachePath>SFX/Creature_Wail_818F3B66.wem</CachePath>
@@ -282,6 +300,10 @@
 					<ShortName>sfx_footsteps_water_08.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_water_08_818F3B66.wem</CachePath>
 				</File>
+				<File Id="224843739" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10_818F3B66.wem</CachePath>
+				</File>
 				<File Id="233955698" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_34.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_34_818F3B66.wem</CachePath>
@@ -289,6 +311,10 @@
 				<File Id="256852523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Breath_labor\1\sfx_breath_labor_01_01.wav</ShortName>
 					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="266512267" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 14.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 14_818F3B66.wem</CachePath>
 				</File>
 				<File Id="267693221" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Breath_normal\1\sfx_breath_normal_01_04.wav</ShortName>
@@ -301,6 +327,10 @@
 				<File Id="277540642" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_17.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_grass_17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="280280946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13_818F3B66.wem</CachePath>
 				</File>
 				<File Id="289687414" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Breath_labor\3\sfx_breath_labor_03_17.wav</ShortName>
@@ -506,6 +536,10 @@
 					<ShortName>sfx_footsteps_tile_09.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_09_818F3B66.wem</CachePath>
 				</File>
+				<File Id="544254804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 9.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 9_818F3B66.wem</CachePath>
+				</File>
 				<File Id="544694469" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_carpet_01.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_carpet_01_818F3B66.wem</CachePath>
@@ -550,6 +584,10 @@
 					<ShortName>Breath_calm\sfx_breath_calm_1.wav</ShortName>
 					<CachePath>SFX/Breath_calm/sfx_breath_calm_1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="603813067" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 12.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 12_818F3B66.wem</CachePath>
+				</File>
 				<File Id="608676192" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_wet_12.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_wet_12_818F3B66.wem</CachePath>
@@ -565,6 +603,10 @@
 				<File Id="624021921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_33.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_33_818F3B66.wem</CachePath>
+				</File>
+				<File Id="624557957" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 5.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 5_818F3B66.wem</CachePath>
 				</File>
 				<File Id="626886505" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Breath_labor\3\sfx_breath_labor_03_07.wav</ShortName>
@@ -706,6 +748,10 @@
 					<ShortName>sfx_footsteps_carpet_18.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_carpet_18_818F3B66.wem</CachePath>
 				</File>
+				<File Id="852248810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 7.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 7_818F3B66.wem</CachePath>
+				</File>
 				<File Id="862855358" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_wet_07.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_wet_07_818F3B66.wem</CachePath>
@@ -758,6 +804,10 @@
 					<ShortName>Breath_labor\1\sfx_breath_labor_01_06.wav</ShortName>
 					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_06_818F3B66.wem</CachePath>
 				</File>
+				<File Id="980711622" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 8.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 8_818F3B66.wem</CachePath>
+				</File>
 				<File Id="983653815" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cloth Rustling\sfx_cloth_rustling_07.wav</ShortName>
 					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_07_818F3B66.wem</CachePath>
@@ -798,6 +848,10 @@
 					<ShortName>Breath_calm\sfx_breath_calm_6.wav</ShortName>
 					<CachePath>SFX/Breath_calm/sfx_breath_calm_6_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1057858459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 6.wav</ShortName>
+					<CachePath>SFX/Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 6_818F3B66.wem</CachePath>
+				</File>
 				<File Id="1059018880" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_35.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_35_818F3B66.wem</CachePath>
@@ -817,6 +871,7 @@
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="387843989" Name="Exit_Water" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4093367312" Name="Play_Breathing" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -1052,7 +1107,7 @@
 				<Event Id="2589019387" Name="Play_General_Footstep_Container" DurationType="OneShot" DurationMin="0.36183333" DurationMax="1.6703125">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1265478494" Id="4248645337"/>
+							<SwitchValue GroupType="State" GroupId="1834394558" Id="4248645337"/>
 							<MediaRefs>
 								<MediaRef Id="277540642"/>
 								<MediaRef Id="384858202"/>
@@ -1067,7 +1122,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1265478494" Id="2637588553"/>
+							<SwitchValue GroupType="State" GroupId="1834394558" Id="2637588553" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="28087734"/>
 								<MediaRef Id="79285004"/>
@@ -1103,7 +1158,22 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1265478494" Id="2412606308"/>
+							<SwitchValue GroupType="State" GroupId="1834394558" Id="2789056291"/>
+							<MediaRefs>
+								<MediaRef Id="176304189"/>
+								<MediaRef Id="224843739"/>
+								<MediaRef Id="266512267"/>
+								<MediaRef Id="280280946"/>
+								<MediaRef Id="544254804"/>
+								<MediaRef Id="603813067"/>
+								<MediaRef Id="624557957"/>
+								<MediaRef Id="852248810"/>
+								<MediaRef Id="980711622"/>
+								<MediaRef Id="1057858459"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1834394558" Id="2412606308"/>
 							<MediaRefs>
 								<MediaRef Id="30321240"/>
 								<MediaRef Id="193503505"/>
@@ -1121,7 +1191,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1265478494" Id="2654748154" Default="true"/>
+							<SwitchValue GroupType="State" GroupId="1834394558" Id="2654748154"/>
 							<MediaRefs>
 								<MediaRef Id="145006851"/>
 								<MediaRef Id="148777413"/>
@@ -1172,21 +1242,24 @@
 						<MediaRef Id="325392808"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1589278981" Name="Play_Walk" DurationType="Infinite"/>
 				<Event Id="3319673256" Name="Stop_Heartbeat" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="127261724" Name="Stop_Swim" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3140964691" Name="Stop_Walk" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="3286765786" Name="Wetness"/>
 			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="1265478494" Name="footstep_surfaces">
+				<StateGroup Id="1834394558" Name="Surface">
 					<States>
 						<State Id="748895195" Name="None"/>
-						<State Id="2412606308" Name="carpet"/>
-						<State Id="2637588553" Name="tile"/>
-						<State Id="2654748154" Name="water"/>
+						<State Id="2412606308" Name="Carpet"/>
+						<State Id="2637588553" Name="Tile"/>
+						<State Id="2654748154" Name="Water"/>
+						<State Id="2789056291" Name="Shallow_Water"/>
 						<State Id="3922274248" Name="tile_wet"/>
-						<State Id="4248645337" Name="grass"/>
+						<State Id="4248645337" Name="Grass"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="2077253480" Name="Room">
@@ -1196,6 +1269,13 @@
 						<State Id="1392138151" Name="Subway_Flood"/>
 						<State Id="1981184526" Name="Subway"/>
 						<State Id="2188788306" Name="Intermediate"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2129636626" Name="Movement">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1296465089" Name="Sprint"/>
+						<State Id="2108779966" Name="Walk"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="3840192365" Name="Stress">
@@ -1209,5 +1289,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D38A8DC0-57D5-649A-0887-23F32BB3E947}</FileHash>
+	<FileHash>{F6DB4711-64C1-8B58-552D-2BB3F257112C}</FileHash>
 </SoundBanksInfo>

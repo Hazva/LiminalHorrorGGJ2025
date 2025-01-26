@@ -50,6 +50,8 @@ public class DissolveTransitionTrigger : MonoBehaviour
         float startTransitionRate = transitionController.transitionRate;
         float targetValue = 1.0f;
 
+        AudioManager.Instance.PostEvent("Play_Transition");
+
         while (elapsedTimeA < durationA || elapsedTimeB < durationB)
         {
             if (elapsedTimeA < durationA)
@@ -72,6 +74,7 @@ public class DissolveTransitionTrigger : MonoBehaviour
 
             yield return null;
         }
+        teleportObject.GetComponent<RoomAudio>().SetRoomState();
 
         // Ensure both values are set to their target at the end
         transitionController.samplingIntensity = targetValue;

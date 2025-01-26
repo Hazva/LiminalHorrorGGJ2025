@@ -6,12 +6,16 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{CC2B4C1F-6E4F-4E57-9CD3-38B0A5F5C923}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_Swim" ID="{8C8581AC-010C-419B-B34F-20EC57430DD8}" WorkUnitID="{067ABD16-9D61-4798-8594-F16B572C065C}"/>
+							<ObjectRef Name="Exit_Water" ID="{958914C7-3F32-4B1E-85CB-AAA0FB0335C7}" WorkUnitID="{067ABD16-9D61-4798-8594-F16B572C065C}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_Swim" ID="{3E6354D9-53ED-4ADF-ADDD-47FCEF1F550D}" WorkUnitID="{067ABD16-9D61-4798-8594-F16B572C065C}"/>
+							<ObjectRef Name="Play_Walk" ID="{A0587BA2-9C41-44D7-9BF6-D2BFEC9880D7}" WorkUnitID="{067ABD16-9D61-4798-8594-F16B572C065C}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_General_Footstep_Container" ID="{E06C464C-D4F0-4D27-BC90-D7FEC617367E}" WorkUnitID="{EB1DB424-4A1D-4BB7-8904-F955731CCB99}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -22,8 +26,9 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
-						<CurrentStateRef Name="Large" ID="{F0672705-59A9-45B2-9221-EEEAB9C72830}"/>
-						<CurrentStateRef Name="water" ID="{55C675DF-C6E4-4C62-800B-5024D065B5E3}"/>
+						<CurrentStateRef Name="Walk" ID="{735C6A46-BF5C-4FFE-BE61-A68DFC2A4901}"/>
+						<CurrentStateRef Name="Small" ID="{DA01017E-6F2C-45E9-A6C3-4F2B954B5941}"/>
+						<CurrentStateRef Name="Tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

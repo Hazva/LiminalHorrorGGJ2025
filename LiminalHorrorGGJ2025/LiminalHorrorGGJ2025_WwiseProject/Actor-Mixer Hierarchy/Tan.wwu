@@ -4,18 +4,25 @@
 		<WorkUnit Name="Tan" ID="{9731B3CD-3F3F-4381-890F-C8E14ECF3019}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchContainer Name="General Footstep Container" ID="{57D43EA2-AFC6-46AA-B4F9-DE3BC353F46A}" ShortID="258394822">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
 						</Reference>
 						<Reference Name="DefaultSwitchOrState">
-							<ObjectRef Name="water" ID="{55C675DF-C6E4-4C62-800B-5024D065B5E3}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
+							<ObjectRef Name="Tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
 						</Reference>
 						<Reference Name="SwitchGroupOrStateGroup">
-							<ObjectRef Name="footstep_surfaces" ID="{08720E97-5758-4EBD-987B-7E30160BCA67}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
+							<ObjectRef Name="Surface" ID="{08720E97-5758-4EBD-987B-7E30160BCA67}" WorkUnitID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1898,11 +1905,253 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="footstep_shallow_water" ID="{AADD3F46-26B5-469F-88AC-1AC94B957A94}" ShortID="691980269">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 5" ID="{81216E67-B8E0-4366-BFF3-6D7C21D412F2}" ShortID="902168048">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 5" ID="{D99007ED-3E77-484D-A95A-0578BFD91590}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="624557957"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 5" ID="{D99007ED-3E77-484D-A95A-0578BFD91590}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 6" ID="{E0E3FDFC-351E-4111-888C-C4A15E6D4BE8}" ShortID="550152093">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 6" ID="{532CC2EE-9C8C-4238-99F5-2D3220DEAB9E}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1057858459"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 6" ID="{532CC2EE-9C8C-4238-99F5-2D3220DEAB9E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 7" ID="{4548488F-C0D9-4746-80E0-12AD28535B8B}" ShortID="79816292">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 7" ID="{2FFF2E7B-0097-4232-8C49-5A2DECAD25F6}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="852248810"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 7" ID="{2FFF2E7B-0097-4232-8C49-5A2DECAD25F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 8" ID="{9A73316B-8703-4F55-9AE4-E2DC2199E02D}" ShortID="462644697">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 8" ID="{3C9F0056-073F-4ED7-A2D7-9216B8C52ED2}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 8.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="980711622"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 8" ID="{3C9F0056-073F-4ED7-A2D7-9216B8C52ED2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 9" ID="{CAEB97EE-D898-4901-8BE7-4912ECFEF6E8}" ShortID="86452755">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 9" ID="{64C5E946-4ACD-4B31-9DFE-5C63B7C96319}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 9.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="544254804"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 9" ID="{64C5E946-4ACD-4B31-9DFE-5C63B7C96319}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10" ID="{EF3B83A7-85D8-4222-BBFE-23D22239B0F7}" ShortID="656323793">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10" ID="{0297EEFE-4FE6-4F0A-B9E5-C86FB00C3152}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="224843739"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 10" ID="{0297EEFE-4FE6-4F0A-B9E5-C86FB00C3152}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 11" ID="{C615EE84-F69E-4870-A533-1DE6F6826C40}" ShortID="142880957">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 11" ID="{09787E8C-01A4-44A8-9825-929E64D64E2F}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="176304189"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 11" ID="{09787E8C-01A4-44A8-9825-929E64D64E2F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 12" ID="{0FF20109-2C72-4E78-8395-2E19D1CF5771}" ShortID="79670396">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 12" ID="{6CDE1BDF-7D81-4106-AF2A-50FD0A835EA7}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="603813067"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 12" ID="{6CDE1BDF-7D81-4106-AF2A-50FD0A835EA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13" ID="{2B1CE8B9-CD3A-47F1-BFA8-E02F77E4FFC9}" ShortID="708075504">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13" ID="{341624BB-DBE4-45F5-858F-98DF70D907E5}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280280946"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 13" ID="{341624BB-DBE4-45F5-858F-98DF70D907E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 14" ID="{7A07840D-C2E4-41C5-B3A6-55DF171F6A7B}" ShortID="223700691">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 14" ID="{4F75E112-DABA-4E3E-BE58-C07BC6CA4CC2}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="266512267"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Water, Walk, Light, Splahes, Very Thin SND62085 14" ID="{4F75E112-DABA-4E3E-BE58-C07BC6CA4CC2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
 								<ItemRef Name="footstep_water_waist" ID="{BB563417-F3DA-40EB-8E41-41F9C51D8611}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="footstep_shallow_water" ID="{AADD3F46-26B5-469F-88AC-1AC94B957A94}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="footstep_grass" ID="{7D5C434C-720F-45CE-B0B1-F0D62C036547}"/>
@@ -1916,25 +2165,31 @@
 						</GroupingBehaviorList>
 						<GroupingList>
 							<Grouping>
-								<SwitchRef Name="grass" ID="{D7C4334B-5422-4D5A-9573-356368D25406}"/>
+								<SwitchRef Name="Grass" ID="{D7C4334B-5422-4D5A-9573-356368D25406}"/>
 								<ItemList>
 									<ItemRef Name="footstep_grass" ID="{7D5C434C-720F-45CE-B0B1-F0D62C036547}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
-								<SwitchRef Name="tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}"/>
+								<SwitchRef Name="Tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}"/>
 								<ItemList>
 									<ItemRef Name="Footstep_TileContainer" ID="{E86EEADA-2D3A-4EC0-9D5C-37ED25380C3C}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
-								<SwitchRef Name="carpet" ID="{65CDD9C2-CC2E-4419-9261-CED37C6AFDBD}"/>
+								<SwitchRef Name="Shallow_Water" ID="{4A80086B-9D73-4615-9C69-9B61FD9D8910}"/>
+								<ItemList>
+									<ItemRef Name="footstep_shallow_water" ID="{AADD3F46-26B5-469F-88AC-1AC94B957A94}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Carpet" ID="{65CDD9C2-CC2E-4419-9261-CED37C6AFDBD}"/>
 								<ItemList>
 									<ItemRef Name="footstep_carpet" ID="{F2DDEBB8-2500-43DB-9B2D-4322891FEEC5}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
-								<SwitchRef Name="water" ID="{55C675DF-C6E4-4C62-800B-5024D065B5E3}"/>
+								<SwitchRef Name="Water" ID="{55C675DF-C6E4-4C62-800B-5024D065B5E3}"/>
 								<ItemList>
 									<ItemRef Name="footstep_water_waist" ID="{BB563417-F3DA-40EB-8E41-41F9C51D8611}"/>
 								</ItemList>
@@ -2043,7 +2298,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2076,6 +2331,11 @@
 						<BlendContainer Name="Subway_Ambience" ID="{3C16C19D-F976-4349-B746-AC628775E9DE}" ShortID="419015700">
 							<PropertyList>
 								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -2091,7 +2351,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>7</Value>
+												<Value>8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2126,6 +2386,12 @@
 										<Property Name="3DPosition" Type="int16" Value="2"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -2136,7 +2402,7 @@
 													<Modifier Name="" ID="{773CC6AD-7522-4920-A1EB-44A431B846AF}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -2145,7 +2411,7 @@
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-20</Value>
+												<Value>-10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2369,7 +2635,7 @@
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>1</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2504,7 +2770,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

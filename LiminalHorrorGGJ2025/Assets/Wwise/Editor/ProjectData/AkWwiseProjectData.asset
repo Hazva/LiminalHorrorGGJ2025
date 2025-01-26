@@ -12,16 +12,935 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4707ddfab82b2bd4795b7cd21472d2e6, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: f5d3721de309e3489125e37c97af4f44
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: f5d3721de309e3489125e37c97af4f44
+    GuidInternal: 
+    m_lastTime: -8584638040816006692
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 91f10b6dcc987546ab33fafb58766f78
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 91f10b6dcc987546ab33fafb58766f78
+    GuidInternal: 
+    m_lastTime: -8584638040816771013
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 91f10b6dcc987546ab33fafb58766f78
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 11f4f8751845214ea3f73c6bbf313b14
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 11f4f8751845214ea3f73c6bbf313b14
+    GuidInternal: 
+    m_lastTime: -8584637503400085623
+    List:
+    - name: ambient
+      guid: 5729caddc3ff8843acebcb178aab3e38
+      id: 77978275
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 11f4f8751845214ea3f73c6bbf313b14
+      - ElementName: ambient
+        ObjectType: 7
+        guid: 5729caddc3ff8843acebcb178aab3e38
+      Path: SoundBanks\Default Work Unit\ambient
+    - name: Master
+      guid: 285ca5123f1ed649b1babb140bc0577f
+      id: 4056684167
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 11f4f8751845214ea3f73c6bbf313b14
+      - ElementName: Master
+        ObjectType: 7
+        guid: 285ca5123f1ed649b1babb140bc0577f
+      Path: SoundBanks\Default Work Unit\Master
+  EventWwu:
+  - PhysicalPath: Events\Daniel.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Daniel
+      ObjectType: 12
+      guid: 16bd7a06619d98478594f16b572c065c
+    ParentPath: Events\Daniel
+    guid: 16bd7a06619d98478594f16b572c065c
+    GuidInternal: 
+    m_lastTime: -8584637404061614873
+    List:
+    - name: Exit_Water
+      guid: c7148995323f1e4b85cbaaa0fb0335c7
+      id: 387843989
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Exit_Water
+        ObjectType: 3
+        guid: c7148995323f1e4b85cbaaa0fb0335c7
+      Path: Events\Daniel\Exit_Water
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Compass_Pickup
+      guid: e82ec11cefb6b94eb4d27d069070eb93
+      id: 1518103445
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Compass_Pickup
+        ObjectType: 3
+        guid: e82ec11cefb6b94eb4d27d069070eb93
+      Path: Events\Daniel\Play_Compass_Pickup
+      maxAttenuation: 0
+      maxDuration: 1.5473015
+      minDuration: 1.5473015
+    - name: Play_Compass_Spin
+      guid: 23d01352e28ab746918c936a225ea2f7
+      id: 1046130049
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Compass_Spin
+        ObjectType: 3
+        guid: 23d01352e28ab746918c936a225ea2f7
+      Path: Events\Daniel\Play_Compass_Spin
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Creature
+      guid: 4369367c7a6d504da679554ceee71cee
+      id: 2891509749
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Creature
+        ObjectType: 3
+        guid: 4369367c7a6d504da679554ceee71cee
+      Path: Events\Daniel\Play_Creature
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Door_Loop
+      guid: 4c044fa980fda24b85a0a97e4a1a88c0
+      id: 2463718247
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Door_Loop
+        ObjectType: 3
+        guid: 4c044fa980fda24b85a0a97e4a1a88c0
+      Path: Events\Daniel\Play_Door_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Fluorescent_Light
+      guid: 8bdc0e41a0f10f4483b9964a1a1d6ada
+      id: 3799125421
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Fluorescent_Light
+        ObjectType: 3
+        guid: 8bdc0e41a0f10f4483b9964a1a1d6ada
+      Path: Events\Daniel\Play_Fluorescent_Light
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Heartbeat
+      guid: b0d42c2e9073eb48a01fe5a31175b0f7
+      id: 3765695918
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Heartbeat
+        ObjectType: 3
+        guid: b0d42c2e9073eb48a01fe5a31175b0f7
+      Path: Events\Daniel\Play_Heartbeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Jumpscare
+      guid: f6c3f7f02384dc4eb90953a11dfd19b6
+      id: 3840943850
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Jumpscare
+        ObjectType: 3
+        guid: f6c3f7f02384dc4eb90953a11dfd19b6
+      Path: Events\Daniel\Play_Jumpscare
+      maxAttenuation: 0
+      maxDuration: 4.363646
+      minDuration: 4.363625
+    - name: Play_Swim
+      guid: ac81858c0c019b41b34f20ec57430dd8
+      id: 165772206
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Swim
+        ObjectType: 3
+        guid: ac81858c0c019b41b34f20ec57430dd8
+      Path: Events\Daniel\Play_Swim
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Transition
+      guid: c9a7be2950adbd4086695d71e3c59884
+      id: 895718239
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Transition
+        ObjectType: 3
+        guid: c9a7be2950adbd4086695d71e3c59884
+      Path: Events\Daniel\Play_Transition
+      maxAttenuation: 0
+      maxDuration: 2
+      minDuration: 2
+    - name: Play_Walk
+      guid: a27b58a0419cd7449bf6d2bfec9880d7
+      id: 1589278981
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Walk
+        ObjectType: 3
+        guid: a27b58a0419cd7449bf6d2bfec9880d7
+      Path: Events\Daniel\Play_Walk
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Heartbeat
+      guid: c4565501a4f083479294649628ae1bd6
+      id: 3319673256
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Stop_Heartbeat
+        ObjectType: 3
+        guid: c4565501a4f083479294649628ae1bd6
+      Path: Events\Daniel\Stop_Heartbeat
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Swim
+      guid: d954633eed53df4aaddd47fcef1f550d
+      id: 127261724
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Stop_Swim
+        ObjectType: 3
+        guid: d954633eed53df4aaddd47fcef1f550d
+      Path: Events\Daniel\Stop_Swim
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Walk
+      guid: 8523a13ba6ace54385a04db01573ddaa
+      id: 3140964691
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Stop_Walk
+        ObjectType: 3
+        guid: 8523a13ba6ace54385a04db01573ddaa
+      Path: Events\Daniel\Stop_Walk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c91ba63cc4e47240b1d7338336c44413
+    ParentPath: Events\Default Work Unit
+    guid: c91ba63cc4e47240b1d7338336c44413
+    GuidInternal: 
+    m_lastTime: -8584637413000364533
+    List:
+    - name: Play_Ambience
+      guid: 7402658b5715a742b8ed7c5cbf79d153
+      id: 278617630
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c91ba63cc4e47240b1d7338336c44413
+      - ElementName: Play_Ambience
+        ObjectType: 3
+        guid: 7402658b5715a742b8ed7c5cbf79d153
+      Path: Events\Default Work Unit\Play_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Train_Station_Song
+      guid: 38c59e5e2c382a49bd1410c5801cf812
+      id: 3565446547
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c91ba63cc4e47240b1d7338336c44413
+      - ElementName: Play_Train_Station_Song
+        ObjectType: 3
+        guid: 38c59e5e2c382a49bd1410c5801cf812
+      Path: Events\Default Work Unit\Play_Train_Station_Song
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Tan.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Tan
+      ObjectType: 12
+      guid: 24b41deb1d4ab74b8904f955731ccb99
+    ParentPath: Events\Tan
+    guid: 24b41deb1d4ab74b8904f955731ccb99
+    GuidInternal: 
+    m_lastTime: -8584637424834895373
+    List:
+    - name: Play_Breathing
+      guid: 2ed3be327e5e9c4dbd2fce717cc95486
+      id: 4093367312
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Tan
+        ObjectType: 12
+        guid: 24b41deb1d4ab74b8904f955731ccb99
+      - ElementName: Play_Breathing
+        ObjectType: 3
+        guid: 2ed3be327e5e9c4dbd2fce717cc95486
+      Path: Events\Tan\Play_Breathing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Cloth
+      guid: 0d42f79e1215e142baad318032f68c9f
+      id: 128342314
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Tan
+        ObjectType: 12
+        guid: 24b41deb1d4ab74b8904f955731ccb99
+      - ElementName: Play_Cloth
+        ObjectType: 3
+        guid: 0d42f79e1215e142baad318032f68c9f
+      Path: Events\Tan\Play_Cloth
+      maxAttenuation: 0
+      maxDuration: 1.7830209
+      minDuration: 1.0942084
+    - name: Play_General_Footstep_Container
+      guid: 4c466ce0f0d4274dbc90d7fec617367e
+      id: 2589019387
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Tan
+        ObjectType: 12
+        guid: 24b41deb1d4ab74b8904f955731ccb99
+      - ElementName: Play_General_Footstep_Container
+        ObjectType: 3
+        guid: 4c466ce0f0d4274dbc90d7fec617367e
+      Path: Events\Tan\Play_General_Footstep_Container
+      maxAttenuation: 0
+      maxDuration: 1.6703125
+      minDuration: 0.36183333
+    - name: Play_sfx_bottle_open
+      guid: 9ded01d139a6724c967975c10de21eb2
+      id: 605122265
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Tan
+        ObjectType: 12
+        guid: 24b41deb1d4ab74b8904f955731ccb99
+      - ElementName: Play_sfx_bottle_open
+        ObjectType: 3
+        guid: 9ded01d139a6724c967975c10de21eb2
+      Path: Events\Tan\Play_sfx_bottle_open
+      maxAttenuation: 0
+      maxDuration: 1.5974166
+      minDuration: 1.5974166
+    - name: Play_sfx_bottle_pick_up
+      guid: 1e2b332b0ca27d4f93808ccb99d5475a
+      id: 2888013566
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Tan
+        ObjectType: 12
+        guid: 24b41deb1d4ab74b8904f955731ccb99
+      - ElementName: Play_sfx_bottle_pick_up
+        ObjectType: 3
+        guid: 1e2b332b0ca27d4f93808ccb99d5475a
+      Path: Events\Tan\Play_sfx_bottle_pick_up
+      maxAttenuation: 0
+      maxDuration: 3.0409584
+      minDuration: 3.0409584
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 88d13e6d1173384f9c51c7ff1dfb7fc1
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 88d13e6d1173384f9c51c7ff1dfb7fc1
+    GuidInternal: 
+    m_lastTime: -8584637432098712217
+    List:
+    - name: Wetness
+      guid: 147daea9a4b32349a9a1413d6de604be
+      id: 3286765786
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88d13e6d1173384f9c51c7ff1dfb7fc1
+      - ElementName: Wetness
+        ObjectType: 13
+        guid: 147daea9a4b32349a9a1413d6de604be
+      Path: Game Parameters\Default Work Unit\Wetness
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: dd5c1f9a41949e4282699104354a8dea
+    ParentPath: States\Default Work Unit
+    guid: dd5c1f9a41949e4282699104354a8dea
+    GuidInternal: 
+    m_lastTime: -8584637384052783866
+    List:
+    - name: Movement
+      guid: 838ca93af498d7408685519859b23577
+      id: 2129636626
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dd5c1f9a41949e4282699104354a8dea
+      - ElementName: Movement
+        ObjectType: 9
+        guid: 838ca93af498d7408685519859b23577
+      Path: States\Default Work Unit\Movement
+      values:
+      - name: None
+        guid: 3bd01d0a2810b643adf5a08866461537
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Movement
+          ObjectType: 9
+          guid: 838ca93af498d7408685519859b23577
+        - ElementName: None
+          ObjectType: 8
+          guid: 3bd01d0a2810b643adf5a08866461537
+      - name: Sprint
+        guid: 233a897c376e654aa9286ecbaaf5e683
+        id: 1296465089
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Movement
+          ObjectType: 9
+          guid: 838ca93af498d7408685519859b23577
+        - ElementName: Sprint
+          ObjectType: 8
+          guid: 233a897c376e654aa9286ecbaaf5e683
+      - name: Walk
+        guid: 466a5c735cbffe4fbe61a68dfc2a4901
+        id: 2108779966
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Movement
+          ObjectType: 9
+          guid: 838ca93af498d7408685519859b23577
+        - ElementName: Walk
+          ObjectType: 8
+          guid: 466a5c735cbffe4fbe61a68dfc2a4901
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Room
+      guid: 22c413fc69938640a8be39e60ee1acba
+      id: 2077253480
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dd5c1f9a41949e4282699104354a8dea
+      - ElementName: Room
+        ObjectType: 9
+        guid: 22c413fc69938640a8be39e60ee1acba
+      Path: States\Default Work Unit\Room
+      values:
+      - name: Final
+        guid: b4fbf1dbae4a4a4d8c12b2836fc18f87
+        id: 565529991
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Room
+          ObjectType: 9
+          guid: 22c413fc69938640a8be39e60ee1acba
+        - ElementName: Final
+          ObjectType: 8
+          guid: b4fbf1dbae4a4a4d8c12b2836fc18f87
+      - name: Intermediate
+        guid: 329e1c97048d1c4c87c7c2f647439c4e
+        id: 2188788306
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Room
+          ObjectType: 9
+          guid: 22c413fc69938640a8be39e60ee1acba
+        - ElementName: Intermediate
+          ObjectType: 8
+          guid: 329e1c97048d1c4c87c7c2f647439c4e
+      - name: None
+        guid: 9dcfcaa0f4fcd4428d961dcac9172d76
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Room
+          ObjectType: 9
+          guid: 22c413fc69938640a8be39e60ee1acba
+        - ElementName: None
+          ObjectType: 8
+          guid: 9dcfcaa0f4fcd4428d961dcac9172d76
+      - name: Subway
+        guid: 23c3b2a708bf9a4ba8144ca958f77239
+        id: 1981184526
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Room
+          ObjectType: 9
+          guid: 22c413fc69938640a8be39e60ee1acba
+        - ElementName: Subway
+          ObjectType: 8
+          guid: 23c3b2a708bf9a4ba8144ca958f77239
+      - name: Subway_Flood
+        guid: 6c8ead2209a8b140990633cb85eca7b6
+        id: 1392138151
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Room
+          ObjectType: 9
+          guid: 22c413fc69938640a8be39e60ee1acba
+        - ElementName: Subway_Flood
+          ObjectType: 8
+          guid: 6c8ead2209a8b140990633cb85eca7b6
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Stress
+      guid: ad7d17f1e5676c46b2479c7b483df71c
+      id: 3840192365
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dd5c1f9a41949e4282699104354a8dea
+      - ElementName: Stress
+        ObjectType: 9
+        guid: ad7d17f1e5676c46b2479c7b483df71c
+      Path: States\Default Work Unit\Stress
+      values:
+      - name: Large
+        guid: 052767f0a959b2459221eeeab9c72830
+        id: 4284352190
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Stress
+          ObjectType: 9
+          guid: ad7d17f1e5676c46b2479c7b483df71c
+        - ElementName: Large
+          ObjectType: 8
+          guid: 052767f0a959b2459221eeeab9c72830
+      - name: Med
+        guid: 1c164966685f654c96a4867a7bf8265a
+        id: 981339021
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Stress
+          ObjectType: 9
+          guid: ad7d17f1e5676c46b2479c7b483df71c
+        - ElementName: Med
+          ObjectType: 8
+          guid: 1c164966685f654c96a4867a7bf8265a
+      - name: None
+        guid: 6e7cb979982c8b4284e26a8270c0eb00
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Stress
+          ObjectType: 9
+          guid: ad7d17f1e5676c46b2479c7b483df71c
+        - ElementName: None
+          ObjectType: 8
+          guid: 6e7cb979982c8b4284e26a8270c0eb00
+      - name: Small
+        guid: 7e0101da2c6fe945a6c34f2b954b5941
+        id: 1846755610
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Stress
+          ObjectType: 9
+          guid: ad7d17f1e5676c46b2479c7b483df71c
+        - ElementName: Small
+          ObjectType: 8
+          guid: 7e0101da2c6fe945a6c34f2b954b5941
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Surface
+      guid: 970e72085857bd4e987b7e30160bca67
+      id: 1834394558
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dd5c1f9a41949e4282699104354a8dea
+      - ElementName: Surface
+        ObjectType: 9
+        guid: 970e72085857bd4e987b7e30160bca67
+      Path: States\Default Work Unit\Surface
+      values:
+      - name: Carpet
+        guid: c2d9cd652ecc19449261ced37c6afdbd
+        id: 2412606308
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Surface
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: Carpet
+          ObjectType: 8
+          guid: c2d9cd652ecc19449261ced37c6afdbd
+      - name: Grass
+        guid: 4b33c4d722545a4d9573356368d25406
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Surface
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: Grass
+          ObjectType: 8
+          guid: 4b33c4d722545a4d9573356368d25406
+      - name: None
+        guid: d62b8a7e55c84144acd0ba7078e2343b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Surface
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: None
+          ObjectType: 8
+          guid: d62b8a7e55c84144acd0ba7078e2343b
+      - name: Shallow_Water
+        guid: 6b08804a739d15469c699b61fd9d8910
+        id: 2789056291
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Surface
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: Shallow_Water
+          ObjectType: 8
+          guid: 6b08804a739d15469c699b61fd9d8910
+      - name: Tile
+        guid: 5e762ce84a38e64c8aa978231df62a71
+        id: 2637588553
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Surface
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: Tile
+          ObjectType: 8
+          guid: 5e762ce84a38e64c8aa978231df62a71
+      - name: tile_wet
+        guid: ddd0366fe2931f469a17e6d33dbf9ac3
+        id: 3922274248
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Surface
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: tile_wet
+          ObjectType: 8
+          guid: ddd0366fe2931f469a17e6d33dbf9ac3
+      - name: Water
+        guid: df75c655e4c6624c800b5024d065b5e3
+        id: 2654748154
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd5c1f9a41949e4282699104354a8dea
+        - ElementName: Surface
+          ObjectType: 9
+          guid: 970e72085857bd4e987b7e30160bca67
+        - ElementName: Water
+          ObjectType: 8
+          guid: df75c655e4c6624c800b5024d065b5e3
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 707cb90d663fe84cbde6fa21b7db2879
+    ParentPath: Switches\Default Work Unit
+    guid: 707cb90d663fe84cbde6fa21b7db2879
+    GuidInternal: 
+    m_lastTime: -8584638040817025742
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 99b82b68b1c96c4d8be9a45836d9c71f
+    ParentPath: Triggers\Default Work Unit
+    guid: 99b82b68b1c96c4d8be9a45836d9c71f
+    GuidInternal: 
+    m_lastTime: -8584638040815680059
+    List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 1e0000001f00000021000000230000002400000025000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

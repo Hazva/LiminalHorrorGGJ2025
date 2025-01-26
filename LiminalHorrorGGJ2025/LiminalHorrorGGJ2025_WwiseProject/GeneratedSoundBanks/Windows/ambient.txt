@@ -20,6 +20,7 @@ Modulator Time	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	865397064	Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	1015026083	RoomVerb (Custom)	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	67111979	Pool_50s_Song_Intro	C:\Users\danie\Documents\GitHub\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025\LiminalHorrorGGJ2025_WwiseProject\.cache\Windows\SFX\Pool_50s_Song_FBC78EF0.wem		\Interactive Music Hierarchy\Tan\Train Station Song\Train Station Song_loop\Pool_50s_Song_Intro		11917340

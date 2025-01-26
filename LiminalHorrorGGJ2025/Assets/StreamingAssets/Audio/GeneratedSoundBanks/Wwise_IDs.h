@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID EXIT_WATER = 387843989U;
         static const AkUniqueID PLAY_AMBIENCE = 278617630U;
         static const AkUniqueID PLAY_BREATHING = 4093367312U;
         static const AkUniqueID PLAY_CLOTH = 128342314U;
@@ -29,26 +30,25 @@ namespace AK
         static const AkUniqueID PLAY_SWIM = 165772206U;
         static const AkUniqueID PLAY_TRAIN_STATION_SONG = 3565446547U;
         static const AkUniqueID PLAY_TRANSITION = 895718239U;
+        static const AkUniqueID PLAY_WALK = 1589278981U;
         static const AkUniqueID STOP_HEARTBEAT = 3319673256U;
         static const AkUniqueID STOP_SWIM = 127261724U;
+        static const AkUniqueID STOP_WALK = 3140964691U;
     } // namespace EVENTS
 
     namespace STATES
     {
-        namespace FOOTSTEP_SURFACES
+        namespace MOVEMENT
         {
-            static const AkUniqueID GROUP = 1265478494U;
+            static const AkUniqueID GROUP = 2129636626U;
 
             namespace STATE
             {
-                static const AkUniqueID CARPET = 2412606308U;
-                static const AkUniqueID GRASS = 4248645337U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID TILE = 2637588553U;
-                static const AkUniqueID TILE_WET = 3922274248U;
-                static const AkUniqueID WATER = 2654748154U;
+                static const AkUniqueID SPRINT = 1296465089U;
+                static const AkUniqueID WALK = 2108779966U;
             } // namespace STATE
-        } // namespace FOOTSTEP_SURFACES
+        } // namespace MOVEMENT
 
         namespace ROOM
         {
@@ -76,6 +76,22 @@ namespace AK
                 static const AkUniqueID SMALL = 1846755610U;
             } // namespace STATE
         } // namespace STRESS
+
+        namespace SURFACE
+        {
+            static const AkUniqueID GROUP = 1834394558U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CARPET = 2412606308U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SHALLOW_WATER = 2789056291U;
+                static const AkUniqueID TILE = 2637588553U;
+                static const AkUniqueID TILE_WET = 3922274248U;
+                static const AkUniqueID WATER = 2654748154U;
+            } // namespace STATE
+        } // namespace SURFACE
 
     } // namespace STATES
 

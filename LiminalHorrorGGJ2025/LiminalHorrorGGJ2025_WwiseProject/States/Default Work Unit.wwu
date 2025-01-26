@@ -3,14 +3,15 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{9A1F5CDD-9441-429E-8269-9104354A8DEA}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="footstep_surfaces" ID="{08720E97-5758-4EBD-987B-7E30160BCA67}">
+				<StateGroup Name="Surface" ID="{08720E97-5758-4EBD-987B-7E30160BCA67}">
 					<ChildrenList>
 						<State Name="None" ID="{7E8A2BD6-C855-4441-ACD0-BA7078E2343B}"/>
-						<State Name="carpet" ID="{65CDD9C2-CC2E-4419-9261-CED37C6AFDBD}"/>
-						<State Name="tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}"/>
+						<State Name="Carpet" ID="{65CDD9C2-CC2E-4419-9261-CED37C6AFDBD}"/>
+						<State Name="Tile" ID="{E82C765E-384A-4CE6-8AA9-78231DF62A71}"/>
 						<State Name="tile_wet" ID="{6F36D0DD-93E2-461F-9A17-E6D33DBF9AC3}"/>
-						<State Name="grass" ID="{D7C4334B-5422-4D5A-9573-356368D25406}"/>
-						<State Name="water" ID="{55C675DF-C6E4-4C62-800B-5024D065B5E3}"/>
+						<State Name="Grass" ID="{D7C4334B-5422-4D5A-9573-356368D25406}"/>
+						<State Name="Water" ID="{55C675DF-C6E4-4C62-800B-5024D065B5E3}"/>
+						<State Name="Shallow_Water" ID="{4A80086B-9D73-4615-9C69-9B61FD9D8910}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Stress" ID="{F1177DAD-67E5-466C-B247-9C7B483DF71C}">
@@ -28,6 +29,13 @@
 						<State Name="Intermediate" ID="{971C9E32-8D04-4C1C-87C7-C2F647439C4E}"/>
 						<State Name="Final" ID="{DBF1FBB4-4AAE-4D4A-8C12-B2836FC18F87}"/>
 						<State Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Movement" ID="{3AA98C83-98F4-40D7-8685-519859B23577}">
+					<ChildrenList>
+						<State Name="None" ID="{0A1DD03B-1028-43B6-ADF5-A08866461537}"/>
+						<State Name="Walk" ID="{735C6A46-BF5C-4FFE-BE61-A68DFC2A4901}"/>
+						<State Name="Sprint" ID="{7C893A23-6E37-4A65-A928-6ECBAAF5E683}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
