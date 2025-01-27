@@ -76,6 +76,11 @@ public class LightAndWaterController : MonoBehaviour
         }
     }
 
+    public void StopCoroutines()
+    {
+        StopAllCoroutines();
+    }
+
     public void Activate()
     {
         if (!isActive)

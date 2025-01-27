@@ -1029,6 +1029,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2805906169681406684, guid: 0fcfef627c737ee418892163e864ca8b, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2805906169681406684, guid: 0fcfef627c737ee418892163e864ca8b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3204180037312256595, guid: 0fcfef627c737ee418892163e864ca8b, type: 3}
       propertyPath: playerObject
       value: 
@@ -1044,7 +1052,7 @@ PrefabInstance:
     - target: {fileID: 4642229236447660002, guid: 0fcfef627c737ee418892163e864ca8b, type: 3}
       propertyPath: renderCamera
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1891370462}
     - target: {fileID: 4701247117832854203, guid: 0fcfef627c737ee418892163e864ca8b, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1114,7 +1122,8 @@ PrefabInstance:
       value: 4.49
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4085464072231333083, guid: 0fcfef627c737ee418892163e864ca8b, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 588050164513962774, guid: 0fcfef627c737ee418892163e864ca8b, type: 3}
       insertIndex: -1
@@ -1126,6 +1135,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 588050164513962774, guid: 0fcfef627c737ee418892163e864ca8b, type: 3}
   m_PrefabInstance: {fileID: 594249390}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &594249392 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4361739890937303571, guid: 0fcfef627c737ee418892163e864ca8b, type: 3}
+  m_PrefabInstance: {fileID: 594249390}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ebeee88aa5af4e49913935ed21fc54c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &618460504
 GameObject:
   m_ObjectHideFlags: 0
@@ -12957,6 +12977,7 @@ MonoBehaviour:
   paperProx: {fileID: 40473808}
   creditsObject: {fileID: 1096677433}
   renderTexObj: {fileID: 429324302}
+  lightAndWaterController: {fileID: 594249392}
   currLevel: 0
 --- !u!114 &1857574325
 MonoBehaviour:
