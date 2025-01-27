@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public PaperProximity paperProx;
     public GameObject creditsObject;
     public GameObject renderTexObj;
+    public LightAndWaterController lightAndWaterController;
 
     private const int INFINITE_ROOM_LEVEL_INDEX = 0;
     private const int WHITE_ROOM_LEVEL_INDEX = 1;
@@ -34,6 +35,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     public void NextLevel()
     {
+        lightAndWaterController.StopCoroutines();
         if (currLevel == INFINITE_ROOM_LEVEL_INDEX)
         {
             infiniteRoomManager.enabled = true;
