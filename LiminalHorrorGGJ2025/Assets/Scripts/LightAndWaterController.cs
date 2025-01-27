@@ -237,7 +237,10 @@ public class LightAndWaterController : MonoBehaviour
         bottle.hasTriggered = false;
         submergedOverlay.SetActive(false);
         AudioManager.Instance.stressLevel = 0;
+        AkSoundEngine.SetState("Stress", "Small");
+        AkSoundEngine.SetState("Submerged", "NonSubmerged");
         AkSoundEngine.SetState("Room", "Subway");
+        AudioManager.Instance.isSwimming = false;
         characterController.enabled = false;
         player.transform.position = teleportDestination.position;
         characterController.enabled = true;

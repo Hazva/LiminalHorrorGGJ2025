@@ -30,5 +30,6 @@ public class JournalButton : MonoBehaviour
     private void OnEnable()
     {
         first = true;
+        AudioManager.Instance.PostEvent("Play_sfx_bottle_open");
     }
 }

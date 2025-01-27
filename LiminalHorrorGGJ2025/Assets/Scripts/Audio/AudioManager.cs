@@ -16,7 +16,7 @@ public class AudioManager : MonoBehaviour
     }
 
     public static AudioManager Instance;
-    public int stressLevel = 1;
+    public int stressLevel = 0;
     public Surface surface = Surface.Tile;
     public bool isSwimming = false;
 

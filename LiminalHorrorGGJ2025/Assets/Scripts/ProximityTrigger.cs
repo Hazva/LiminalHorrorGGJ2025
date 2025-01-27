@@ -24,6 +24,7 @@ public class ProximityTrigger : MonoBehaviour
         {
             ItemPickUp.Instance.TriggerImageForLevel(level);
             triggered = true;
+            AudioManager.Instance.PostEvent("Play_Compass_Pickup");
         }
         else if (distance > distanceThreshold && triggered)
         {
