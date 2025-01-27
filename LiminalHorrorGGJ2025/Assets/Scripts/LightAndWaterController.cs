@@ -241,6 +241,7 @@ public class LightAndWaterController : MonoBehaviour
         AkSoundEngine.SetState("Submerged", "NonSubmerged");
         AkSoundEngine.SetState("Room", "Subway");
         AudioManager.Instance.isSwimming = false;
+        AkSoundEngine.SetState("Surface", "Shallow_Water");
         characterController.enabled = false;
         player.transform.position = teleportDestination.position;
         characterController.enabled = true;
