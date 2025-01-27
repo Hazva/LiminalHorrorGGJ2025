@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public GameObject compassImage;
     public PaperProximity paperProx;
     public GameObject creditsObject;
+    public GameObject renderTexObj;
 
     private const int INFINITE_ROOM_LEVEL_INDEX = 0;
     private const int WHITE_ROOM_LEVEL_INDEX = 1;
@@ -74,6 +75,7 @@ public class GameManager : MonoBehaviour
     IEnumerator CreditsDelay()
     {
         yield return new WaitForSeconds(5.0f);
+        renderTexObj.SetActive(false);
         creditsObject.SetActive(true);
     }
 
