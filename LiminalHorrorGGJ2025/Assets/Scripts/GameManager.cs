@@ -31,14 +31,6 @@ public class GameManager : MonoBehaviour
         transitionTrigger.teleportObject = teleportPoints[currLevel];   
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            NextLevel();
-        }
-    }
-
     // Update is called once per frame
     public void NextLevel()
     {
