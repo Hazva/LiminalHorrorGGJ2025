@@ -11,6 +11,7 @@ public class AvoidPlayer : MonoBehaviour
     private GameObject _currTargetNode;
     private int _currTargetIndex = 0;
     private Vector3 _monsterDirection;
+    private float lastMoved = 0.0f;
 
     void Start()
     {
@@ -32,6 +33,12 @@ public class AvoidPlayer : MonoBehaviour
 
             if (distance < distanceThreshold)
             {
+                if (lastMoved > 2.0f)
+                {
+                    AudioManager.Instance.PostEvent("Play_Jumpscare");
+                }
+
+                lastMoved = 0.0f;
                 _monsterDirection = (_currTargetNode.transform.position - gameObject.transform.position).normalized;
                 gameObject.transform.position += _monsterDirection * speed * Time.deltaTime;
 
@@ -43,6 +50,8 @@ public class AvoidPlayer : MonoBehaviour
                 _currTargetIndex = _currTargetIndex + 1;
                 UpdateCurrTargetNode(_currTargetIndex);
             }
+
+            lastMoved += Time.deltaTime;
         }
     }
 

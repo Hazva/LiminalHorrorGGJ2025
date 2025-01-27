@@ -15,6 +15,7 @@ public class Credits : MonoBehaviour
     {
         StartCoroutine(ShowMessage());
         SC_FPSController.Instance.enabled = false;
+        AudioManager.Instance.PostEvent("Stop_Walk");
     }
 
     IEnumerator ShowMessage()

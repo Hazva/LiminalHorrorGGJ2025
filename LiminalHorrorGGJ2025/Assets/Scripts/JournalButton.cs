@@ -17,6 +17,7 @@ public class JournalButton : MonoBehaviour
             foreach (GameObject gm in objectsToActivate)
             {
                 gm.SetActive(true);
+                AudioManager.Instance.PostEvent("Play_Lights_Off");
             }
             foreach (GameObject gm in objectsToDeactivate)
             {

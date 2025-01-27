@@ -223,6 +223,53 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_Compass_Diegetic" ID="{28106D42-5CEE-4C43-A006-DC098D296BF0}">
+					<ChildrenList>
+						<Action Name="" ID="{11E80D4D-85C6-416B-B52E-AF4C3C61B296}" ShortID="799528292">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Compass_Diegetic" ID="{016193C7-C36E-4A13-BDB8-FB24AF2782C7}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Compass_Diegetic" ID="{9993CD9C-4B55-43E9-A80B-EF68FA35E917}">
+					<ChildrenList>
+						<Action Name="" ID="{C5AE8B03-61FA-408C-B876-EA8E24A3B651}" ShortID="760212128">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Compass_Diegetic" ID="{016193C7-C36E-4A13-BDB8-FB24AF2782C7}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lights_Off" ID="{7D7C4C5F-850C-4FB2-8F7F-857737F01AE6}">
+					<ChildrenList>
+						<Action Name="" ID="{0A48A25E-F8B1-4BE0-91EA-C48128E67283}" ShortID="842178899">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lights_Off" ID="{762F954C-E8B3-4CD1-8776-9758B4FC12FC}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Journal" ID="{35B692B8-63B5-44F9-8839-D5AE266145A3}">
+					<ChildrenList>
+						<Action Name="" ID="{4EA217BC-3C2B-4A8C-944A-5CEFAC569C19}" ShortID="319576504">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Journal" ID="{6BAF6333-6CB2-4C48-A5D7-E46258CA64DE}" WorkUnitID="{D9B6E4D0-A91D-441E-AA35-E9FE648C6D3D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

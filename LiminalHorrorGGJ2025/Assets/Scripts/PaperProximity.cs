@@ -51,6 +51,7 @@ public class PaperProximity : MonoBehaviour
 
     void ShowPaper()
     {
+        AudioManager.Instance.PostEvent("Play_Journal");
         canvasImageObj.SetActive(true);
         canvasImage.sprite = journalSprites[primaryThresholdsReached];
 

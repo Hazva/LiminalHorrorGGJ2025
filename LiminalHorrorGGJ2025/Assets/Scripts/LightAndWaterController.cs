@@ -87,7 +87,7 @@ public class LightAndWaterController : MonoBehaviour
         {
             AkSoundEngine.SetState("Room", "Subway_Flood");
             isActive = true;
-            //StartCoroutine(ToggleLights());
+            StartCoroutine(InitialFlash());
             StartCoroutine(StartSwimming());
             StartCoroutine(StartSubmersion());
             StartCoroutine(StartDrowning());
@@ -125,27 +125,32 @@ public class LightAndWaterController : MonoBehaviour
         Debug.Log("DROWNING STARTED");
         yield return new WaitForSeconds(drowningTime);
         Debug.Log("Drowning happening");
-        StartCoroutine(FadeAlpha(255f));
-        yield return new WaitForSeconds(3f);
-        StartCoroutine(FadeAlpha(0f));
-        yield return new WaitForSeconds(3f);
-        Reset();
+        if (isActive)
+        {
+            StartCoroutine(FadeAlpha(1.0f, fadeDuration));
+            yield return new WaitForSeconds(3f);
+            targetImage.color = new Color(targetImage.color.r, targetImage.color.g, targetImage.color.b, 0);
+            Reset();
+        }
     }
 
-    private System.Collections.IEnumerator ToggleLights()
+    private System.Collections.IEnumerator InitialFlash()
     {
-        while (isActive)
+        // Toggle each light on and off
+        foreach (Light light in lightsToToggle)
         {
-            // Toggle each light on and off
-            foreach (Light light in lightsToToggle)
+            if (light != null)
             {
-                if (light != null)
-                {
-                    light.enabled = !light.enabled;
-                }
+                light.enabled = false;
             }
-            toggleInterval = Random.Range(0.2f, 0.8f);
-            yield return new WaitForSeconds(toggleInterval); // Wait before toggling again
+        }
+        yield return new WaitForSeconds(0.5f);
+        foreach (Light light in lightsToToggle)
+        {
+            if (light != null)
+            {
+                light.enabled = true;
+            }
         }
     }
 
@@ -199,7 +204,7 @@ public class LightAndWaterController : MonoBehaviour
         Activate();
     }
 
-    private IEnumerator FadeAlpha(float targetAlpha)
+    private IEnumerator FadeAlpha(float targetAlpha, float fadeDuration)
     {
         Color color = targetImage.color;
         float startAlpha = color.a;

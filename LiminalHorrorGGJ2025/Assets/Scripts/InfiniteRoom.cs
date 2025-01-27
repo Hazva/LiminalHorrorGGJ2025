@@ -45,6 +45,21 @@ public class InfiniteRoom : MonoBehaviour
             {
                 SpawnPrefabInFront();
             }
+            else if (timer <= 2)
+            {
+                AudioManager.Instance.stressLevel = 3;
+                AkSoundEngine.SetState("Stress", "Large");
+            }
+            else if (timer <= 4)
+            {
+                AudioManager.Instance.stressLevel = 2;
+                AkSoundEngine.SetState("Stress", "Med");
+            }
+            else
+            {
+                AudioManager.Instance.stressLevel = 1;
+                AkSoundEngine.SetState("Stress", "Small");
+            }
         }
 
         if (bGenerateRooms)

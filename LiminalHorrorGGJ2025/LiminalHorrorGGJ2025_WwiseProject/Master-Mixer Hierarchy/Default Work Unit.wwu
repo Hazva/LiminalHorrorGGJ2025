@@ -93,7 +93,7 @@
 																	<Property Name="DecayTime" Type="Real32" Value="2"/>
 																	<Property Name="DryLevel" Type="Real32" Value="-4"/>
 																	<Property Name="HFDamping" Type="Real32" Value="4.6"/>
-																	<Property Name="ReverbLevel" Type="Real32" Value="-10"/>
+																	<Property Name="ReverbLevel" Type="Real32" Value="-8"/>
 																</PropertyList>
 															</Effect>
 														</Custom>

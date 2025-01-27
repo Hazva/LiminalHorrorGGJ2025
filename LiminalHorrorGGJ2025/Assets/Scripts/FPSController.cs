@@ -54,7 +54,7 @@ public class SC_FPSController : MonoBehaviour
         if (isRunning && !lastRunning)
         {
             AkSoundEngine.SetState("Movement", "Sprint");
-            if (AudioManager.Instance.stressLevel != 3)
+            if (AudioManager.Instance.stressLevel == 0)
             {
                 AkSoundEngine.SetState("Stress", "Med");
             }
@@ -63,7 +63,7 @@ public class SC_FPSController : MonoBehaviour
         else if (!isRunning && lastRunning)
         {
             AkSoundEngine.SetState("Movement", "Walk");
-            if (AudioManager.Instance.stressLevel != 3)
+            if (AudioManager.Instance.stressLevel == 0)
             {
                 AkSoundEngine.SetState("Stress", "Small");
             }

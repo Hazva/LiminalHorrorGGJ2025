@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{226A95F5-3F94-133F-C41E-5EE7AFE805C4}">
+		<SoundBank Id="77978275" Type="User" Language="SFX" Hash="{C819E51E-161F-DE0A-5EE1-C709F0225F71}">
 			<ShortName>ambient</ShortName>
 			<Path>ambient.bnk</Path>
 			<Media>
@@ -146,6 +146,7 @@
 							<SwitchValue GroupType="State" GroupId="2077253480" Id="1392138151"/>
 							<MediaRefs>
 								<MediaRef Id="746512004"/>
+								<MediaRef Id="832292429"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -213,7 +214,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EFF30872-BAB3-2A6F-1417-EAFCC50E5000}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{C685D6EA-0A50-87CE-FAAD-A6790BF7A421}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -292,13 +293,17 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{A074283D-29E6-338F-6AB8-4B8ADE22EBD0}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{C54680EA-D22D-5A56-A4C5-68D8570D5A70}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
 				<File Id="7635698" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Breath_labor\1\sfx_breath_labor_01_02.wav</ShortName>
 					<CachePath>SFX/Breath_labor/1/sfx_breath_labor_01_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="11928721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Paper, Handle, Crumple, Movement SND17704 2.wav</ShortName>
+					<CachePath>SFX/Paper, Handle, Crumple, Movement SND17704 2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="28087734" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_wet_13.wav</ShortName>
@@ -571,6 +576,10 @@
 				<File Id="458977770" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Creature_Glitch_2.wav</ShortName>
 					<CachePath>SFX/Creature_Glitch_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="464182887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Paper, Handle, Crumple, Movement SND17704.wav</ShortName>
+					<CachePath>SFX/Paper, Handle, Crumple, Movement SND17704_818F3B66.wem</CachePath>
 				</File>
 				<File Id="466291669" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Breath_normal\1\sfx_breath_normal_01_03.wav</ShortName>
@@ -908,6 +917,10 @@
 					<ShortName>Cloth Rustling\sfx_cloth_rustling_07.wav</ShortName>
 					<CachePath>SFX/Cloth Rustling/sfx_cloth_rustling_07_818F3B66.wem</CachePath>
 				</File>
+				<File Id="986249694" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Paper, Handle, Crumple, Movement SND17704 1.wav</ShortName>
+					<CachePath>SFX/Paper, Handle, Crumple, Movement SND17704 1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="986641875" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_02.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_02_818F3B66.wem</CachePath>
@@ -951,6 +964,10 @@
 				<File Id="1059018880" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_tile_35.wav</ShortName>
 					<CachePath>SFX/sfx_footsteps_tile_35_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1069070217" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lights_Off.wav</ShortName>
+					<CachePath>SFX/Lights_Off_818F3B66.wem</CachePath>
 				</File>
 				<File Id="1072221046" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_water_04.wav</ShortName>
@@ -1252,6 +1269,14 @@
 						<MediaRef Id="983653815"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2778686059" Name="Play_Compass_Diegetic" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="374369876"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="1518103445" Name="Play_Compass_Pickup" DurationType="OneShot" DurationMin="1.5473015" DurationMax="1.5473015">
 					<MediaRefs>
 						<MediaRef Id="429763340"/>
@@ -1411,6 +1436,16 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="1681572059" Name="Play_Journal" DurationType="OneShot" DurationMin="0.71090627" DurationMax="1.0782083">
+					<MediaRefs>
+						<MediaRef Id="11928721"/>
+						<MediaRef Id="464182887"/>
+						<MediaRef Id="986249694"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="3840943850" Name="Play_Jumpscare" DurationType="OneShot" DurationMin="4.363625" DurationMax="4.363646">
 					<MediaRefs>
 						<MediaRef Id="294723987"/>
@@ -1419,10 +1454,18 @@
 						<MediaRef Id="587653698"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3715338011" Name="Play_Lights_Off" DurationType="OneShot" DurationMin="6" DurationMax="6">
+					<MediaRefs>
+						<MediaRef Id="1069070217"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="605122265" Name="Play_sfx_bottle_open" DurationType="OneShot" DurationMin="1.5974166" DurationMax="1.5974166">
 					<MediaRefs>
 						<MediaRef Id="634661967"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="348963605" Name="Reverb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2888013566" Name="Play_sfx_bottle_pick_up" DurationType="OneShot" DurationMin="3.0409584" DurationMax="3.0409584">
 					<MediaRefs>
@@ -1439,12 +1482,13 @@
 						<MediaRef Id="92878731"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="895718239" Name="Play_Transition" DurationType="OneShot" DurationMin="2" DurationMax="2">
+				<Event Id="895718239" Name="Play_Transition" DurationType="OneShot" DurationMin="2.2233787" DurationMax="2.2233787">
 					<MediaRefs>
 						<MediaRef Id="325392808"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1589278981" Name="Play_Walk" DurationType="Infinite"/>
+				<Event Id="1156197293" Name="Stop_Compass_Diegetic" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="614252659" Name="Stop_Compass_Spin" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2537705801" Name="Stop_Noises" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="127261724" Name="Stop_Swim" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -1496,5 +1540,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6EB4C5B3-F494-2E1B-314C-D8302D1BAAB9}</FileHash>
+	<FileHash>{95894F20-4046-7126-442E-B745B9AE4E37}</FileHash>
 </SoundBanksInfo>

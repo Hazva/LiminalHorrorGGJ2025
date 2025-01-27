@@ -13,6 +13,7 @@ public class ProximityTrigger : MonoBehaviour
 
     private void Start()
     {
+        AudioManager.Instance.PostEvent("Play_Compass_Diegetic", gameObject);
         triggered = false;
     }
 
@@ -24,7 +25,11 @@ public class ProximityTrigger : MonoBehaviour
         {
             ItemPickUp.Instance.TriggerImageForLevel(level);
             triggered = true;
-            AudioManager.Instance.PostEvent("Play_Compass_Pickup");
+            AudioManager.Instance.PostEvent("Play_Journal");
+            AudioManager.Instance.PostEvent("Stop_Compass_Diegetic", gameObject);
+            AkSoundEngine.SetState("Room", "Intermediate_Locked");
+            AudioManager.Instance.stressLevel = 0;
+            AkSoundEngine.SetState("Stress", "Small");
         }
         else if (distance > distanceThreshold && triggered)
         {

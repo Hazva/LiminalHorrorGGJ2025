@@ -621,7 +621,7 @@
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2469,7 +2469,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2479,6 +2479,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{50570FF5-ACF3-4E02-A6F3-D439F7DBD47E}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2704,7 +2707,8 @@
 													<Modifier Name="" ID="{773CC6AD-7522-4920-A1EB-44A431B846AF}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Max" Type="Real64" Value="0.8"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -2916,6 +2920,18 @@
 										<Property Name="3DPosition" Type="int16" Value="2"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2F72E125-F5D3-42AA-A191-36BC7AC61EF1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -2956,6 +2972,11 @@
 										<Sound Name="Distant_Subway" ID="{52D7540D-064E-48A5-8579-F48F58906B8E}" ShortID="704858867">
 											<PropertyList>
 												<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3067,37 +3088,6 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<Sound Name="Water_Rising" ID="{95BBBC58-7BF6-4978-B5D9-7F1D55103B6C}" ShortID="636417949">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Water_Rising" ID="{041A8E53-D84C-4087-B8B3-32FC81866B59}">
-									<Language>SFX</Language>
-									<AudioFile>Water_Rising.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="746512004"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Water_Rising" ID="{041A8E53-D84C-4087-B8B3-32FC81866B59}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Heartbeat" ID="{CBF6BFE3-335E-4E86-AB89-1726F52CDFA2}" ShortID="619723500">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -3108,7 +3098,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3417,6 +3407,105 @@
 								<Position Name="" ID="{0F8C6F82-CA5C-496A-9306-618896A7718A}"/>
 							</PositioningInfo>
 						</BlendContainer>
+						<BlendContainer Name="Water_Rise" ID="{141381CA-94BE-40DD-A018-20C0ABA44A81}" ShortID="727817956">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Heartbeat_01" ID="{8A3E9E62-95D4-45D7-B83C-016281269A13}" ShortID="800304654">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-1060</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Heartbeat" ID="{7B35E9C2-0E4F-4914-A2CC-91BABD27F068}">
+											<Language>SFX</Language>
+											<AudioFile>Heartbeat.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="832292429"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Submerged" ID="{386A89DE-B4D4-40BF-A48C-737BB4C5EF25}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Submerged" ID="{5E36E060-A7A8-4BF2-B1D7-C0A9D0C251DD}"/>
+												<CustomState Name="" ID="{DEDE127A-A12D-4F95-BF76-A743C3605245}" ShortID="24325876"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="NonSubmerged" ID="{80B0EA5F-63BD-4DDB-8CCA-CDCF0CE522A9}"/>
+												<CustomState Name="" ID="{7F7C6883-70B4-4F41-9C6E-45C7C62BE4B0}" ShortID="807585666">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Heartbeat" ID="{7B35E9C2-0E4F-4914-A2CC-91BABD27F068}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Water_Rising" ID="{95BBBC58-7BF6-4978-B5D9-7F1D55103B6C}" ShortID="636417949">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SubmergableAudio" ID="{EB4988AC-121B-46D8-A1E1-74C20679A719}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water_Rising" ID="{041A8E53-D84C-4087-B8B3-32FC81866B59}">
+											<Language>SFX</Language>
+											<AudioFile>Water_Rising.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="746512004"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water_Rising" ID="{041A8E53-D84C-4087-B8B3-32FC81866B59}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
@@ -3451,7 +3540,7 @@
 								</PropertyList>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="Water_Rising" ID="{95BBBC58-7BF6-4978-B5D9-7F1D55103B6C}"/>
+								<ItemRef Name="Subway_Ambience" ID="{3C16C19D-F976-4349-B746-AC628775E9DE}"/>
 								<PropertyList>
 									<Property Name="FadeInTime" Type="Real64">
 										<ValueList>
@@ -3466,19 +3555,7 @@
 								</PropertyList>
 							</GroupingBehavior>
 							<GroupingBehavior>
-								<ItemRef Name="Subway_Ambience" ID="{3C16C19D-F976-4349-B746-AC628775E9DE}"/>
-								<PropertyList>
-									<Property Name="FadeInTime" Type="Real64">
-										<ValueList>
-											<Value>1</Value>
-										</ValueList>
-									</Property>
-									<Property Name="FadeOutTime" Type="Real64">
-										<ValueList>
-											<Value>1</Value>
-										</ValueList>
-									</Property>
-								</PropertyList>
+								<ItemRef Name="Water_Rise" ID="{141381CA-94BE-40DD-A018-20C0ABA44A81}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="Heartbeat" ID="{CBF6BFE3-335E-4E86-AB89-1726F52CDFA2}"/>
@@ -3515,7 +3592,7 @@
 							<Grouping>
 								<SwitchRef Name="Subway_Flood" ID="{22AD8E6C-A809-40B1-9906-33CB85ECA7B6}"/>
 								<ItemList>
-									<ItemRef Name="Water_Rising" ID="{95BBBC58-7BF6-4978-B5D9-7F1D55103B6C}"/>
+									<ItemRef Name="Water_Rise" ID="{141381CA-94BE-40DD-A018-20C0ABA44A81}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>

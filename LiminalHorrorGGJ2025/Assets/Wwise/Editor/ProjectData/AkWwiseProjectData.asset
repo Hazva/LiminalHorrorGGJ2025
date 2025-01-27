@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 91f10b6dcc987546ab33fafb58766f78
     GuidInternal: 
-    m_lastTime: -8584636812860951805
+    m_lastTime: -8584636568121292960
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -179,7 +179,7 @@ MonoBehaviour:
     ParentPath: Events\Daniel
     guid: 16bd7a06619d98478594f16b572c065c
     GuidInternal: 
-    m_lastTime: -8584636814622653467
+    m_lastTime: -8584636508966038411
     List:
     - name: Exit_Water
       guid: c7148995323f1e4b85cbaaa0fb0335c7
@@ -198,6 +198,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Compass_Diegetic
+      guid: 9ccd9399554be943a80bef68fa35e917
+      id: 2778686059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Compass_Diegetic
+        ObjectType: 3
+        guid: 9ccd9399554be943a80bef68fa35e917
+      Path: Events\Daniel\Play_Compass_Diegetic
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Compass_Pickup
       guid: e82ec11cefb6b94eb4d27d069070eb93
       id: 1518103445
@@ -283,6 +300,23 @@ MonoBehaviour:
       maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
+    - name: Play_Journal
+      guid: b892b635b563f9448839d5ae266145a3
+      id: 1681572059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Journal
+        ObjectType: 3
+        guid: b892b635b563f9448839d5ae266145a3
+      Path: Events\Daniel\Play_Journal
+      maxAttenuation: 0
+      maxDuration: 1.0782083
+      minDuration: 0.71090627
     - name: Play_Jumpscare
       guid: f6c3f7f02384dc4eb90953a11dfd19b6
       id: 3840943850
@@ -300,6 +334,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 4.363646
       minDuration: 4.363625
+    - name: Play_Lights_Off
+      guid: 5f4c7c7d0c85b24f8f7f857737f01ae6
+      id: 3715338011
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Play_Lights_Off
+        ObjectType: 3
+        guid: 5f4c7c7d0c85b24f8f7f857737f01ae6
+      Path: Events\Daniel\Play_Lights_Off
+      maxAttenuation: 0
+      maxDuration: 6
+      minDuration: 6
     - name: Play_Submerge
       guid: 3f5478e4d827d744b2eade8f17f07298
       id: 3598212264
@@ -349,8 +400,8 @@ MonoBehaviour:
         guid: c9a7be2950adbd4086695d71e3c59884
       Path: Events\Daniel\Play_Transition
       maxAttenuation: 0
-      maxDuration: 2
-      minDuration: 2
+      maxDuration: 2.2233787
+      minDuration: 2.2233787
     - name: Play_Walk
       guid: a27b58a0419cd7449bf6d2bfec9880d7
       id: 1589278981
@@ -368,6 +419,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Compass_Diegetic
+      guid: 426d1028ee5c434ca006dc098d296bf0
+      id: 1156197293
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Daniel
+        ObjectType: 12
+        guid: 16bd7a06619d98478594f16b572c065c
+      - ElementName: Stop_Compass_Diegetic
+        ObjectType: 3
+        guid: 426d1028ee5c434ca006dc098d296bf0
+      Path: Events\Daniel\Stop_Compass_Diegetic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Compass_Spin
       guid: 2bd0f16687575f458fede93fda657d5d
       id: 614252659
@@ -447,7 +515,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c91ba63cc4e47240b1d7338336c44413
     GuidInternal: 
-    m_lastTime: -8584636812872792041
+    m_lastTime: -8584636508965939881
     List:
     - name: Dispel_Smoke
       guid: 7618f02102343c4ea0e4e6080537b7f2
@@ -686,7 +754,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dd5c1f9a41949e4282699104354a8dea
     GuidInternal: 
-    m_lastTime: -8584636812860931800
+    m_lastTime: -8584636492420813800
     List:
     - name: Movement
       guid: 838ca93af498d7408685519859b23577
@@ -1206,7 +1274,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584637710018875422
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000140000001c0000001d0000001e0000001f000000200000002100000022000000230000002600000027000000
+  ExpandedFileSystemItemIds: 02000000030000000400000014000000150000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002600000027000000
   ExpandedWaapiItemIds: 0200000003000000040000001c0000001d0000001e0000001f00000020000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

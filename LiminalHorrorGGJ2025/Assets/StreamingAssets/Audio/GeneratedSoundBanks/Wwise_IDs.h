@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_AMBIENCE = 278617630U;
         static const AkUniqueID PLAY_BREATHING = 4093367312U;
         static const AkUniqueID PLAY_CLOTH = 128342314U;
+        static const AkUniqueID PLAY_COMPASS_DIEGETIC = 2778686059U;
         static const AkUniqueID PLAY_COMPASS_PICKUP = 1518103445U;
         static const AkUniqueID PLAY_COMPASS_SPIN = 1046130049U;
         static const AkUniqueID PLAY_CREATURE = 2891509749U;
@@ -25,7 +26,9 @@ namespace AK
         static const AkUniqueID PLAY_DOOR_LOOP = 2463718247U;
         static const AkUniqueID PLAY_FLUORESCENT_LIGHT = 3799125421U;
         static const AkUniqueID PLAY_GENERAL_FOOTSTEP_CONTAINER = 2589019387U;
+        static const AkUniqueID PLAY_JOURNAL = 1681572059U;
         static const AkUniqueID PLAY_JUMPSCARE = 3840943850U;
+        static const AkUniqueID PLAY_LIGHTS_OFF = 3715338011U;
         static const AkUniqueID PLAY_SFX_BOTTLE_OPEN = 605122265U;
         static const AkUniqueID PLAY_SFX_BOTTLE_PICK_UP = 2888013566U;
         static const AkUniqueID PLAY_SUBMERGE = 3598212264U;
@@ -34,6 +37,7 @@ namespace AK
         static const AkUniqueID PLAY_TRANSITION = 895718239U;
         static const AkUniqueID PLAY_WALK = 1589278981U;
         static const AkUniqueID STOP_AMBIENCE = 2477713992U;
+        static const AkUniqueID STOP_COMPASS_DIEGETIC = 1156197293U;
         static const AkUniqueID STOP_COMPASS_SPIN = 614252659U;
         static const AkUniqueID STOP_NOISES = 2537705801U;
         static const AkUniqueID STOP_SWIM = 127261724U;

@@ -52,7 +52,7 @@ public class DissolveTransitionTrigger : MonoBehaviour
         float startTransitionRate = transitionController.transitionRate;
         float targetValue = 1.0f;
 
-        AudioManager.Instance.stressLevel = 1;
+        AudioManager.Instance.stressLevel = 0;
         AkSoundEngine.SetState("Stress", "Small");
         AudioManager.Instance.isSwimming = false;
         AkSoundEngine.SetState("Submerged", "NonSubmerged");

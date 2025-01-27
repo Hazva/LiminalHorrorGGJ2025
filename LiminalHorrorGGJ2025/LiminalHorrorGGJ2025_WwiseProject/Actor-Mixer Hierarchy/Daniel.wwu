@@ -9,7 +9,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -141,7 +141,7 @@
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -207,7 +207,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -440,8 +440,8 @@
 											<Modifier Name="" ID="{D90C53BF-6101-4023-97A1-CBA01AE0A35D}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
-													<Property Name="Min" Type="Real64" Value="-0.2"/>
+													<Property Name="Max" Type="Real64" Value="0.5"/>
+													<Property Name="Min" Type="Real64" Value="-0.5"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -450,7 +450,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>2</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -476,6 +476,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
 										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
@@ -506,6 +511,11 @@
 								</Sound>
 								<Sound Name="Creature_Roar" ID="{D27D1EA2-560C-4AFB-BB19-256F0BF2ECBD}" ShortID="243327936">
 									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
 												<Value>35</Value>
@@ -595,7 +605,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>11</Value>
+												<Value>12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -661,6 +671,13 @@
 				</BlendContainer>
 				<RandomSequenceContainer Name="Jumpscare" ID="{CF5553BF-2D49-4F5A-B47E-3B7B17865111}" ShortID="559224228">
 					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
 							<ModifierList>
 								<ModifierInfo>
@@ -668,9 +685,14 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -798,7 +820,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-1</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -852,6 +874,186 @@
 						<ActiveSource Name="Gas_Dispel" ID="{D4E54207-280F-4F82-AFF3-8B93DB8F9CD5}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Compass_Diegetic" ID="{016193C7-C36E-4A13-BDB8-FB24AF2782C7}" ShortID="258513090">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-510</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Compass" ID="{D6707BED-2444-4643-BB41-A993D0E4F571}" WorkUnitID="{A7733909-7B8E-46FF-B9E4-E744C3DCDF67}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sfx" ID="{E6B44567-1111-433A-A320-087E5C218149}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{50570FF5-ACF3-4E02-A6F3-D439F7DBD47E}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Compass_Spin" ID="{B4328F59-11E1-4EDA-A2C4-9FE39C8BB55C}">
+							<Language>SFX</Language>
+							<AudioFile>Compass_Spin.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="374369876"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Compass_Spin" ID="{B4328F59-11E1-4EDA-A2C4-9FE39C8BB55C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Lights_Off" ID="{762F954C-E8B3-4CD1-8776-9758B4FC12FC}" ShortID="272290006">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Lights_Off" ID="{598D939C-F02E-41A8-BD1D-06CF37296B76}">
+							<Language>SFX</Language>
+							<AudioFile>Lights_Off.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1069070217"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Lights_Off" ID="{598D939C-F02E-41A8-BD1D-06CF37296B76}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Journal" ID="{6BAF6333-6CB2-4C48-A5D7-E46258CA64DE}" ShortID="311685939">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Sfx" ID="{E6B44567-1111-433A-A320-087E5C218149}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{50570FF5-ACF3-4E02-A6F3-D439F7DBD47E}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Paper, Handle, Crumple, Movement SND17704" ID="{C14FB5ED-CA67-4BA4-A2FC-EED0C9F5D154}" ShortID="331316315">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Paper, Handle, Crumple, Movement SND17704" ID="{B8CC0FA7-C52C-432B-BF1C-80A152FEF756}">
+									<Language>SFX</Language>
+									<AudioFile>Paper, Handle, Crumple, Movement SND17704.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="464182887"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Paper, Handle, Crumple, Movement SND17704" ID="{B8CC0FA7-C52C-432B-BF1C-80A152FEF756}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Paper, Handle, Crumple, Movement SND17704 1" ID="{64CE5DAC-39B9-4056-BC8E-D5CEE4019AE5}" ShortID="666185827">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Paper, Handle, Crumple, Movement SND17704 1" ID="{366FE755-5C67-458E-9414-554FAC5264D3}">
+									<Language>SFX</Language>
+									<AudioFile>Paper, Handle, Crumple, Movement SND17704 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="986249694"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Paper, Handle, Crumple, Movement SND17704 1" ID="{366FE755-5C67-458E-9414-554FAC5264D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Paper, Handle, Crumple, Movement SND17704 2" ID="{DFDC98D2-66A8-40A8-90CC-8CD87D58C906}" ShortID="956678099">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6D36A749-0B1B-4E35-8518-63D9C841F530}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6D0BF191-98CC-4675-AB33-FAFB58766F78}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Paper, Handle, Crumple, Movement SND17704 2" ID="{85AE5CEF-2F11-4538-902D-6DE1C70F11E2}">
+									<Language>SFX</Language>
+									<AudioFile>Paper, Handle, Crumple, Movement SND17704 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="11928721"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Paper, Handle, Crumple, Movement SND17704 2" ID="{85AE5CEF-2F11-4538-902D-6DE1C70F11E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
